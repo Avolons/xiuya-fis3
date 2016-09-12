@@ -92,6 +92,18 @@
               background-image: url(../../../img/common/header-bt-bc.png);
               height: 66px;
               border-bottom: 1px solid #dadada;
+              >img{
+                  height: 55px;
+                  width: 55px;
+                  border-radius: 50%;
+                  margin-top: 5px;
+                  float: left;
+                  margin-left: 18px;
+              }
+              >span{
+                  color: #ffffff;
+                  
+              }
           }
           >li{
               transition: all 0.2s ease-in;
