@@ -5,10 +5,10 @@ fis.set('project.files', ['*.html', 'map.json', '/test/*']);
 
 // 引入模块化开发插件，设置规范为 commonJs 规范。
 
-fis.hook('commonjs', {
-    baseUrl: './modules',
-    extList: ['.js', '.es']
-});
+//fis.hook('commonjs', {
+//  baseUrl: './modules',
+//  extList: ['.js', '.es']
+//});
 
 /*************************目录规范*****************************/
 
