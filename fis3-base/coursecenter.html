@@ -12,33 +12,22 @@
 		<link rel="import" href="modules/html/header/header.html?__inline">
 		<nav class="nav-list">
 			<ul class="label-list">
-				<li><i class="icon-left">></i><i class="icon-right">></i>职称
+				<!--父级目录携带统计目录-->
+				<li v-for="item in nav_top" v-bind:class="{'noAll':item.title!='全部'}">
+					<i class="icon-left">></i><i class="icon-right">></i>
+					{{item.title}}
+					<template v-if="nav_same[$index]">
 					<ul class="type-one clear">
 						<span>分类:</span>
-						<li>经融管理</li>
-						<li>中小学</li>
-						<li>计算机</li>
-						<li>经融管理</li>
-						<li>经融管理</li>
+						<li v-for="ite in nav_same[$index]">{{ite.title}}</li>
 					</ul>
-				</li>
-				<li><i class="icon-left">></i><i class="icon-right">></i>职称
-					<ul class="type-one clear">
-						<span>分类:</span>
-						<li>经融管理</li>
-						<li>中小学</li>
-						<li>计算机</li>
-						<li>经融管理</li>
-						<li>经融管理</li>
-					</ul>
+					</template>
 				</li>
 			</ul>
+			<!--子集目录-->
 			<ul class="type-two clear">
 				<span>课程</span>
-				<li>全部</li>
-				<li>问题解决</li>
-				<li>项目管理</li>
-				<li>总结汇报</li>
+				<li v-for="item in nav_childrens">{{item.title}}</li>
 			</ul>
 		</nav>
 		<ul class="type-three clear">
@@ -57,69 +46,14 @@
 		<article class="course-content">
 			<section>
 				<ul class="clear">
-					<li>
+					<li v-for="item in courselist">
 						<figure>
-							<img src="img/coursecenter/course-lizi.png" alt="course" />
-							<h5>创造巅峰学习状态</h5>
+							<img src={{item.imgsrc}} alt="course" />
+							<h5>{{item.title}}</h5>
 							<ul>
-								<li>2000人学习</li>
-								<li>12课时</li>
-								<li>6小时50分</li>
-							</ul>
-						</figure>
-					</li>
-					<li>
-						<figure>
-							<img src="img/coursecenter/course-lizi.png" alt="course" />
-							<h5>创造巅峰学习状态</h5>
-							<ul>
-								<li>2000人学习</li>
-								<li>12课时</li>
-								<li>6小时50分</li>
-							</ul>
-						</figure>
-					</li>
-					<li>
-						<figure>
-							<img src="img/coursecenter/course-lizi.png" alt="course" />
-							<h5>创造巅峰学习状态</h5>
-							<ul>
-								<li>2000人学习</li>
-								<li>12课时</li>
-								<li>6小时50分</li>
-							</ul>
-						</figure>
-					</li>
-					<li>
-						<figure>
-							<img src="img/coursecenter/course-lizi.png" alt="course" />
-							<h5>创造巅峰学习状态</h5>
-							<ul>
-								<li>2000人学习</li>
-								<li>12课时</li>
-								<li>6小时50分</li>
-							</ul>
-						</figure>
-					</li>
-					<li>
-						<figure>
-							<img src="img/coursecenter/course-lizi.png" alt="course" />
-							<h5>创造巅峰学习状态</h5>
-							<ul>
-								<li>2000人学习</li>
-								<li>12课时</li>
-								<li>6小时50分</li>
-							</ul>
-						</figure>
-					</li>
-					<li>
-						<figure>
-							<img src="img/coursecenter/course-lizi.png" alt="course" />
-							<h5>创造巅峰学习状态</h5>
-							<ul>
-								<li>2000人学习</li>
-								<li>12课时</li>
-								<li>6小时50分</li>
+								<li>{{item.studypeople}}人学习</li>
+								<li>{{item.courseNumber}}课时</li>
+								<li>{{item.alltime}}</li>
 							</ul>
 						</figure>
 					</li>
