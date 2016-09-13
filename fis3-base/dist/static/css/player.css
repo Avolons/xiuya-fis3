@@ -157,13 +157,12 @@ header ul > button {
   line-height: 33px;
   margin-top: 6px;
   padding: 0 15px;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   border: 1px solid #e7e6e6;
   background-color: white;
   color: #980100;
-  -moz-transition: all 0.2s ease-in;
-       transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
 }
 
 header ul > button:hover {
@@ -195,7 +194,6 @@ header ul > .functions {
 
 header ul > .functions:hover span {
   -webkit-transform: rotate(180deg);
-     -moz-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
 }
@@ -209,10 +207,9 @@ header ul > .functions > span {
   position: absolute;
   right: 0;
   top: 15px;
-  -moz-transition: all 0.3s ease-in;
-       transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
   -webkit-transform-origin: 50% 7.5px;
-     -moz-transform-origin: 50% 7.5px;
       -ms-transform-origin: 50% 7.5px;
           transform-origin: 50% 7.5px;
 }
@@ -237,15 +234,14 @@ header .header_right {
 }
 
 article {
-  display: -moz-box;
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -moz-box-orient: horizontal;
-  -moz-box-direction: normal;
-   -ms-flex-direction: row;
-       flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-flex-direction: row;
-  height: -moz-calc(100% - 45px);
   height: calc(100% - 45px);
   width: 100%;
 }
@@ -262,15 +258,14 @@ article .article_left {
 article .article_left > .nav_bottom {
   background-color: #202020;
   padding: 8px 25px;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   height: 35px;
   color: #cacaca;
 }
 
 article .article_left > .nav_bottom .download {
-  -moz-transition: all 0.2s ease-in;
-       transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
 }
 
 article .article_left > .nav_bottom .download:hover {
@@ -303,8 +298,8 @@ article .article_right {
   -webkit-flex-shrink: 0;
   width: 0px;
   height: 100%;
-  -moz-transition: all 0.3s ease-in;
-       transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
 }
 
 article > .checked {
@@ -312,7 +307,6 @@ article > .checked {
 }
 
 .videoPlayer {
-  height: -moz-calc(100% - 35px);
   height: calc(100% - 35px);
   width: 100%;
 }
@@ -336,19 +330,20 @@ article > .checked {
   height: 100%;
   top: 0;
   left: -54px;
-  display: -moz-box;
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -moz-box-orient: vertical;
-  -moz-box-direction: normal;
-   -ms-flex-direction: column;
-       flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-display: -webkit-box;
   -webkit-display: flex;
   -webkit-flex-direction: column;
   position: absolute;
-  -moz-box-pack: center;
-   -ms-flex-pack: center;
-       justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .selectList .nav_left > li {
@@ -357,13 +352,12 @@ article > .checked {
   width: 54px;
   height: 64px;
   padding: 12px;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   line-height: 20px;
   font-size: 14px;
   margin-bottom: 8px;
-  -moz-transition: all 0.2s ease-in;
-       transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
 }
 
 .selectList .nav_left > li:hover {
@@ -383,16 +377,15 @@ article > .checked {
 }
 
 .selectList .nav_right > li {
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
-  -moz-transition: all 0.2s ease-in;
-       transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
 }
 
 .selectList .nav_right > .isshow {
@@ -415,11 +408,9 @@ article > .checked {
 
 .selectList .nav_right .courseList > ul {
   padding: 0 20px;
-  height: -moz-calc(100% - 86px);
   height: calc(100% - 86px);
   overflow-y: auto;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .selectList .nav_right .courseList > ul > li > h2 {
@@ -437,8 +428,8 @@ article > .checked {
   height: 15px;
   line-height: 15px;
   margin: 25px 0;
-  -moz-transition: all 0.2s ease-in;
-       transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
 }
 
 .selectList .nav_right .courseList > ul > li > ul > li:hover {
@@ -468,8 +459,7 @@ article > .checked {
 
 .selectList .nav_right .myNote > .input-area {
   padding: 40px 25px;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   border-top: 1px solid #798388;
   border-bottom: 1px solid #333739;
 }
@@ -479,8 +469,7 @@ article > .checked {
   height: 70px;
   width: 100%;
   padding: 5px;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   display: block;
   margin-bottom: 12px;
   resize: none;
@@ -516,7 +505,6 @@ article > .checked {
 }
 
 .selectList .nav_right .myNote > .list-area {
-  height: -moz-calc(100% - 184px);
   height: calc(100% - 184px);
 }
 
@@ -533,8 +521,8 @@ article > .checked {
   text-align: center;
   width: 80px;
   display: inline-block;
-  -moz-transition: color 0.2s ease-in;
-       transition: color 0.2s ease-in;
+  -webkit-transition: color 0.2s ease-in;
+          transition: color 0.2s ease-in;
 }
 
 .selectList .nav_right .myNote > .list-area > .table-list > li:hover {
@@ -560,22 +548,20 @@ article > .checked {
 }
 
 .selectList .nav_right .myNote > .list-area > .note-list {
-  height: -moz-calc(100% - 51px);
   height: calc(100% - 51px);
   position: relative;
 }
 
 .selectList .nav_right .myNote > .list-area > .note-list > li {
   height: 100%;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   overflow-y: auto;
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
-  -moz-transition: all 0.3s ease-in;
-       transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
 }
 
 .selectList .nav_right .myNote > .list-area > .note-list > li > ul > li {
@@ -596,7 +582,6 @@ article > .checked {
   float: left;
   height: 35px;
   line-height: 35px;
-  width: -moz-calc(100% - 45px);
   width: calc(100% - 45px);
   color: #8498a8;
   font-weight: 400;
@@ -626,8 +611,7 @@ article > .checked {
 
 .selectList .nav_right .myAnswer > .input-area {
   padding: 40px 25px;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   border-top: 1px solid #798388;
   border-bottom: 1px solid #333739;
 }
@@ -637,8 +621,7 @@ article > .checked {
   height: 70px;
   width: 100%;
   padding: 5px;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   display: block;
   margin-bottom: 12px;
   resize: none;
@@ -663,7 +646,6 @@ article > .checked {
 }
 
 .selectList .nav_right .myAnswer > .list-area {
-  height: -moz-calc(100% - 184px);
   height: calc(100% - 184px);
 }
 
@@ -680,8 +662,8 @@ article > .checked {
   text-align: center;
   width: 80px;
   display: inline-block;
-  -moz-transition: color 0.2s ease-in;
-       transition: color 0.2s ease-in;
+  -webkit-transition: color 0.2s ease-in;
+          transition: color 0.2s ease-in;
 }
 
 .selectList .nav_right .myAnswer > .list-area > .table-list > li:hover {
@@ -707,22 +689,20 @@ article > .checked {
 }
 
 .selectList .nav_right .myAnswer > .list-area > .aq-list {
-  height: -moz-calc(100% - 51px);
   height: calc(100% - 51px);
   position: relative;
 }
 
 .selectList .nav_right .myAnswer > .list-area > .aq-list > li {
   height: 100%;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   overflow-y: auto;
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
-  -moz-transition: all 0.3s ease-in;
-       transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
 }
 
 .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li {
@@ -743,7 +723,6 @@ article > .checked {
   float: left;
   height: 35px;
   line-height: 35px;
-  width: -moz-calc(100% - 45px);
   width: calc(100% - 45px);
   color: #8498a8;
   font-weight: 400;
@@ -766,8 +745,8 @@ article > .checked {
   background-color: transparent;
   border: none;
   color: #b5b5b5;
-  -moz-transition: all 0.2s ease-in;
-       transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
 }
 
 .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > button:hover {

@@ -29,7 +29,7 @@ new Vue({
 					headerHaveTime: 28, //已用时长
 					headerMessage: 3, //消息数量
 					charctar: {
-						imgsrc: '../img/videoplayer/video-content-charcter.png',
+						imgsrc: './img/videoplayer/video-content-charcter.png',
 						name: '寂寞星球的玫瑰',
 					},
 					/****
@@ -368,49 +368,49 @@ new Vue({
 					noteData: {
 						//所有笔记
 						allnote: [{
-							img: './img/videoplayer/video-content-charcter.png',
+							img: '/img/videoplayer/video-content-charcter.png',
 							title: '全部笔记',
 							text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
 							time: '2016-01-02 10:39'
 						}, {
-							img: './img/videoplayer/video-content-charcter.png',
+							img: '/img/videoplayer/video-content-charcter.png',
 							title: '寂寞星球的玫瑰',
 							text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
 							time: '2016-01-02 10:39'
 						}, {
-							img: './img/videoplayer/video-content-charcter.png',
+							img: '/img/videoplayer/video-content-charcter.png',
 							title: '寂寞星球的玫瑰',
 							text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
 							time: '2016-01-02 10:39'
 						}, {
-							img: './img/videoplayer/video-content-charcter.png',
+							img: '/img/videoplayer/video-content-charcter.png',
 							title: '全部笔记',
 							text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
 							time: '2016-01-02 10:39'
 						}, {
-							img: './img/videoplayer/video-content-charcter.png',
+							img: '/img/videoplayer/video-content-charcter.png',
 							title: '寂寞星球的玫瑰',
 							text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
 							time: '2016-01-02 10:39'
 						}, {
-							img: './img/videoplayer/video-content-charcter.png',
+							img: '/img/videoplayer/video-content-charcter.png',
 							title: '寂寞星球的玫瑰',
 							text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
 							time: '2016-01-02 10:39'
 						}],
 						//我的笔记
 						mynote: [{
-							img: './img/videoplayer/video-content-charcter.png',
+							img: '/img/videoplayer/video-content-charcter.png',
 							title: '我的笔记',
 							text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
 							time: '2016-01-02 10:39'
 						}, {
-							img: './img/videoplayer/video-content-charcter.png',
+							img: '/img/videoplayer/video-content-charcter.png',
 							title: '寂寞星球的玫瑰',
 							text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
 							time: '2016-01-02 10:39'
 						}, {
-							img: './img/videoplayer/video-content-charcter.png',
+							img: '/img/videoplayer/video-content-charcter.png',
 							title: '寂寞星球的玫瑰',
 							text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
 							time: '2016-01-02 10:39'
@@ -425,34 +425,34 @@ new Vue({
 					answerData: {
 						//所有笔记
 						allanswer: [{
-							img: './img/videoplayer/video-content-charcter.png',
+							img: '/img/videoplayer/video-content-charcter.png',
 							title: '寂寞星球的玫瑰',
 							text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
 							time: '2016-01-02 10:39'
 						}, {
-							img: './img/videoplayer/video-content-charcter.png',
+							img: '/img/videoplayer/video-content-charcter.png',
 							title: '寂寞星球的玫瑰',
 							text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
 							time: '2016-01-02 10:39'
 						}, {
-							img: './img/videoplayer/video-content-charcter.png',
+							img: '/img/videoplayer/video-content-charcter.png',
 							title: '寂寞星球的玫瑰',
 							text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
 							time: '2016-01-02 10:39'
 						}],
 						//我的笔记
 						myanswer: [{
-							img: './img/videoplayer/video-content-charcter.png',
+							img: '/img/videoplayer/video-content-charcter.png',
 							title: '寂寞星球的玫瑰',
 							text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
 							time: '2016-01-02 10:39'
 						}, {
-							img: './img/videoplayer/video-content-charcter.png',
+							img: '/img/videoplayer/video-content-charcter.png',
 							title: '寂寞星球的玫瑰',
 							text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
 							time: '2016-01-02 10:39'
 						}, {
-							img: './img/videoplayer/video-content-charcter.png',
+							img: '/img/videoplayer/video-content-charcter.png',
 							title: '寂寞星球的玫瑰',
 							text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
 							time: '2016-01-02 10:39'

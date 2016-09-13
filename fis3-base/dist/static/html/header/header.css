@@ -145,8 +145,7 @@ table {
 }
 
 .header-top > ul > li {
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   position: relative;
   padding: 0 25px;
   float: right;
@@ -212,7 +211,6 @@ table {
 
 .header-top > ul .functions:hover > span {
   -webkit-transform: rotate(180deg);
-     -moz-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
 }
@@ -231,10 +229,9 @@ table {
   position: absolute;
   right: 15px;
   top: 12px;
-  -moz-transition: all 0.3s ease-in;
-       transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
   -webkit-transform-origin: 50% 7.5px;
-     -moz-transform-origin: 50% 7.5px;
       -ms-transform-origin: 50% 7.5px;
           transform-origin: 50% 7.5px;
 }
@@ -252,12 +249,11 @@ table {
   left: -10px;
   opacity: 0;
   z-index: -999;
-  -moz-transition: all 0.3s ease-in;
-       transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
   position: absolute;
   width: 220px;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   box-shadow: -4px 5px 7px 0px rgba(0, 0, 0, 0.3);
   top: 32px;
 }
@@ -267,8 +263,7 @@ table {
   height: 66px;
   border-bottom: 1px solid #dadada;
   padding-top: 8px;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .header-top > ul .functions > ul > .fun-inf > img {
@@ -283,17 +278,15 @@ table {
   color: #ffffff;
   float: left;
   display: block;
-  width: -moz-calc(100% - 73px);
   width: calc(100% - 73px);
   height: 28px;
   line-height: 28px;
 }
 
 .header-top > ul .functions > ul > li {
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
-  -moz-transition: all 0.2s ease-in;
-       transition: all 0.2s ease-in;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
   background-color: #ffffff;
   display: block;
   padding-left: 70px;
@@ -325,8 +318,7 @@ table {
   margin: 0;
   background-color: rgba(0, 0, 0, 0.25);
   padding: 0 5px;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .header-bottom > .header-bottom-content > figure img {
@@ -337,20 +329,18 @@ table {
 .header-bottom > .header-bottom-content > ul {
   height: 100%;
   float: left;
-  width: -moz-calc(100% - 190px - 287px);
   width: calc(100% - 190px - 287px);
-  display: -moz-box;
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -moz-box-orient: horizontal;
-  -moz-box-direction: normal;
-   -ms-flex-direction: row;
-       flex-direction: row;
-  -moz-box-pack: justify;
-   -ms-flex-pack: justify;
-       justify-content: space-between;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .header-bottom > .header-bottom-content > ul > li {
@@ -359,15 +349,14 @@ table {
   text-align: center;
   height: 100%;
   line-height: 60px;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
-  -moz-box-flex: 1;
-   -ms-flex-positive: 1;
-       flex-grow: 1;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   position: relative;
   cursor: pointer;
-  -moz-transition: all 0.3s ease-in;
-       transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
 }
 
 .header-bottom > .header-bottom-content > ul > li:hover {
@@ -385,7 +374,6 @@ table {
   height: 5px;
   width: 90%;
   -webkit-transform: translateX(-50%);
-     -moz-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -394,8 +382,7 @@ table {
   float: left;
   width: 287px;
   height: 30px;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   border: 1px solid #b71313;
   position: relative;
   font-size: 14px;
