@@ -4,6 +4,39 @@
             "uri": "/test/dynamic.js",
             "type": "js"
         },
+        "modules/css/course.scss": {
+            "uri": "/static/css/course.css",
+            "type": "css"
+        },
+        "lib/js/laypage/skin/laypage.css": {
+            "uri": "/lib/js/laypage/skin/laypage.css",
+            "type": "css"
+        },
+        "modules/html/header/header.scss": {
+            "uri": "/static/html/header/header.css",
+            "type": "css"
+        },
+        "modules/html/footer/footer.scss": {
+            "uri": "/static/html/footer/footer.css",
+            "type": "css"
+        },
+        "lib/js/jquery/dist/jquery.min.js": {
+            "uri": "/static/lib/js/jquery/dist/jquery.min.js",
+            "type": "js"
+        },
+        "lib/js/vue/dist/vue.min.js": {
+            "uri": "/static/lib/js/vue/dist/vue.min.js",
+            "type": "js",
+            "extras": {}
+        },
+        "lib/js/laypage/laypage.js": {
+            "uri": "/static/lib/js/laypage/laypage.js",
+            "type": "js"
+        },
+        "modules/app/course.js": {
+            "uri": "/static/app/course.js",
+            "type": "js"
+        },
         "lib/js/video.js/dist/video-js.css": {
             "uri": "/lib/js/video.js/dist/video-js.css",
             "type": "css"
@@ -16,14 +49,6 @@
             "uri": "/lib/js/video.js/dist/video-js.min.css",
             "type": "css"
         },
-        "modules/html/header/header.scss": {
-            "uri": "/static/html/header/header.css",
-            "type": "css"
-        },
-        "modules/html/footer/footer.scss": {
-            "uri": "/static/html/footer/footer.css",
-            "type": "css"
-        },
         "lib/js/video.js/dist/video.js": {
             "uri": "/static/lib/js/video.js/dist/video.js",
             "type": "js"
@@ -32,38 +57,29 @@
             "uri": "/static/lib/js/vjs-resolution-switcher/lib/videojs-resolution-switcher.js",
             "type": "js"
         },
+        "modules/css/log.scss": {
+            "uri": "/static/css/log.css",
+            "type": "css"
+        },
+        "modules/css/master.scss": {
+            "uri": "/static/css/master.css",
+            "type": "css"
+        },
+        "modules/app/master.js": {
+            "uri": "/static/app/master.js",
+            "type": "js"
+        },
         "modules/css/mine.scss": {
             "uri": "/static/css/mine.css",
             "type": "css"
-        },
-        "lib/js/jquery/dist/jquery.min.js": {
-            "uri": "/static/lib/js/jquery/dist/jquery.min.js",
-            "type": "js"
-        },
-        "lib/js/vue/dist/vue.min.js": {
-            "uri": "/static/lib/js/vue/dist/vue.min.js",
-            "type": "js",
-            "extras": {}
         },
         "modules/app/mine.js": {
             "uri": "/static/app/mine.js",
             "type": "js"
         },
-        "lib/es5-shim.js": {
-            "uri": "/static/lib/es5-shim.js",
-            "type": "js"
-        },
-        "lib/es5-sham.js": {
-            "uri": "/static/lib/es5-sham.js",
-            "type": "js"
-        },
-        "lib/html5-shim.js": {
-            "uri": "/static/lib/html5-shim.js",
-            "type": "js"
-        },
-        "lib/mod.js": {
-            "uri": "/static/lib/mod.js",
-            "type": "js"
+        "modules/css/reg.scss": {
+            "uri": "/static/css/reg.css",
+            "type": "css"
         },
         "modules/css/player.scss": {
             "uri": "/static/css/player.css",

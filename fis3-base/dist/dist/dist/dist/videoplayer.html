@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>琇雅-视屏播放</title>
+    <link rel="stylesheet" type="text/css" href="/lib/js/video.js/dist/video-js.min.css" />
+    <link rel="stylesheet" type="text/css" href="/lib/js/vjs-resolution-switcher/lib/videojs-resolution-switcher.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/player.css" />
+</head>
+
+	<body>
+		<header>
+			<!-- 列表功能项 -->
+			<ul>
+				<!-- 返回按钮 -->
+				<button type="button" class="header_left size-14 cusor_hand"> < 返回</button>
+				<li class="header_left size-14">正在播放：{{headerTitle}}</li>
+				<li class="header_left alltime">总时长：{{headerAllTime}}分钟</li>
+				<li class="header_left">已学时长：{{headerHaveTime}}分钟</li>
+				<li class="header_right functions">Hi，hjj黄姣姣 <button type="button" class="cusor_hand">【退出】</button><span></span></li>
+				<li class="header_right cusor_hand"><i class="iconfont">&#xe601</i>消息({{headerMessage}})</li>
+			</ul>
+		</header>
+		<article>
+			<!-- 左部视屏播放区域 -->
+			<section class="article_left">
+				<div class="videoPlayer">
+					<video src="" controls="" preload="auto" poster="/img/videoplayer/video-content-poster.jpg" id="video" class="video-js vjs-default-skin vjs-big-play-centered">
+					</video>
+				</div>
+				<nav class="nav_bottom size-12">
+					<i class="iconfont">&#xe602</i>
+					<span class="download cusor_hand">下载手机app</span>
+					<span class="studypeople">•学习人数209人</span>
+					<span class="playtime">203次播放</span>
+				</nav>
+			</section>
+			<!-- 右部列表区域 -->
+			<section class="article_right" v-bind:class="{ 'checked':rightShow}">
+				<div class="selectList">
+					<!-- 左侧选择按钮 -->
+					<ul class="nav_left size-14">
+						<li class="cusor_hand" v-bind:class="{ 'select':tabelcheck.leftcheck.course.value}" v-on:click='rightCheck(tabelcheck.leftcheck.course)'>课程目录</li>
+						<li class="cusor_hand" v-bind:class="{ 'select':tabelcheck.leftcheck.note.value}" v-on:click='rightCheck(tabelcheck.leftcheck.note)'>我的笔记</li>
+						<li class="cusor_hand" v-bind:class="{ 'select':tabelcheck.leftcheck.answer.value}" v-on:click='rightCheck(tabelcheck.leftcheck.answer)'>我的问答</li>
+					</ul>
+					<!-- 右侧主体部分 -->
+					<ul class="nav_right">
+						<!-- 课程目录 -->
+						<li class="courseList" v-bind:class="{ 'isshow':tabelcheck.leftcheck.course.value}">
+							<!-- 课程标题 -->
+							<h1 class="overflow_pre size-16">{{courseList.title}}</h1>
+							<ul>
+								<li v-for="item in courseList.childernone">
+									<h2 class="overflow_pre size-14">第一课时&nbsp;&nbsp;{{item.title}}</h2>
+									<ul>
+										<li class="overflow_pre size-12 cusor_hand" v-for="ite in item.childern" v-bind:class="{ 'select':ite.select}" v-on:click="videocheck(ite)"><i class="iconfont ">&#xe600</i>&nbsp;{{$index+1}}&nbsp;{{ite.title}}&nbsp;&nbsp;({{ite.alltime}})</li>
+										<!-- <li class="overflow_pre size-12 cusor_hand"><i class="iconfont ">&#xe600</i>8090后员工管理方法(50:25)</li>
+               <li class="overflow_pre size-12 cusor_hand"><i class="iconfont ">&#xe600</i>8090后员工管理方法(50:25)</li> -->
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<!-- 我的笔记 -->
+						<li class="myNote" v-bind:class="{ 'isshow':tabelcheck.leftcheck.note.value}">
+							<!-- 输入框区域 -->
+							<div class="input-area clear">
+								<textarea placeholder="请输入你的笔记内容..." class="size-12" v-model="noteInput.text"></textarea>
+								<input type="checkbox" value="" v-model="noteInput.secret"><i class="size-14">私密</i>
+								<button type="button" class="size-14 cusor_hand" v-on:click="publishGet(noteInput.text,noteInput.secret)">发布</button>
+							</div>
+							<!-- 笔记列表 -->
+							<div class="list-area">
+								<ul class="table-list">
+									<li class="cusor_hand size-14" v-bind:class="{ 'select':tabelcheck.notecheck.allnote.value}" v-on:click="noteCheck(tabelcheck.notecheck.allnote)">全部笔记</li>
+									<li class="cusor_hand size-14" v-bind:class="{ 'select':tabelcheck.notecheck.mynote.value}" v-on:click="noteCheck(tabelcheck.notecheck.mynote)">我的笔记</li>
+								</ul>
+								<ul class="note-list">
+									<!-- 全部笔记 -->
+									<li class="allnote" v-bind:class="{ 'select':tabelcheck.notecheck.allnote.value}">
+										<ul>
+											<li class="clear" v-for="item in noteData.allnote">
+												<img src={{item.img}} alt="img" />
+												<h5 class="size-14 overflow_pre">{{item.title}}</h5>
+												<p class="size-12">
+													{{item.text}}
+												</p>
+												<span class="time size-12">{{item.time}} </span>
+											</li>
+										</ul>
+									</li>
+									<!-- 我的笔记 -->
+									<li class="mynote" v-bind:class="{ 'select':tabelcheck.notecheck.mynote.value}">
+										<ul>
+											<li class="clear" v-for="item in noteData.mynote">
+												<img src={{item.img}} alt="img" />
+												<h5 class="size-14 overflow_pre">{{item.title}}</h5>
+												<p class="size-12">
+													{{item.text}}
+												</p>
+												<span class="time size-12">{{item.time}} </span>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<!-- 我的问答 -->
+						<li class="myAnswer" v-bind:class="{ 'isshow':tabelcheck.leftcheck.answer.value}">
+							<!-- 问题输入框区域 -->
+							<div class="input-area clear">
+								<textarea placeholder="请输入你的提问内容..." class="size-12" v-model="answerInput"></textarea>
+								<span>最多可以输入100字</span>
+								<button type="button" class="size-14 cusor_hand" v-on:click="publishanswer(answerInput)">发布</button>
+							</div>
+							<!-- 问答列表 -->
+							<div class="list-area">
+								<ul class="table-list">
+									<li class="cusor_hand size-14" v-bind:class="{ 'select':tabelcheck.answercheck.allanswer.value}" v-on:click="answerCheck(tabelcheck.answercheck.allanswer)">全部问答</li>
+									<li class="cusor_hand size-14" v-bind:class="{ 'select':tabelcheck.answercheck.myanswer.value}" v-on:click="answerCheck(tabelcheck.answercheck.myanswer)">我的问答</li>
+								</ul>
+								<ul class="aq-list">
+									<!-- 全部问答 -->
+									<li class="allaq" v-bind:class="{ 'select':tabelcheck.answercheck.allanswer.value}">
+										<ul>
+											<li class="clear" v-for="item in answerData.allanswer">
+												<img src={{item.img}} alt="img" />
+												<h5 class="size-14 overflow_pre">{{item.title}}</h5>
+												<p class="size-12">
+													{{item.text}}
+												</p>
+												<span class="time size-12">{{item.time}} </span>
+												<button type="button" class="size-12 cusor_hand">回复</button>
+												<i class="iconfont size-12">&#xe603</i>
+											</li>
+										</ul>
+									</li>
+									<!-- 我的问答 -->
+									<li class="myaq" v-bind:class="{ 'select':tabelcheck.answercheck.myanswer.value}">
+										<ul>
+											<li class="clear" v-for="item in answerData.myanswer">
+												<img src={{item.img}} alt="img" />
+												<h5 class="size-14 overflow_pre">{{item.title}}</h5>
+												<p class="size-12">
+													{{item.text}}
+												</p>
+												<span class="time size-12">{{item.time}} </span>
+												<button type="button" class="size-12 cusor_hand">回复</button>
+												<i class="iconfont size-12">&#xe603</i>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</article>
+<script type="text/javascript" charset="utf-8" src="/static/lib/js/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/lib/js/vue/dist/vue.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/lib/js/video.js/dist/video.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/lib/js/video.js/dist/videojs-contrib-hls.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/lib/js/vjs-resolution-switcher/lib/videojs-resolution-switcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/app/player.js"></script>
+</body>
+
+</html>

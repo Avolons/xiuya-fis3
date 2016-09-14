@@ -89,9 +89,9 @@ table {
 
 @font-face {
   font-family: 'iconfont';
-  src: url("//at.alicdn.com/t/font_1473494056_6048825.eot");
+  src: url("//at.alicdn.com/t/font_1473841815_0104475.eot");
   /* IE9*/
-  src: url("//at.alicdn.com/t/font_1473494056_6048825.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_1473494056_6048825.woff") format("woff"), url("//at.alicdn.com/t/font_1473494056_6048825.ttf") format("truetype"), url("//at.alicdn.com/t/font_1473494056_6048825.svg#iconfont") format("svg");
+  src: url("//at.alicdn.com/t/font_1473841815_0104475.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_1473841815_0104475.woff") format("woff"), url("//at.alicdn.com/t/font_1473841815_0104475.ttf") format("truetype"), url("//at.alicdn.com/t/font_1473841815_0104475.svg#iconfont") format("svg");
   /* iOS 4.1- */
 }
 
@@ -160,6 +160,10 @@ table {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 35px;
+}
+
+.footer-outer > ul > li:nth-of-type(6):after {
+  display: none;
 }
 
 .footer-outer > ul > li {

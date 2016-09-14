@@ -16,6 +16,11 @@
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 35px;
+    >li:nth-of-type(6){
+        &:after{
+            display: none;
+        }
+    }
     >li{
       color: #d2d2d2;
       font-size: 14px;

@@ -1,0 +1,146 @@
+@import "./config";
+header{
+    width: 1200px;
+    margin: 0 auto;
+    height: 106px;
+    >img{
+        margin-top: 20px;
+    }
+}
+article{
+    background-image: url(../../img/log/log-bc-bottom.png);
+    min-width: 1200px;
+    height: 480px;
+    position: relative;
+    padding-top: 30px;
+    box-sizing: border-box;
+    >figure{
+        width: 1200px;
+        margin: 0 auto;
+        height: 410px;
+        >img{
+            width: 700px;
+            display: block;
+            float: left;
+        }
+        >.logouter{
+            height: 350px;
+            width: 413px;
+            float: right;
+            margin-top: 23px;
+            background-color: #FFFFFF;
+            padding: 0 50px;
+            box-sizing: border-box;
+            position: relative;
+            >h1{
+                height: 80px;
+                width: 100%;
+                padding: 25px 0 20px 0;
+                color: #990000;
+                font-size: 30px;
+                font-weight: 400;
+                box-sizing: border-box;
+                >span{
+                   float: right; 
+                   font-size: 14px;
+                   color: #484848;
+                   margin-top: 16px;
+                }
+                >a{
+                    margin-top: 16px;
+                    float: right; 
+                    font-size: 14px;
+                    color: #990000;
+                }
+            }
+            >input{
+                height: 50px;
+                width: 100%;
+                display: block;
+                margin-bottom: 28px;
+                box-sizing: border-box;
+                padding-left: 45px;
+            }
+            >i{
+                position: absolute;
+                font-size: 20px;
+                color: #c5c5c5;
+            }
+            >.name{
+              top: 90px; 
+              left: 60px; 
+            }
+            >.mima{
+              top: 168px;
+              left: 60px; 
+              font-size: 24px;
+            }
+            >.codechoose{
+                font-size: 12px;
+                margin-bottom: 20px;
+                >input{
+                    transform: translateY(2px);
+                }
+                >a{
+                    float: right;
+                    color: #1b1b1b;
+                }
+            }
+            >button{
+               width: 150px;
+               height: 50px;
+               line-height: 50px; 
+               font-size: 18px;
+               color: #FFFFFF;
+               background-color: #990000;
+               border: none;
+               cursor: pointer;
+            }
+        }
+    }
+}
+footer{
+    >ul{
+    margin: 0 auto;
+    width: 730px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    >li:nth-of-type(6){
+        &:after{
+            display: none;
+        }
+    }
+    >li{
+      color: #4f4f4f;
+      font-size: 14px;
+      flex-grow: 1;
+      position: relative;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.2s ease-in;
+      &:after{
+        content: '';
+        display: block;
+        width: 1px;
+        height: 20px;
+        float: right;
+        background-color: #4f4f4f;
+      }
+      &:hover{
+        color: #333333;
+      }
+    }
+  }
+  >p{
+    text-align: center;
+    color: #4f4f4f;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 12px;
+  }
+}

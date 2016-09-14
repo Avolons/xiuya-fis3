@@ -1,0 +1,153 @@
+@import "./config";
+body{
+    background-image: url(../../img/common/content-bc.png);
+}
+header{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    >img{
+        margin-top: 20px;
+    }
+    >span{
+        float: right;
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    >a{
+        float: right;
+        font-size: 14px;
+        color: #8c0202;
+        margin-top: 40px;  
+    }
+}
+footer{
+    >ul{
+    margin: 0 auto;
+    width: 730px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    >li:nth-of-type(6){
+        &:after{
+            display: none;
+        }
+    }
+    >li{
+      color: #4f4f4f;
+      font-size: 14px;
+      flex-grow: 1;
+      position: relative;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.2s ease-in;
+      &:after{
+        content: '';
+        display: block;
+        width: 1px;
+        height: 20px;
+        float: right;
+        background-color: #4f4f4f;
+      }
+      &:hover{
+        color: #333333;
+      }
+    }
+  }
+  >p{
+    text-align: center;
+    color: #4f4f4f;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 12px;
+  }
+}
+article{
+    background-color: #FFFFFF;
+    border: 1px solid #c9c9c9;
+    box-sizing: border-box;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding: 120px 340px 65px 0;
+    >h1{
+        font-weight: 400;
+        font-size: 26px;
+        color: #8c0202;
+        position: absolute;
+        top: 40px;
+        left: 50px;
+    }
+    >ul{
+        width: 100%;
+        >li{
+            height: 45px;
+            display: block;
+            width: 100%;
+            margin-bottom: 20px;
+            position: relative;
+            >input{
+                float: right;
+                width: 400px;
+                height: 100%;
+                display: block;
+                box-sizing: border-box;
+                padding-left: 10px;
+                outline-color: #8c0202;
+            }
+            >#sms{
+             width: 260px;    
+            }  
+            >button{
+                height: 45px;
+                box-sizing: border-box;
+                border: none;
+                background-color: #8c0202;
+                line-height: 45px;
+                text-align: center;
+                float: right;
+                width: 130px;
+                color: #FFFFFF;
+                margin-left: 12px;
+                cursor: pointer;
+            }
+            >img{
+                position: absolute;
+                right: 10px;
+                height: 40px;
+                top: 2.5px;
+                display: block;
+            }
+            >span{
+                float: right;
+                height: 40px;
+                line-height: 40px;
+                color: #a45454;
+            }
+            >h5{
+                font-weight: 400;
+                float: right;
+                display: inline-block;
+                height: 40px;
+                line-height: 40px;
+                color: #0e0e0e;
+                margin-right: 15px;
+            }
+        }
+    }
+    >#reg{
+       width: 400px;
+       border: none;
+       height: 45px;
+       line-height: 45px;
+       text-align: center; 
+       background-color: #a45454;
+       color: #FFFFFF;
+       cursor: pointer;
+       float: right;
+    }
+}

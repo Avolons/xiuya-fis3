@@ -5,10 +5,12 @@ body {
 .nav-list {
     width: 1200px;
     margin: 0 auto;
-    overflow: hidden;
     position: relative;
     z-index: 30;
-    margin-top: 60px;
+    >h1{
+        height: 60px;
+        line-height: 60px;
+    }
     >.label-list {
         height: 30px;
         line-height: 30px;
@@ -26,8 +28,23 @@ body {
                 display: block;
                 z-index: -1;
             }
+            padding-left: 0;
+        }
+        >.noFirst{
+            &:after{
+                display: block;
+                content: ">";
+                float: left;
+                height: 20px;
+                width: 20px;
+                text-align: center;
+                line-height: 20px;
+                margin-top: 5px;
+                transform :translateX(-30px);
+            }
         }
         >li {
+            height: 30px;
             color: #1e1e1e;
             font-size: 14px;
             padding: 0 13px 0 23px;
@@ -39,17 +56,6 @@ body {
             line-height: 30px;
             z-index: 2;
             margin-right: 35px;
-            .icon-left {
-                font-style: normal;
-                display: block;
-                float: left;
-                height: 20px;
-                width: 20px;
-                text-align: center;
-                line-height: 20px;
-                margin-top: 5px;
-                margin-left: -53px;
-            }
             .icon-right {
                 font-style: normal;
                 transition: all 0.1s ease-in;
@@ -100,6 +106,10 @@ body {
                         color: #FFFFFF;
                     }
                 }
+                >.select{
+                    background-color: $main_color;
+                    color: #FFFFFF;
+                }
             }
         }
     }
@@ -138,9 +148,12 @@ body {
                 color: #FFFFFF;
             }
         }
+        >.select{
+           background-color: $main_color;
+           color: #FFFFFF; 
+        }
     }
-}
-.type-three {
+    >.type-three {
     width: 1200px;
     margin: 0 auto;
         margin-top: 20px;
@@ -148,6 +161,7 @@ body {
         line-height: 40px;
         background-color: #e0e0e0;
         position: relative;
+        z-index: -3;
         >li{
             width: 120px;
             text-align: center;
@@ -185,7 +199,7 @@ body {
                 border-bottom-color: #9a9a9a;
                 transform-origin: 50% 7.5px;
                 position: absolute;
-                right: 25px;
+                right: 20px;
                 top: 12.5px;
             }
             >ul{
@@ -212,6 +226,9 @@ body {
             }
         }
     }
+
+}
+
 .course-content {
     width: 1200px;
     margin: 0 auto;
@@ -224,6 +241,13 @@ body {
                 display: block;
                 float: left;
                 margin-right: calc(200px / 3);
+                transition: all 0.3s ease-in;
+                cursor: pointer;
+                margin-bottom: 50px;
+                &:hover{
+                   transform: translateY(-5px);
+                   box-shadow: -3px 4px 4px 0 rgba(0,0,0,0.3);
+                }
                 >figure {
                     margin: 0;
                     >img {
@@ -237,9 +261,13 @@ body {
                         font-size: 14px;
                         height: 40px;
                         line-height: 40px;
+                        box-sizing: border-box;
+                        padding-left: 5px;
                     }
                     >ul {
+                        box-sizing: border-box;
                         height: 20px;
+                        padding-left: 5px;
                         >li {
                             float: left;
                             width: 33%;

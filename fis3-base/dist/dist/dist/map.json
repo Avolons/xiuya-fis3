@@ -1,0 +1,86 @@
+{
+    "res": {
+        "test/dynamic.js": {
+            "uri": "/test/dynamic.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/video-js.css": {
+            "uri": "/lib/js/video.js/dist/video-js.css",
+            "type": "css"
+        },
+        "lib/js/vjs-resolution-switcher/lib/videojs-resolution-switcher.css": {
+            "uri": "/lib/js/vjs-resolution-switcher/lib/videojs-resolution-switcher.css",
+            "type": "css"
+        },
+        "lib/js/video.js/dist/video-js.min.css": {
+            "uri": "/lib/js/video.js/dist/video-js.min.css",
+            "type": "css"
+        },
+        "modules/html/header/header.scss": {
+            "uri": "/static/html/header/header.css",
+            "type": "css"
+        },
+        "modules/html/footer/footer.scss": {
+            "uri": "/static/html/footer/footer.css",
+            "type": "css"
+        },
+        "lib/js/video.js/dist/video.js": {
+            "uri": "/static/lib/js/video.js/dist/video.js",
+            "type": "js"
+        },
+        "lib/js/vjs-resolution-switcher/lib/videojs-resolution-switcher.js": {
+            "uri": "/static/lib/js/vjs-resolution-switcher/lib/videojs-resolution-switcher.js",
+            "type": "js"
+        },
+        "modules/css/mine.scss": {
+            "uri": "/static/css/mine.css",
+            "type": "css"
+        },
+        "lib/js/jquery/dist/jquery.min.js": {
+            "uri": "/static/lib/js/jquery/dist/jquery.min.js",
+            "type": "js"
+        },
+        "lib/js/vue/dist/vue.min.js": {
+            "uri": "/static/lib/js/vue/dist/vue.min.js",
+            "type": "js",
+            "extras": {}
+        },
+        "modules/app/mine.js": {
+            "uri": "/static/app/mine.js",
+            "type": "js"
+        },
+        "lib/es5-shim.js": {
+            "uri": "/static/lib/es5-shim.js",
+            "type": "js"
+        },
+        "lib/es5-sham.js": {
+            "uri": "/static/lib/es5-sham.js",
+            "type": "js"
+        },
+        "lib/html5-shim.js": {
+            "uri": "/static/lib/html5-shim.js",
+            "type": "js"
+        },
+        "lib/mod.js": {
+            "uri": "/static/lib/mod.js",
+            "type": "js"
+        },
+        "modules/css/player.scss": {
+            "uri": "/static/css/player.css",
+            "type": "css"
+        },
+        "lib/js/video.js/dist/video.min.js": {
+            "uri": "/static/lib/js/video.js/dist/video.min.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/videojs-contrib-hls.min.js": {
+            "uri": "/static/lib/js/video.js/dist/videojs-contrib-hls.min.js",
+            "type": "js"
+        },
+        "modules/app/player.js": {
+            "uri": "/static/app/player.js",
+            "type": "js"
+        }
+    },
+    "pkg": {}
+}
