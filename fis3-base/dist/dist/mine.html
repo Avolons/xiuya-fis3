@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>秀雅-功能中心</title>
     <link rel="stylesheet" type="text/css" href="/static/html/header/header.css" />
+    <link rel="stylesheet" type="text/css" href="/static/html/person_password/person_password.css" />
     <link rel="stylesheet" type="text/css" href="/static/html/footer/footer.css" />
     <link rel="stylesheet" type="text/css" href="/static/css/mine.css" />
 </head>
@@ -87,9 +88,33 @@
         </section>
         <!-- 右侧主体内容展现部分 -->
         <section class="person-right">
-              
+             <div class="person_password">
+	<h1>个人信息</h1>
+	<ul>
+		<li>
+			<input type="text"  id="oldword" value="" placeholder="请输入原始密码"/>
+			<h5>原密码 ：</h5>
+			<span>*</span>
+		</li>
+		<li>
+			<input type="text"  id="newword" value="" placeholder="请输入新密码"/>
+			<h5>新密码 ：</h5>
+			<span>*</span>
+		</li>
+		<li>
+			<input type="text"  id="confirmword" value="" placeholder="再次确认密码"/>
+			<h5>确认密码 ：</h5>
+			<span>*</span>
+		</li>
+			<button type="button">保存</button>
+	</ul>
+</div>
+ 
         </section>
-    </article><footer>
+    </article>
+
+      <!--<link rel="stylesheet" href="footer.scss">-->
+<footer>
     <div class="footer-outer">
      <img src="/img/common/footer-bc.png" alt="footer" />
      <ul>
@@ -112,6 +137,8 @@
 </footer>
 <script type="text/javascript" charset="utf-8" src="/static/lib/js/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" charset="utf-8" src="/static/lib/js/vue/dist/vue.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/lib/js/distpicker/dist/distpicker.data.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/lib/js/distpicker/dist/distpicker.min.js"></script>
 <script type="text/javascript" charset="utf-8" src="/static/app/mine.js"></script>
 </body>
 </html>

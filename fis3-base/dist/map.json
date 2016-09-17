@@ -37,6 +37,14 @@
             "uri": "/static/app/course.js",
             "type": "js"
         },
+        "lib/js/distpicker/css/htmleaf-demo.css": {
+            "uri": "/lib/js/distpicker/css/htmleaf-demo.css",
+            "type": "css"
+        },
+        "lib/js/distpicker/css/main.css": {
+            "uri": "/lib/js/distpicker/css/main.css",
+            "type": "css"
+        },
         "lib/js/video.js/dist/video-js.css": {
             "uri": "/lib/js/video.js/dist/video-js.css",
             "type": "css"
@@ -48,6 +56,22 @@
         "lib/js/video.js/dist/video-js.min.css": {
             "uri": "/lib/js/video.js/dist/video-js.min.css",
             "type": "css"
+        },
+        "modules/css/index.scss": {
+            "uri": "/static/css/index.css",
+            "type": "css"
+        },
+        "lib/js/distpicker/js/distpicker.data.js": {
+            "uri": "/static/lib/js/distpicker/js/distpicker.data.js",
+            "type": "js"
+        },
+        "lib/js/distpicker/js/distpicker.js": {
+            "uri": "/static/lib/js/distpicker/js/distpicker.js",
+            "type": "js"
+        },
+        "lib/js/distpicker/js/main.js": {
+            "uri": "/static/lib/js/distpicker/js/main.js",
+            "type": "js"
         },
         "lib/js/video.js/dist/video.js": {
             "uri": "/static/lib/js/video.js/dist/video.js",
@@ -69,12 +93,48 @@
             "uri": "/static/app/master.js",
             "type": "js"
         },
+        "modules/css/masterinformation.scss": {
+            "uri": "/static/css/masterinformation.css",
+            "type": "css"
+        },
+        "modules/app/masterinformation.js": {
+            "uri": "/static/app/masterinformation.js",
+            "type": "js"
+        },
         "modules/css/mine.scss": {
             "uri": "/static/css/mine.css",
             "type": "css"
         },
+        "modules/html/person_cloud/person_cloud.scss": {
+            "uri": "/static/html/person_cloud/person_cloud.css",
+            "type": "css"
+        },
+        "lib/js/distpicker/dist/distpicker.data.min.js": {
+            "uri": "/static/lib/js/distpicker/dist/distpicker.data.min.js",
+            "type": "js"
+        },
+        "lib/js/distpicker/dist/distpicker.min.js": {
+            "uri": "/static/lib/js/distpicker/dist/distpicker.min.js",
+            "type": "js"
+        },
         "modules/app/mine.js": {
             "uri": "/static/app/mine.js",
+            "type": "js"
+        },
+        "modules/html/person_msg/person_msg.scss": {
+            "uri": "/static/html/person_msg/person_msg.css",
+            "type": "css"
+        },
+        "modules/html/person_password/person_password.scss": {
+            "uri": "/static/html/person_password/person_password.css",
+            "type": "css"
+        },
+        "modules/css/query.scss": {
+            "uri": "/static/css/query.css",
+            "type": "css"
+        },
+        "modules/app/query.js": {
+            "uri": "/static/app/query.js",
             "type": "js"
         },
         "modules/css/reg.scss": {

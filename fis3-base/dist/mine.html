@@ -5,6 +5,7 @@
 		<title>秀雅-功能中心</title>
 	
     <link rel="stylesheet" type="text/css" href="/static/html/header/header.css" />
+    <link rel="stylesheet" type="text/css" href="/static/html/person_cloud/person_cloud.css" />
     <link rel="stylesheet" type="text/css" href="/static/html/footer/footer.css" />
     <link rel="stylesheet" type="text/css" href="/static/css/mine.css" />
 </head>
@@ -88,9 +89,45 @@
         </section>
         <!-- 右侧主体内容展现部分 -->
         <section class="person-right">
-              
+             <div class="person_cloud">
+	<h1>我的课程
+		<i class="iconfont">&#xe604;</i>
+		<input type="text" name="" id="" value="" placeholder="搜索你的课程"/>
+	</h1>
+	<ul class="type-check">
+		<li>全部</li>
+		<li>未开始</li>
+		<li>学习中</li>
+		<li>已完成</li>
+	</ul>
+	<ul class="cloud-list">
+		<li v-for="ite in cloudlist">
+			<h5>
+				<i class="iconfont">&#xe60c;</i>
+				{{ite.time}}
+			</h5>
+			<ul class="clear">
+				<!--绑定函数courseClick,将数据对象整体传入-->
+				<li v-for="item in ite.children" >
+					<figure>
+						<img src={{item.imgsrc}} alt="course" />
+						<h5 class="overflow_pre">{{item.title}}</h5>
+						<ul>
+							<li>{{item.studypeople}}人学习</li>
+							<li>{{item.courseNumber}}课时</li>
+							<li>{{item.alltime}}</li>
+						</ul>
+					</figure>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div> 
         </section>
-    </article><footer>
+    </article>
+
+      <!--<link rel="stylesheet" href="footer.scss">-->
+<footer>
     <div class="footer-outer">
      <img src="/img/common/footer-bc.png" alt="footer" />
      <ul>
@@ -114,6 +151,8 @@
 	
 <script type="text/javascript" charset="utf-8" src="/static/lib/js/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" charset="utf-8" src="/static/lib/js/vue/dist/vue.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/lib/js/distpicker/dist/distpicker.data.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/lib/js/distpicker/dist/distpicker.min.js"></script>
 <script type="text/javascript" charset="utf-8" src="/static/app/mine.js"></script>
 </body>
 </html>
