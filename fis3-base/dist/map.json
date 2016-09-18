@@ -37,6 +37,10 @@
             "uri": "/static/app/course.js",
             "type": "js"
         },
+        "lib/js/jqcool.net-Glide.js/dist/css/gulid.css": {
+            "uri": "/lib/js/jqcool.net-Glide.js/dist/css/gulid.css",
+            "type": "css"
+        },
         "lib/js/distpicker/css/htmleaf-demo.css": {
             "uri": "/lib/js/distpicker/css/htmleaf-demo.css",
             "type": "css"
@@ -61,6 +65,14 @@
             "uri": "/static/css/index.css",
             "type": "css"
         },
+        "lib/js/jquery/dist/jquery-2.1.0.js": {
+            "uri": "/static/lib/js/jquery/dist/jquery-2.1.0.js",
+            "type": "js"
+        },
+        "lib/js/jqcool.net-Glide.js/dist/jquery.glide.min.js": {
+            "uri": "/static/lib/js/jqcool.net-Glide.js/dist/jquery.glide.min.js",
+            "type": "js"
+        },
         "lib/js/distpicker/js/distpicker.data.js": {
             "uri": "/static/lib/js/distpicker/js/distpicker.data.js",
             "type": "js"
@@ -71,6 +83,10 @@
         },
         "lib/js/distpicker/js/main.js": {
             "uri": "/static/lib/js/distpicker/js/main.js",
+            "type": "js"
+        },
+        "lib/js/jqcool.net-Glide.js/dist/jquery.glide.js": {
+            "uri": "/static/lib/js/jqcool.net-Glide.js/dist/jquery.glide.js",
             "type": "js"
         },
         "lib/js/video.js/dist/video.js": {

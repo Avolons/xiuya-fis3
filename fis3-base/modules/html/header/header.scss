@@ -4,6 +4,10 @@
   width:1200px;
   margin: 0 auto;
   color: #212121;
+  a{
+    text-decoration: none;
+    color: #212121;
+  }
   >ul{
     height:100%;
     >li{
@@ -32,7 +36,8 @@
     }
     //关于我们
     >.focusus{
-        >img{
+        >a{
+            display:inline-block ;
           margin-left: 7px;
           cursor: pointer;
         }
@@ -161,6 +166,7 @@
 }
 .header-bottom{
   background-image: url("../../../img/common/header-bc.png");
+  
   >.header-bottom-content{
     width: 1200px;
     height: 60px;
@@ -168,20 +174,20 @@
     >figure{
     float: left;
     height: 100%;
-    width: 190px;
+    width: 237px;
     margin: 0;
     background-color: rgba(0,0,0,0.25);
     padding: 0 5px;
     box-sizing: border-box;
       img{
         width: 100%;
-        margin-top: 8px;
+        margin-top: 11px;
       }
     }
     >ul{
       height: 100%;
       float: left;
-      width: calc(100% - 190px - 287px );
+      width: calc(100% - 243px - 237px );
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -197,6 +203,10 @@
         position: relative;
         cursor: pointer;
         transition: all 0.3s ease-in;
+        a{
+    text-decoration: none;
+    color: #ffffff;
+  }
         &:hover{
           color:#dadada;
           background-color: rgba(255, 255, 255, 0.2);
@@ -218,7 +228,7 @@
     }
     >.header-search{
       float: left;
-      width: 287px;
+      width: 243px;
       height: 30px;
       box-sizing: border-box;
       border: 1px solid #b71313;

@@ -7,18 +7,17 @@ body {
     margin: 0 auto;
     position: relative;
     z-index: 30;
-    >h1{
-        height: 60px;
-        line-height: 60px;
-    }
+    margin-top: 20px;
     >.label-list {
-        height: 30px;
-        line-height: 30px;
+        height: 25px;
+        line-height: 50px;
         font-size: 0;
         position: relative;
         >.noAll{
+            padding-left: 0;
             &:hover {
-                height: 35px;
+                height: 28px;
+                border: 1px solid #860403;
                 border-bottom: none;
             }
             &:hover .icon-right {
@@ -28,7 +27,6 @@ body {
                 display: block;
                 z-index: -1;
             }
-            padding-left: 0;
         }
         >.noFirst{
             &:after{
@@ -44,16 +42,16 @@ body {
             }
         }
         >li {
-            height: 30px;
+            height: 25px;
             color: #1e1e1e;
-            font-size: 14px;
+            font-size: 12px;
             padding: 0 13px 0 23px;
             box-sizing: border-box;
-            border: 1px solid #860403;
+            border: 1px solid #D2D2D2;
             display: inline-block;
             background-color: #ffffff;
             cursor: pointer;
-            line-height: 30px;
+            line-height: 25px;
             z-index: 2;
             margin-right: 35px;
             .icon-right {
@@ -65,7 +63,7 @@ body {
                 width: 20px;
                 text-align: center;
                 line-height: 20px;
-                margin-top: 5px;
+                margin-top: 1.5px;
             }
             >.type-one {
                 display: none;
@@ -85,20 +83,20 @@ body {
                     margin-left: -70px;
                     width: 70px;
                     text-align: center;
-                    height: 25px;
-                    line-height: 25px;
+                    height: 20px;
+                    line-height: 20px;
                     color: #515151;
                     font-size: 14px;
                 }
                 >li {
                     padding: 0 5px;
-                    height: 25px;
-                    line-height: 25px;
+                    height: 20px;
+                    line-height: 20px;
                     color: #1c1c1c;
-                    font-size: 14px;
+                    font-size: 12px;
                     float: left;
                     margin-right: 50px;
-                    margin-bottom: 15px;
+                    margin-bottom: 10px;
                     cursor: pointer;
                     transition: all 0.2s ease-in;
                     &:hover {
@@ -116,11 +114,12 @@ body {
     >.type-two {
         background-color: #ffffff;
         box-sizing: border-box;
-        margin-top: 30px;
+        margin-top: 20px;
         position: relative;
         z-index: -3;
-        padding: 10px 0 10px 100px;
+        padding: 5px 0 5px 100px;
         border: 1px solid #dadada;
+        height: 30px;
         >span {
             float: left;
             display: block;
@@ -128,17 +127,17 @@ body {
             width: 100px;
             box-sizing: border-box;
             padding-left: 30px;
-            height: 25px;
-            line-height: 25px;
+            height: 20px;
+            line-height: 20px;
             color: #515151;
             font-size: 14px;
         }
         >li {
             padding: 0 5px;
-            height: 25px;
-            line-height: 25px;
+            height: 20px;
+            line-height: 20px;
             color: #1c1c1c;
-            font-size: 14px;
+            font-size: 12px;
             float: left;
             margin-right: 50px;
             cursor: pointer;
@@ -156,7 +155,7 @@ body {
     >.type-three {
     width: 1200px;
     margin: 0 auto;
-        margin-top: 20px;
+        margin-top: 10px;
         height: 40px;
         line-height: 40px;
         background-color: #e0e0e0;
@@ -232,7 +231,7 @@ body {
 .course-content {
     width: 1200px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 30px;
     >section {
         >ul {
             width: calc(100% + (200px / 3));
@@ -243,7 +242,7 @@ body {
                 margin-right: calc(200px / 3);
                 transition: all 0.3s ease-in;
                 cursor: pointer;
-                margin-bottom: 50px;
+                margin-bottom: 40px;
                 &:hover{
                    transform: translateY(-5px);
                    box-shadow: -3px 4px 4px 0 rgba(0,0,0,0.3);

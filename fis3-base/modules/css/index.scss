@@ -21,6 +21,7 @@ header {
                     line-height: 38px;
                     text-align: center;
                     color: #e0e0e0;
+                    
                     &:after {
                         content: '';
                         display: block;
@@ -169,7 +170,8 @@ header {
         height: 120px;
         background-repeat: no-repeat;
         >img {
-            margin-top: 40px;
+            margin-top: 25px;
+            width: 400px;
         }
         >input {
             float: right;
@@ -273,8 +275,8 @@ header {
 }
 article {
     background-image: url("../../img/common/content-bc.png");
-    >.slider {
-        height: 530px;
+    >.Slider {
+//      height: 530px;
     }
     >.hot-course {
         height: 750px;
@@ -484,8 +486,21 @@ article {
     }
     //轮播图
     >.cooperation{
-       
-        
+       >.silder-box{
+           width: 1200px;
+           margin: 0 auto;
+           overflow: hidden;
+           box-sizing: border-box;
+           padding: 0 45px;
+           margin-bottom: 50px;
+           li{
+               width: 265px;
+               height: 105px;
+           }
+           .silder-button{
+               top: 25px;
+           }
+       }
     }
     >section {
         >.title {

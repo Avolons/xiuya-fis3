@@ -140,6 +140,7 @@ header {
 }
 
 header > img {
+  width: 277px;
   margin-top: 20px;
 }
 

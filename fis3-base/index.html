@@ -6,10 +6,9 @@
     <meta content="telephone=no" name="format-detection"/>
     <meta content="address=no" name="format-detection"/>
     <title>琇雅-首页</title>
-    <!--<link rel="stylesheet" href="modules/css/common.scss">-->
     <link rel="stylesheet" href="modules/css/index.scss">
     <link rel="stylesheet" type="text/css" href="lib/js/jqcool.net-Glide.js/dist/css/gulid.css"/>
-    <link rel="stylesheet" type="text/css" href="lib/js/superslider/superslider.css"/>
+	<link rel="stylesheet" type="text/css" href="lib/js/mySilder/css/style.css"/>
 </head>
 <body>
         <header>
@@ -66,8 +65,14 @@
    			</div>
         </header>
         <article>
-        	<section class="slider">
-        		
+        	<section class="Slider" style="background-color: #000000;">
+        		<div class="slider">
+        			<ul class="slider__wrapper">
+						<li class="slider__item"><img src="img/index/slider.png" /></li> 
+						<li class="slider__item"><img src="img/index/slider.png"" /></li>
+						<li class="slider__item"><img src="img/index/slider.png"" /></li>
+					</ul>
+        		</div>
         	</section>
         	<section class="hot-course">
         		<div class="title">
@@ -262,62 +267,63 @@
         			<a href="" class="one">合作伙伴</a>
         			<a href="" class="more">更多>></a>
         		</div>
-        		<div class="picScroll-left">
-			<div class="hd">
-				<a class="prev" href="javascript:void(0)"><img src="img/left.jpg" /></a>
-        		<a class="next" href="javascript:void(0)"><img src="img/right.jpg"/></a>
+        		<div class='silder-box silder-box-1'>
+				<div class='silder'>
+					<ul>
+						<li>
+							<img src="dist/img/coursecenter/course-lizi.png">
+						</li>
+						<li>
+							<img src="dist/img/coursecenter/course-lizi.png">
+						</li>
+						<li>
+							<img src="dist/img/coursecenter/course-lizi.png">
+						</li>
+						<li>
+							<img src="dist/img/coursecenter/course-lizi.png">
+						</li>
+						<li>
+							<img src="dist/img/coursecenter/course-lizi.png">
+						</li>
+					</ul>
+				</div>
+				<div class='silder-button btl'></div>
+				<div class='silder-button btr'></div>
 			</div>
-			<div class="bd">
-				<ul class="picList">
-					<li>
-						<div class="pic"><a href="#"><img src="img/1.jpg"/></a></div>
-						<div class="title"><a href="#">效果图1</a></div>
-					</li>
-					<li>
-						<div class="pic"><a href="#"><img src="img/2.jpg" /></a></div>
-						<div class="title"><a href="#">效果图2</a></div>
-					</li>
-					<li>
-						<div class="pic"><a href="#"><img src="img/3.jpg" /></a></div>
-						<div class="title"><a href="#">效果图3</a></div>
-					</li>
-					<li>
-						<div class="pic"><a href="#"><img src="img/4.jpg" /></a></div>
-						<div class="title"><a href="#">效果图4</a></div>
-					</li>
-					<li>
-						<div class="pic"><a href="#"><img src="img/5.jpg" /></a></div>
-						<div class="title"><a href="#">效果图5</a></div>
-					</li>
-					<li>
-						<div class="pic"><a href="#"><img src="img/6.jpg" /></a></div>
-						<div class="title"><a href="#">效果图6</a></div>
-					</li>
-                    <li>
-						<div class="pic"><a href="#"><img src="img/7.jpg" /></a></div>
-						<div class="title"><a href="#">效果图6</a></div>
-					</li>
-                    <li>
-						<div class="pic"><a href="#"><img src="img/8.jpg" /></a></div>
-						<div class="title"><a href="#">效果图6</a></div>
-					</li>
-                    <li>
-						<div class="pic"><a href="#"><img src="img/9.jpg" /></a></div>
-						<div class="title"><a href="#">效果图6</a></div>
-					</li>
-				</ul>
-			</div>
-		</div>
 
         	</section>
         </article>
         <link rel="import" href="modules/html/footer/footer.html?__inline">
-        <script src="lib/js/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="lib/js/lory/jquery.lory.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="lib/js/jquery/dist/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
    		<script src="lib/js/jqcool.net-Glide.js/dist/jquery.glide.min.js" type="text/javascript" charset="utf-8"></script>
+  		<script src="lib/js/mySilder/js/mySystem.js" type="text/javascript" charset="utf-8"></script>
   		<script type="text/javascript">
-  			$(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:3,trigger:"click"});
+	  		$('.slider').glide({
+				autoplay: 5000,
+				arrows: true,
+				navigation: true,
+				arrowRightText: "",
+				arrowLeftText: ""
+			});
+			$('.silder-box-1').mySilder({
+			    width: 265, //容器的宽度 必选参数!!!!!!
+			    height: 105, //容器的高度 必选参数!!!!!!
+			    auto: true, //是否自动滚动
+			    autoTime: 5, //自动滚动时，时间间隙，即多长滚动一次,单位(秒)
+			    direction: 'x', //滚动方向,默认X方向
+			    autoType: 'left', //滚动方向，auto为true时生效
+			    few: 1, //一次滚动几个，默认滚动1张
+			    showFew: 4, //显示几个,就不用调css了,默认显示一个
+			    clearance: 15, //容器之间的间隙，默认为 0
+			    silderMode: 'linear', //滚动方式
+			    timeGap: 650, //动画间隙，完成一次动画需要多长时间，默认700ms
+			    buttonPre: '.silder-button.btl', //上一个，按钮
+			    buttonNext: '.silder-button.btr', //下一个，按钮
+			    jz: true, //点击时，是否等待动画完成
+			    runEnd: function() { //回调函数
+			        //代码
+			    }
+			});
   		</script>
-  <!--SCRIPT_PLACEHOLDER-->
 </body>
 </html>
