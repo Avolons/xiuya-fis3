@@ -5,7 +5,7 @@
 		<title>秀雅-功能中心</title>
 	
     <link rel="stylesheet" type="text/css" href="/static/html/header/header.css" />
-    <link rel="stylesheet" type="text/css" href="/static/html/person_cloud/person_cloud.css" />
+    <link rel="stylesheet" type="text/css" href="/static/html/person_cer/person_cer.css" />
     <link rel="stylesheet" type="text/css" href="/static/html/footer/footer.css" />
     <link rel="stylesheet" type="text/css" href="/static/css/mine.css" />
 </head>
@@ -74,55 +74,74 @@
               <button type="button" class="size-12">更换头像</button>
             </figure>
             <ul>
-              <h2 class="size-16 mystudy"><i class="iconfont">&#xe606;</i>我的学习</h2>
-              <li><i class="iconfont">&#xe608;</i>我的课程</li>
-              <li><i class="iconfont">&#xe608;</i>我的提问</li>
-              <li><i class="iconfont">&#xe608;</i>我的证书</li>
+              <h2 class="size-16 mystudy"><i class="iconfont">&#xe606;</i>我的学习</a></h2>
+              <li><i class="iconfont">&#xe608;</i><a href="">我的课程</a></li>
+              <li><i class="iconfont">&#xe608;</i><a href="">我的提问</a></li>
+              <li><i class="iconfont">&#xe608;</i><a href="">我的证书</a></li>
               <h2 class="size-16 mypurch"><i class="iconfont">&#xe605;</i>我的交易</h2>
-              <li><i class="iconfont">&#xe608;</i>订购的教材</li>
-              <li><i class="iconfont">&#xe608;</i>激活的学习卡</li>
+              <li><i class="iconfont">&#xe608;</i><a href="">订购的教材</a></li>
+              <li><i class="iconfont">&#xe608;</i><a href="">激活的学习卡</a></li>
               <li><i class="iconfont">&#xe608;</i>购买的课程</li>
               <h2 class="size-16 personaldata"><i class="iconfont">&#xe607;</i>个人资料</h2>
               <li class="select"><i class="iconfont">&#xe608;</i>个人详情</li>
               <li ><i class="iconfont">&#xe608;</i>修改密码</li>
             </ul>
-        </section>
+        </section> 
         <!-- 右侧主体内容展现部分 -->
         <section class="person-right">
-             <div class="person_cloud">
-	<h1>我的课程
-		<i class="iconfont">&#xe604;</i>
-		<input type="text" name="" id="" value="" placeholder="搜索你的课程"/>
-	</h1>
-	<ul class="type-check">
-		<li>全部</li>
-		<li>未开始</li>
-		<li>学习中</li>
-		<li>已完成</li>
+             <div class="person_cer">
+	<h1>我的证书</h1>
+	<div class="inner">
+		<ul class="type-check">
+		<li class="width-1">序号</li>
+		<li class="width-2">姓名</li>
+		<li class="width-3">身份证号</li>
+		<li class="width-4">获得证书</li>
+		<li class="width-5">获证时间</li>
+		<li class="width-6">获证方式</li>
+		<li class="width-7">操作</li>
 	</ul>
 	<ul class="cloud-list">
-		<li v-for="ite in cloudlist">
-			<h5>
-				<i class="iconfont">&#xe60c;</i>
-				{{ite.time}}
-			</h5>
+		<li>
 			<ul class="clear">
-				<!--绑定函数courseClick,将数据对象整体传入-->
-				<li v-for="item in ite.children" >
-					<figure>
-						<img src={{item.imgsrc}} alt="course" />
-						<h5 class="overflow_pre">{{item.title}}</h5>
-						<ul>
-							<li>{{item.studypeople}}人学习</li>
-							<li>{{item.courseNumber}}课时</li>
-							<li>{{item.alltime}}</li>
-						</ul>
-					</figure>
-				</li>
+				<li class="width-1">1</li>
+				<li class="width-2">地理</li>
+				<li class="width-3">2016-08-09
+                16:16:04</li>
+				<li class="width-4 color">￥200</li>
+				<li class="width-5">待审批</li>
+				<li class="width-6">待审批</li>
+				<li class="width-7"><button type="button" class="color">查看</button></li>
+			</ul>
+		</li>
+		<li>
+			<ul class="clear">
+				<li class="width-1">1</li>
+				<li class="width-2">地理</li>
+				<li class="width-3">2016-08-09
+                16:16:04</li>
+				<li class="width-4 color">￥200</li>
+				<li class="width-5">待审批</li>
+				<li class="width-6">待审批</li>
+				<li class="width-7"><button type="button" class="color">查看</button></li>
+			</ul>
+		</li>
+		<li>
+			<ul class="clear">
+				<li class="width-1">1</li>
+				<li class="width-2">地理</li>
+				<li class="width-3">2016-08-09
+                16:16:04</li>
+				<li class="width-4 color">￥200</li>
+				<li class="width-5">待审批</li>
+				<li class="width-6">待审批</li>
+				<li class="width-7"><button type="button" class="color">查看</button></li>
 			</ul>
 		</li>
 	</ul>
-</div> 
+	</div>
+</div>
+ 
         </section>
     </article>
 

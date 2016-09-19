@@ -41,6 +41,10 @@
             "uri": "/lib/js/jqcool.net-Glide.js/dist/css/gulid.css",
             "type": "css"
         },
+        "lib/js/mySilder/css/style.css": {
+            "uri": "/lib/js/mySilder/css/style.css",
+            "type": "css"
+        },
         "lib/js/distpicker/css/htmleaf-demo.css": {
             "uri": "/lib/js/distpicker/css/htmleaf-demo.css",
             "type": "css"
@@ -71,6 +75,10 @@
         },
         "lib/js/jqcool.net-Glide.js/dist/jquery.glide.min.js": {
             "uri": "/static/lib/js/jqcool.net-Glide.js/dist/jquery.glide.min.js",
+            "type": "js"
+        },
+        "lib/js/mySilder/js/mySystem.js": {
+            "uri": "/static/lib/js/mySilder/js/mySystem.js",
             "type": "js"
         },
         "lib/js/distpicker/js/distpicker.data.js": {
@@ -121,8 +129,8 @@
             "uri": "/static/css/mine.css",
             "type": "css"
         },
-        "modules/html/person_cloud/person_cloud.scss": {
-            "uri": "/static/html/person_cloud/person_cloud.css",
+        "modules/html/person_cer/person_cer.scss": {
+            "uri": "/static/html/person_cer/person_cer.css",
             "type": "css"
         },
         "lib/js/distpicker/dist/distpicker.data.min.js": {
@@ -136,6 +144,22 @@
         "modules/app/mine.js": {
             "uri": "/static/app/mine.js",
             "type": "js"
+        },
+        "modules/html/person_book/person_book.scss": {
+            "uri": "/static/html/person_book/person_book.css",
+            "type": "css"
+        },
+        "modules/html/person_card/person_card.scss": {
+            "uri": "/static/html/person_card/person_card.css",
+            "type": "css"
+        },
+        "modules/html/person_cloud/person_cloud.scss": {
+            "uri": "/static/html/person_cloud/person_cloud.css",
+            "type": "css"
+        },
+        "modules/html/person_course/person_course.scss": {
+            "uri": "/static/html/person_course/person_course.css",
+            "type": "css"
         },
         "modules/html/person_msg/person_msg.scss": {
             "uri": "/static/html/person_msg/person_msg.css",

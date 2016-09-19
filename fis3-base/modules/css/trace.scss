@@ -1,0 +1,59 @@
+body{
+    background-image: url("../../img/common/content-bc.png");
+}
+article{
+    >.top{
+        height: 140px;
+        background-color: #eeeeee;
+        padding-top: 43px;
+        box-sizing: border-box;
+        >form{
+            height: 43px;
+            width: 753px;
+            position: relative;
+            margin: 0 auto;
+            >i{
+                height: 43px;
+                width: 50px;
+                background-color: #FFFFFF;
+                position: absolute;
+                left: 0;
+                top: 0px;
+                line-height: 35px;
+                text-align: center;
+                 border: 1px solid #9d0a0a;
+                 border-right: none;
+                 box-sizing: border-box;
+                 color: #d1d1d1;
+                 border-right: 1px solid #d1d1d1;
+                 font-size: 20px;
+                 cursor: pointer;
+            }
+            >input{
+                width: 610px;
+                box-sizing: border-box;
+                padding-left: 55px;
+                background-color: #FFFFFF;
+                border: 1px solid #9d0a0a;
+                font-size: 14px;
+                float: left;
+                height: 43px;
+            }
+            >button{
+                width: 70px;
+                height: 43px;
+                line-height: 43px;
+                text-align: center;
+                border: none;
+                color: #FFFFFF;
+                font-size: 16px;
+                float: left;
+                background-color: #9d0a0a;
+                cursor: pointer;
+            }
+            >.lookfor{
+                margin-right: 3px;
+            }
+        }
+    }
+}

@@ -3,10 +3,13 @@ header{
     width: 1200px;
     margin: 0 auto;
     height: 106px;
-    >img{
+   >a{
+       >img{
         width: 277px;
-        margin-top: 20px;
+        margin-top: 30px;
+    } 
     }
+    
 }
 article{
     background-image: url(../../img/log/log-bc-bottom.png);
@@ -54,7 +57,8 @@ article{
                     color: #990000;
                 }
             }
-            >input{
+            >form{
+                >input{
                 height: 50px;
                 width: 100%;
                 display: block;
@@ -62,20 +66,7 @@ article{
                 box-sizing: border-box;
                 padding-left: 45px;
             }
-            >i{
-                position: absolute;
-                font-size: 20px;
-                color: #c5c5c5;
-            }
-            >.name{
-              top: 90px; 
-              left: 60px; 
-            }
-            >.mima{
-              top: 168px;
-              left: 60px; 
-              font-size: 24px;
-            }
+           
             >.codechoose{
                 font-size: 12px;
                 margin-bottom: 20px;
@@ -96,6 +87,21 @@ article{
                background-color: #990000;
                border: none;
                cursor: pointer;
+            }
+            }
+            >i{
+                position: absolute;
+                font-size: 20px;
+                color: #c5c5c5;
+            }
+             >.name{
+              top: 90px; 
+              left: 60px; 
+            }
+            >.mima{
+              top: 168px;
+              left: 60px; 
+              font-size: 24px;
             }
         }
     }

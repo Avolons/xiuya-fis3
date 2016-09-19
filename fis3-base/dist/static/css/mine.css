@@ -208,7 +208,7 @@ body {
   font-weight: 400;
   border-bottom: 1px solid #efeeee;
   box-sizing: border-box;
-  background-color: #efefef;
+  background-color: #F8F3EC;
 }
 
 .person-content > .person-left ul > h2 > i {
@@ -217,7 +217,6 @@ body {
 }
 
 .person-content > .person-left ul > li {
-  color: #525252;
   padding-left: 60px;
   cursor: pointer;
   height: 45px;
@@ -229,9 +228,20 @@ body {
           transition: all 0.2s ease-in;
 }
 
+.person-content > .person-left ul > li > a {
+  color: #525252;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
+}
+
 .person-content > .person-left ul > li:hover {
   background-image: url("/img/common/header-bc.png");
-  color: #ffffff;
+  color: #FFFFFF;
+}
+
+.person-content > .person-left ul > li:hover a {
+  color: #FFFFFF;
 }
 
 .person-content > .person-left ul > .select {

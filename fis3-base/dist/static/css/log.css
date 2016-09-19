@@ -139,9 +139,9 @@ header {
   height: 106px;
 }
 
-header > img {
+header > a > img {
   width: 277px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 article {
@@ -200,13 +200,40 @@ article > figure > .logouter > h1 > a {
   color: #990000;
 }
 
-article > figure > .logouter > input {
+article > figure > .logouter > form > input {
   height: 50px;
   width: 100%;
   display: block;
   margin-bottom: 28px;
   box-sizing: border-box;
   padding-left: 45px;
+}
+
+article > figure > .logouter > form > .codechoose {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+article > figure > .logouter > form > .codechoose > input {
+  -webkit-transform: translateY(2px);
+      -ms-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+article > figure > .logouter > form > .codechoose > a {
+  float: right;
+  color: #1b1b1b;
+}
+
+article > figure > .logouter > form > button {
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: #990000;
+  border: none;
+  cursor: pointer;
 }
 
 article > figure > .logouter > i {
@@ -224,33 +251,6 @@ article > figure > .logouter > .mima {
   top: 168px;
   left: 60px;
   font-size: 24px;
-}
-
-article > figure > .logouter > .codechoose {
-  font-size: 12px;
-  margin-bottom: 20px;
-}
-
-article > figure > .logouter > .codechoose > input {
-  -webkit-transform: translateY(2px);
-      -ms-transform: translateY(2px);
-          transform: translateY(2px);
-}
-
-article > figure > .logouter > .codechoose > a {
-  float: right;
-  color: #1b1b1b;
-}
-
-article > figure > .logouter > button {
-  width: 150px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 18px;
-  color: #FFFFFF;
-  background-color: #990000;
-  border: none;
-  cursor: pointer;
 }
 
 footer > ul {
