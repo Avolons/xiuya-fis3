@@ -7,6 +7,7 @@ article{
         background-color: #eeeeee;
         padding-top: 43px;
         box-sizing: border-box;
+        border-bottom:1px solid #d7d7d7 ;
         >form{
             height: 43px;
             width: 753px;
@@ -53,6 +54,79 @@ article{
             }
             >.lookfor{
                 margin-right: 3px;
+            }
+        }
+    }
+    >.bottom{
+        width: 1200px;
+        margin: 0 auto;
+        margin-top: 13px;
+        margin-bottom: 70px;
+        >h1{
+            font-size: 16px;
+            color: #0d0d0d;
+            padding-left: 15px;
+            box-sizing: border-box;
+            height: 50px;
+            border: 1px solid #d7d7d7;
+            border-bottom: 1px solid #8c0202;
+            margin-bottom: 5px;
+            line-height: 50px;
+            background-color: #EEEEEE;
+        }
+        >ul{
+            border:1px solid #dfdfdf ;
+            border-right: none;
+            >li{
+                width: 50%;
+                box-sizing: border-box;
+                float: left;
+                height: 50px;
+                line-height: 50px;
+                background-color: #FFFFFF;
+                border-bottom: 1px solid #dfdfdf;
+                border-right: 1px solid #dfdfdf;
+                >h2{
+                    height: 49px;
+                    width: 160px;
+                    background-color: #EEEEEE;
+                    text-align: center;
+                     border-right: 1px solid #dfdfdf;
+                     box-sizing: border-box;
+                     color: #575454;
+                     font-size: 14px;
+                     font-weight: 400;
+                }
+            }
+            >.intr{
+                float: right;
+                width: 50%;
+                box-sizing: border-box;
+                height: 300px;
+                border-right: 1px solid #dfdfdf;
+                border-bottom: 1px solid #dfdfdf;
+                background-color: #FFFFFF;
+                >h2{
+                    text-align: center;
+                    height: 50px;
+                    line-height: 50px;
+                    color: #151414;
+                    font-size: 18px;
+                }
+            }
+            >.worksimg{
+                float: left;
+                width: 100%;
+                background-color: #FFFFFF;
+                border-right: 1px solid #dfdfdf ;
+                box-sizing: border-box;
+                >h2{
+                    text-align: center;
+                    height: 50px;
+                    line-height: 50px;
+                    color: #151414;
+                    font-size: 18px;
+                }
             }
         }
     }
