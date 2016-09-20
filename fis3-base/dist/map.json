@@ -37,6 +37,14 @@
             "uri": "/static/app/course.js",
             "type": "js"
         },
+        "modules/css/courseinformation.scss": {
+            "uri": "/static/css/courseinformation.css",
+            "type": "css"
+        },
+        "modules/app/information.js": {
+            "uri": "/static/app/information.js",
+            "type": "js"
+        },
         "lib/js/jqcool.net-Glide.js/dist/css/gulid.css": {
             "uri": "/lib/js/jqcool.net-Glide.js/dist/css/gulid.css",
             "type": "css"
@@ -169,6 +177,10 @@
             "uri": "/static/html/person_password/person_password.css",
             "type": "css"
         },
+        "modules/css/password.scss": {
+            "uri": "/static/css/password.css",
+            "type": "css"
+        },
         "modules/css/query.scss": {
             "uri": "/static/css/query.css",
             "type": "css"
@@ -179,6 +191,10 @@
         },
         "modules/css/reg.scss": {
             "uri": "/static/css/reg.css",
+            "type": "css"
+        },
+        "modules/css/trace.scss": {
+            "uri": "/static/css/trace.css",
             "type": "css"
         },
         "modules/css/player.scss": {

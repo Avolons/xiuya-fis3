@@ -6,7 +6,7 @@
 	
     <link rel="stylesheet" type="text/css" href="/static/html/header/header.css" />
     <link rel="stylesheet" type="text/css" href="/static/html/footer/footer.css" />
-    <link rel="stylesheet" type="text/css" href="/static/css/password.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/courseinformation.css" />
 </head>
 	<body>
 		
@@ -62,70 +62,53 @@
 </header>   
 
 		<article>
-			<section class="left">
-				<h1>快速找回密码</h1>
-				<h2 class="select">
-					<i class="iconfont">&#xe602;</i>
-					通过手机号找回
-					<p>验证你的手机号即可找回</p>
-				</h2>
-				<h2>
-					<i class="iconfont">&#xe60d;</i>
-					通过邮箱找回
-					<p>验证你的安全邮箱即可找回</p>
-				</h2>
+			<!--主体头部-->
+			<section class="content-top">
+				<figure>
+					<img src="/img/information/information-img.png"/>
+				</figure>
+				<aside>
+					<h1>指尖上的传承玉雕</h1>
+					<ul>
+						<li>学习人数：2000</li>
+						<li>学习时长：20</li>
+						<li>有效期：2016年8月4日</li>
+					</ul>
+					<h2>价      格：<span>￥200</span></h2>
+					<h3>报名时间：2016年8月4日-2016年8月1日</h3>
+					<h3>主讲教师：黄姣姣</h3>
+					<button type="button">立即报名</button>
+				</aside>
 			</section>
-			<section class="right">
-				<h2>
-					<span>找回登录密码</span>
-				</h2>
-				<div class="type_phone show">
-					<ul class="title title_one">
-						
-					</ul>
-					<ul class="content">
-						<li class="one show">
+			<!--主体左部-->
+			<section class="content-left">
+				<ul class="table">
+					<li>课程简介</li>
+					<li>课程目录</li>
+					<li>综合讨论</li>
+				</ul>
+				<ul>
+					<li class="courseitr">
+						<h5></h5>
+						<div class="course-in">
+							<h6>课程信息</h6>
 							<ul>
-								<li>
-									<h5>*手机号码 ：</h5>
-									<input type="number"  value="" placeholder="请输入手机号码"/>
-									<span>已通过验证的手机号码</span>
-								</li>
-								<li>
-									<h5>*验证码 ：</h5>
-									<input type="text"  value="" placeholder="请输入验证码"/>
-									<button type="button">发送验证码</button>
-								</li>
-								<li>
-									<button type="button" class="next">下一步</button>
-								</li>
+								<li>课程名称：陈列结构创意</li>
+								<li>主讲教师：黄姣姣</li>
+								<li>难易程度：初级</li>
+								<li>学习人数：4913人</li>
+								<li>总共章节：共10节</li>
+								<li>课程时长：420分钟</li>
 							</ul>
-						</li>
-						<li class="two ">
-							<ul>
-								<li>
-									<h5>*原密码 ：</h5>
-									<input type="text"  value="" placeholder="请输入原始密码"/>
-								</li>
-								<li>
-									<h5>*新密码 ：</h5>
-									<input type="text"  value="" placeholder="请输入新密码"/>
-								</li>
-								<li>
-									<h5>*确认密码 ：</h5>
-									<input type="text"  value="" placeholder="请再次输入新密码"/>
-								</li>
-								<button type="button">保存</button>
-							</ul>
-						</li>
-						<li class="three ">
-							您已完成密码重置
-						</li>
-					</ul>
-				</div>
-				<div class="type_email">
-					
-				</div>
+						</div>
+					</li>
+					<li class="courselist"></li>
+					<li class="coursediscuss"></li>
+				</ul>
+			</section>
+			<!--主体右部-->
+			<section class="content-right">
+				
 			</section>
 		</article>
 		<!--<link rel="stylesheet" href="footer.scss">-->
@@ -153,5 +136,6 @@
 	
 <script type="text/javascript" charset="utf-8" src="/static/lib/js/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" charset="utf-8" src="/static/lib/js/vue/dist/vue.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/app/information.js"></script>
 </body>
 </html>

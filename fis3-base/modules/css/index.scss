@@ -473,17 +473,30 @@ article {
                     height: 100%;
                     width: 100%;
                 }
+                >h5{
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    height: 50px;
+                    line-height: 50px;
+                    position: absolute;
+                    bottom: 0;
+                    background-color: rgba(0,0,0,0.3);
+                    text-align: center;
+                    width: 100%;
+                    font-weight: 400;
+                }
             }
             >ul {
                 box-sizing: border-box;
-                padding-top: 10px;
                 width: 570px;
                 float: right;
                 >li {
                     display: block;
                     width: 100%;
-                    margin-bottom: 45px;
+                    margin-bottom: 10px;
+                    padding-bottom: 13px;
                     cursor:pointer; 
+                    border-bottom: 1px dashed #b7b6b2;
                     &:hover .left .top{
                        background-color: #990000; 
                     }
@@ -496,8 +509,9 @@ article {
                     >.left {
                         float: left;
                         display: block;
-                        width: 50px;
-                        height: 80px;
+                        width: 100px;
+                        height: 40px;
+                        margin-right: 10px;
                         >span {
                             height: 40px;
                             width: 50px;
@@ -507,28 +521,24 @@ article {
                             font-size: 16px;
                         }
                         >.top {
-                            background-color: #e1e1e1;
+                            float: left;
+                            background-color: #a9a8a0;
                             color: #FFFFFF;
                         }
                         >.bottom {
+                            float: left;
                             background-color: #FFFFFF;
                             color: #4b4b4b;
                         }
                     }
                     >.right {
-                        width: 500px;
+                        width: 460px;
                         float: right;
                         >h5 {
                             font-weight: 400;
                             font-size: 16px;
                             color: #4a4949;
-                            line-height: 20px;
-                        }
-                        >p{
-                            color: #606060;
-                            font-size: 12px;
-                            line-height: 25px;
-                            margin-top: 10px;
+                            line-height: 40px;
                         }
                     }
                 }
