@@ -1,0 +1,61 @@
+@import "./config";
+body {
+    background-image: url("../../img/common/content-bc.png");
+}
+figure {
+    width: 100%;
+    margin: 0 0 35px;
+    >img {
+        display: block;
+        width: 100%;
+    }
+}
+article {
+    width: 1200px;
+    margin: 0 auto;
+    >.left {
+        width: 250px;
+        float: left;
+        background-image: url("../../img/news/news-left.png");
+        >h1 {
+            height: 67px;
+            background-image: url("../../img/news/news-title.png");
+        }
+        >ul {
+            >li {
+                text-align: center;
+                height: 50px;
+                border-bottom: 1px solid #FFFFFF;
+                cursor: pointer;
+                &:hover {
+                    background-color: #dadada;
+                    >a {
+                        color: #661806;
+                        >i {
+                            color: #8c0202;
+                        }
+                    }
+                }
+                >a {
+                    line-height: 50px;
+                    font-size: 14px;
+                    color: #242323;
+                    >i {
+                        color: #cdcdcd;
+                        margin-left: -15px;
+                    }
+                }
+            }
+        }
+    }
+    >.right{
+        width: 920px;
+        box-sizing: border-box;
+        float: right;
+        background-color: #FFFFFF;
+        padding: 40px 30px;
+    }
+}
+footer{
+    margin-top: 100px;
+}
