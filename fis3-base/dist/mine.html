@@ -5,7 +5,7 @@
 		<title>秀雅-功能中心</title>
 	
     <link rel="stylesheet" type="text/css" href="/static/html/header/header.css" />
-    <link rel="stylesheet" type="text/css" href="/static/html/person_cer/person_cer.css" />
+    <link rel="stylesheet" type="text/css" href="/static/html/person_password/person_password.css" />
     <link rel="stylesheet" type="text/css" href="/static/html/footer/footer.css" />
     <link rel="stylesheet" type="text/css" href="/static/css/mine.css" />
 </head>
@@ -89,59 +89,34 @@
         </section> 
         <!-- 右侧主体内容展现部分 -->
         <section class="person-right">
-             <div class="person_cer">
-	<h1>我的证书</h1>
-	<div class="inner">
-		<ul class="type-check">
-		<li class="width-1">序号</li>
-		<li class="width-2">姓名</li>
-		<li class="width-3">身份证号</li>
-		<li class="width-4">获得证书</li>
-		<li class="width-5">获证时间</li>
-		<li class="width-6">获证方式</li>
-		<li class="width-7">操作</li>
+             <div class="person_password">
+	<h1>个人信息</h1>
+	<ul>
+		<li>
+			<input type="text"  id="oldword" value="" placeholder="请输入原始密码"/>
+			<h5>原密码 ：</h5>
+			<span>*</span>
+		</li>
+		<li>
+			<input type="text"  id="newword" value="" placeholder="请输入新密码"/>
+			<h5>新密码 ：</h5>
+			<span>*</span>
+		</li>
+		<li>
+			<input type="text"  id="confirmword" value="" placeholder="再次确认密码"/>
+			<h5>确认密码 ：</h5>
+			<span>*</span>
+		</li>
+			<button type="button">保存</button>
 	</ul>
-	<ul class="cloud-list">
-		<li>
-			<ul class="clear">
-				<li class="width-1">1</li>
-				<li class="width-2">地理</li>
-				<li class="width-3">2016-08-09
-                16:16:04</li>
-				<li class="width-4 color">￥200</li>
-				<li class="width-5">待审批</li>
-				<li class="width-6">待审批</li>
-				<li class="width-7"><button type="button" class="color">查看</button></li>
-			</ul>
-		</li>
-		<li>
-			<ul class="clear">
-				<li class="width-1">1</li>
-				<li class="width-2">地理</li>
-				<li class="width-3">2016-08-09
-                16:16:04</li>
-				<li class="width-4 color">￥200</li>
-				<li class="width-5">待审批</li>
-				<li class="width-6">待审批</li>
-				<li class="width-7"><button type="button" class="color">查看</button></li>
-			</ul>
-		</li>
-		<li>
-			<ul class="clear">
-				<li class="width-1">1</li>
-				<li class="width-2">地理</li>
-				<li class="width-3">2016-08-09
-                16:16:04</li>
-				<li class="width-4 color">￥200</li>
-				<li class="width-5">待审批</li>
-				<li class="width-6">待审批</li>
-				<li class="width-7"><button type="button" class="color">查看</button></li>
-			</ul>
-		</li>
-	</ul>
-	</div>
 </div>
  
+             <!--<link rel="import" href="modules/html/person_msg/person_msg.html?__inline">--> 
+             <!--<link rel="import" href="modules/html/person_myworks/person_myworks.html?__inline"> 
+             <link rel="import" href="modules/html/person_myworks/person_myworks.html?__inline"> 
+             <link rel="import" href="modules/html/person_myworks/person_myworks.html?__inline"> 
+             <link rel="import" href="modules/html/person_myworks/person_myworks.html?__inline"> 
+             <link rel="import" href="modules/html/person_myworks/person_myworks.html?__inline"> -->
         </section>
     </article>
 

@@ -1,0 +1,160 @@
+.person_cloud {
+  width: 100%;
+}
+
+.person_cloud .width-1 {
+  width: 260px;
+}
+
+.person_cloud .width-2 {
+  width: 270px;
+}
+
+.person_cloud .width-3 {
+  width: 90px;
+}
+
+.person_cloud .width-4 {
+  width: 155px;
+}
+
+.person_cloud .width-5 {
+  width: 85px;
+}
+
+.person_cloud > h1 {
+  height: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  color: #313131;
+  font-size: 17px;
+  padding-right: 35px;
+  background-color: #FFFFFF;
+  position: relative;
+}
+
+.person_cloud > h1 > input {
+  height: 36px;
+  box-sizing: border-box;
+  float: right;
+  font-size: 14px;
+  color: #717171;
+  padding-left: 40px;
+  outline: none;
+  border: 1px solid #e1e1e1;
+  width: 275px;
+  background-color: #f8f8f8;
+  margin-top: 7px;
+}
+
+.person_cloud > h1 > i {
+  font-weight: 400;
+  font-size: 20px;
+  position: absolute;
+  right: 275px;
+  cursor: pointer;
+}
+
+.person_cloud > .type-check {
+  box-sizing: border-box;
+  padding-left: 40px;
+  height: 50px;
+  background-color: #FFFFFF;
+  margin-top: 10px;
+}
+
+.person_cloud > .type-check > li {
+  float: left;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 13px;
+  color: #3f3f3f;
+}
+
+.person_cloud > .type-check > .width-1 {
+  text-align: left;
+}
+
+.person_cloud > .cloud-list {
+  width: 100%;
+}
+
+.person_cloud > .cloud-list > li {
+  background-color: #FFFFFF;
+  margin-top: 5px;
+  padding: 20px 0 20px 40px;
+}
+
+.person_cloud > .cloud-list > li > h5 {
+  border-bottom: 1px solid #f2f1f1;
+  box-sizing: border-box;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 40px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.person_cloud > .cloud-list > li > ul {
+  box-sizing: border-box;
+}
+
+.person_cloud > .cloud-list > li > ul > li {
+  height: 66px;
+  line-height: 66px;
+  color: #3f3f3f;
+  font-size: 12px;
+  display: block;
+  float: left;
+}
+
+.person_cloud > .cloud-list > li > ul > .width-1 > img {
+  width: 110px;
+  height: 66px;
+  display: block;
+  float: left;
+}
+
+.person_cloud > .cloud-list > li > ul > .width-1 > p {
+  margin-top: 10px;
+  line-height: 25px;
+  margin-left: 15px;
+  float: left;
+  width: calc(100% - 125px);
+}
+
+.person_cloud > .cloud-list > li > ul > .width-1 > h3 {
+  line-height: 25px;
+  font-weight: 400;
+  margin-left: 15px;
+  float: left;
+}
+
+.person_cloud > .cloud-list > li > ul > .width-2 {
+  height: 50px;
+  margin-top: 10px;
+  line-height: 25px;
+  overflow: hidden;
+  font-weight: 700;
+}
+
+.person_cloud > .cloud-list > li > ul > .width-3 {
+  text-align: center;
+}
+
+.person_cloud > .cloud-list > li > ul > .width-4 {
+  text-align: center;
+}
+
+.person_cloud > .cloud-list > li > ul > .width-5 {
+  text-align: center;
+}
+
+.person_cloud > .cloud-list > li > ul > .width-5 > button {
+  color: #8C0202;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

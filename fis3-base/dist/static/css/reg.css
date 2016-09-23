@@ -89,9 +89,9 @@ table {
 
 @font-face {
   font-family: 'iconfont';
-  src: url("//at.alicdn.com/t/font_1474352451_6099696.eot");
+  src: url("//at.alicdn.com/t/font_1474597011_7443717.eot");
   /* IE9*/
-  src: url("//at.alicdn.com/t/font_1474352451_6099696.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_1474352451_6099696.woff") format("woff"), url("//at.alicdn.com/t/font_1474352451_6099696.ttf") format("truetype"), url("//at.alicdn.com/t/font_1474352451_6099696.svg#iconfont") format("svg");
+  src: url("//at.alicdn.com/t/font_1474597011_7443717.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_1474597011_7443717.woff") format("woff"), url("//at.alicdn.com/t/font_1474597011_7443717.ttf") format("truetype"), url("//at.alicdn.com/t/font_1474597011_7443717.svg#iconfont") format("svg");
   /* iOS 4.1- */
 }
 
@@ -143,15 +143,20 @@ header {
   height: 100px;
 }
 
-header > img {
-  margin-top: 20px;
-  width: 277px;
-}
-
 header > span {
   float: right;
   font-size: 14px;
   margin-top: 40px;
+}
+
+header > .logo {
+  margin-top: 25px;
+  width: 277px;
+  float: left;
+}
+
+header > .logo > img {
+  width: 277px;
 }
 
 header > a {
@@ -259,7 +264,7 @@ article > ul > li > input {
   outline-color: #8c0202;
 }
 
-article > ul > li > #sms {
+article > ul > li > #CodeForMobile {
   width: 260px;
 }
 

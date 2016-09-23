@@ -6,14 +6,19 @@ header{
     width: 1200px;
     margin: 0 auto;
     height: 100px;
-    >img{
-        margin-top: 20px;
-        width: 277px;
-    }
+   
     >span{
         float: right;
         font-size: 14px;
         margin-top: 40px;
+    }
+    >.logo{
+        margin-top: 25px;
+        width: 277px;
+        float: left;
+        >img{
+            width: 277px;
+        }
     }
     >a{
         float: right;
@@ -100,7 +105,7 @@ article{
                 padding-left: 10px;
                 outline-color: #8c0202;
             }
-            >#sms{
+            >#CodeForMobile{
              width: 260px;    
             }  
             >button{
@@ -146,7 +151,7 @@ article{
        height: 45px;
        line-height: 45px;
        text-align: center; 
-       background-color: #a45454;
+       background-color: #8c0202;
        color: #FFFFFF;
        cursor: pointer;
        float: right;

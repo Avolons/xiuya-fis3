@@ -57,12 +57,51 @@ article{
                     color: #990000;
                 }
             }
+            >.layer{
+                height: 30px;
+                width: 100%;
+                position: relative;
+                background-color: #fff4ca;
+                margin-bottom: 15px;
+                >p{
+                    display: none;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                   height: 100%;
+                   line-height: 30px;
+                   font-size: 12px;
+                   >i{
+                       margin: 0 10px;
+                   }
+                }
+                >.prompt{
+                    color: #656565;
+                    border: 1px solid #ffca00;
+                    background-color: #fff4ca;
+                    >i{
+                        color: #ffca00;
+                    }
+                }
+                >.warning{
+                    color: #990000;
+                    border: 1px solid #990000;
+                    background-color: #ffe8e8;
+                    >i{
+                        color: #990000;
+                    }
+                }
+                >.show{
+                    display: block;
+                }
+            }
             >form{
                 >input{
-                height: 50px;
+                height: 45px;
                 width: 100%;
                 display: block;
-                margin-bottom: 28px;
+                margin-bottom: 18px;
                 box-sizing: border-box;
                 padding-left: 45px;
             }
@@ -95,11 +134,11 @@ article{
                 color: #c5c5c5;
             }
              >.name{
-              top: 90px; 
+              top: 135px; 
               left: 60px; 
             }
             >.mima{
-              top: 168px;
+              top: 197px;
               left: 60px; 
               font-size: 24px;
             }

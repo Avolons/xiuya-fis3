@@ -130,62 +130,12 @@
 					<li class="courselist" v-bind:class="{'select':table.list.show}">
 						<ul>
 							<h5>目 录</h5>
-							<li>
+							<li v-for="item in courselist">
 								<ul>
-									<h6>第一章        指尖上的传承之玉雕</h6>
-									<li>
-									     课时1        中国玉文化概述	
-									  <time>00:20:35</time>
-									  <i class="iconfont">&#xe600;</i>
-									</li>
-									<li>
-										 课时1        中国玉文化概述	
-									  <time>00:20:35</time>
-									  <i class="iconfont">&#xe600;</i>
-									</li>
-									<li>
-										 课时1        中国玉文化概述	
-									  <time>00:20:35</time>
-									  <i class="iconfont">&#xe600;</i>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<ul>
-									<h6>第一章        指尖上的传承之玉雕</h6>
-									<li>
-									     课时1        中国玉文化概述	
-									  <time>00:20:35</time>
-									  <i class="iconfont">&#xe600;</i>
-									</li>
-									<li>
-										 课时1        中国玉文化概述	
-									  <time>00:20:35</time>
-									  <i class="iconfont">&#xe600;</i>
-									</li>
-									<li>
-										 课时1        中国玉文化概述	
-									  <time>00:20:35</time>
-									  <i class="iconfont">&#xe600;</i>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<ul>
-									<h6>第一章        指尖上的传承之玉雕</h6>
-									<li>
-									     课时1        中国玉文化概述	
-									  <time>00:20:35</time>
-									  <i class="iconfont">&#xe600;</i>
-									</li>
-									<li>
-										 课时1        中国玉文化概述	
-									  <time>00:20:35</time>
-									  <i class="iconfont">&#xe600;</i>
-									</li>
-									<li>
-										 课时1        中国玉文化概述	
-									  <time>00:20:35</time>
+									<h6>第{{chinaword[$index]}}章        {{item.title}}</h6>
+									<li v-for="ite in item.children">
+									           课时{{$index+1}}        {{ite.title}}
+									  <time>{{ite.time}}</time>
 									  <i class="iconfont">&#xe600;</i>
 									</li>
 								</ul>

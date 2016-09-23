@@ -89,9 +89,9 @@ table {
 
 @font-face {
   font-family: 'iconfont';
-  src: url("//at.alicdn.com/t/font_1474352451_6099696.eot");
+  src: url("//at.alicdn.com/t/font_1474597011_7443717.eot");
   /* IE9*/
-  src: url("//at.alicdn.com/t/font_1474352451_6099696.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_1474352451_6099696.woff") format("woff"), url("//at.alicdn.com/t/font_1474352451_6099696.ttf") format("truetype"), url("//at.alicdn.com/t/font_1474352451_6099696.svg#iconfont") format("svg");
+  src: url("//at.alicdn.com/t/font_1474597011_7443717.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_1474597011_7443717.woff") format("woff"), url("//at.alicdn.com/t/font_1474597011_7443717.ttf") format("truetype"), url("//at.alicdn.com/t/font_1474597011_7443717.svg#iconfont") format("svg");
   /* iOS 4.1- */
 }
 
@@ -259,5 +259,92 @@ nav > figure > .tec_change > .select:before {
 }
 
 article {
-  height: 1000px;
+  min-height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+article > section {
+  display: none;
+  margin-left: 240px;
+  width: 960px;
+}
+
+article > section > h2 {
+  height: 30px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #b09c56;
+  margin-bottom: 30px;
+}
+
+article > section > h2 > a {
+  line-height: 30px;
+  height: 30px;
+  display: block;
+  box-sizing: border-box;
+  color: #8C0202;
+  font-size: 16px;
+  border-bottom: 3px solid #6b0e04;
+  text-align: center;
+  width: 90px;
+  text-decoration: none;
+}
+
+article > .select {
+  display: block;
+}
+
+article > .tec_cur > ul {
+  width: 1038px;
+  height: 100%;
+  float: left;
+}
+
+article > .tec_cur > ul > li {
+  border: 1px solid #e4e4e4;
+  float: left;
+  width: 270px;
+  height: 230px;
+  margin-right: 75px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+article > .tec_cur > ul > li:hover {
+  box-shadow: -2px 4px 7px 0 rgba(0, 0, 0, 0.3);
+  background-color: #FFFFFF;
+}
+
+article > .tec_cur > ul > li > figure {
+  margin: 0;
+}
+
+article > .tec_cur > ul > li > figure > img {
+  display: block;
+  height: 170px;
+  width: 100%;
+}
+
+article > .tec_cur > ul > li > figure > h5 {
+  margin-top: 3px;
+  font-size: 14px;
+  color: #4b4a4a;
+  font-weight: 400;
+  text-indent: 5px;
+}
+
+article > .tec_cur > ul > li > figure > ul {
+  margin-top: 3px;
+  text-indent: 5px;
+}
+
+article > .tec_cur > ul > li > figure > ul > li {
+  float: left;
+  color: #504e4e;
+  font-size: 14px;
+  margin-right: 20px;
 }

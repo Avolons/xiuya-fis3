@@ -69,6 +69,10 @@
             "uri": "/lib/js/vjs-resolution-switcher/lib/videojs-resolution-switcher.css",
             "type": "css"
         },
+        "dist/lib/js/laypage/skin/laypage.css": {
+            "uri": "/dist/lib/js/laypage/skin/laypage.css",
+            "type": "css"
+        },
         "lib/js/video.js/dist/video-js.min.css": {
             "uri": "/lib/js/video.js/dist/video-js.min.css",
             "type": "css"
@@ -133,12 +137,16 @@
             "uri": "/static/app/masterinformation.js",
             "type": "js"
         },
+        "modules/css/message.scss": {
+            "uri": "/static/css/message.css",
+            "type": "css"
+        },
         "modules/css/mine.scss": {
             "uri": "/static/css/mine.css",
             "type": "css"
         },
-        "modules/html/person_cer/person_cer.scss": {
-            "uri": "/static/html/person_cer/person_cer.css",
+        "modules/html/person_password/person_password.scss": {
+            "uri": "/static/html/person_password/person_password.css",
             "type": "css"
         },
         "lib/js/distpicker/dist/distpicker.data.min.js": {
@@ -161,6 +169,10 @@
             "uri": "/static/html/person_card/person_card.css",
             "type": "css"
         },
+        "modules/html/person_cer/person_cer.scss": {
+            "uri": "/static/html/person_cer/person_cer.css",
+            "type": "css"
+        },
         "modules/html/person_cloud/person_cloud.scss": {
             "uri": "/static/html/person_cloud/person_cloud.css",
             "type": "css"
@@ -169,13 +181,41 @@
             "uri": "/static/html/person_course/person_course.css",
             "type": "css"
         },
+        "modules/html/person_editor/person_editor.scss": {
+            "uri": "/static/html/person_editor/person_editor.css",
+            "type": "css"
+        },
         "modules/html/person_msg/person_msg.scss": {
             "uri": "/static/html/person_msg/person_msg.css",
             "type": "css"
         },
-        "modules/html/person_password/person_password.scss": {
-            "uri": "/static/html/person_password/person_password.css",
+        "modules/html/person_myworks/person_myworks.scss": {
+            "uri": "/static/html/person_myworks/person_myworks.css",
             "type": "css"
+        },
+        "modules/html/person_queinf/person_queinf.scss": {
+            "uri": "/static/html/person_queinf/person_queinf.css",
+            "type": "css"
+        },
+        "modules/html/person_question/person_question.scss": {
+            "uri": "/static/html/person_question/person_question.css",
+            "type": "css"
+        },
+        "modules/css/news.scss": {
+            "uri": "/static/css/news.css",
+            "type": "css"
+        },
+        "modules/app/news.js": {
+            "uri": "/static/app/news.js",
+            "type": "js"
+        },
+        "modules/css/newsinformation.scss": {
+            "uri": "/static/css/newsinformation.css",
+            "type": "css"
+        },
+        "modules/app/newsinformation.js": {
+            "uri": "/static/app/newsinformation.js",
+            "type": "js"
         },
         "modules/css/password.scss": {
             "uri": "/static/css/password.css",

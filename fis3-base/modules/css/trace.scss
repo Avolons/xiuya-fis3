@@ -22,7 +22,7 @@ article{
                 top: 0px;
                 line-height: 35px;
                 text-align: center;
-                 border: 1px solid #9d0a0a;
+                 border: 2px solid #9d0a0a;
                  border-right: none;
                  box-sizing: border-box;
                  color: #d1d1d1;
@@ -35,7 +35,7 @@ article{
                 box-sizing: border-box;
                 padding-left: 55px;
                 background-color: #FFFFFF;
-                border: 1px solid #9d0a0a;
+                border: 2px solid #9d0a0a;
                 font-size: 14px;
                 float: left;
                 height: 43px;
@@ -104,13 +104,14 @@ article{
                     padding-left: 30px;
                     color: #575454;
                      font-size: 14px;
+                     width: calc(100% - 160px);
                 }
             }
             >.intr{
                 float: right;
                 width: 50%;
                 box-sizing: border-box;
-                height: 300px;
+                height: 250px;
                 border-right: 1px solid #dfdfdf;
                 border-bottom: 1px solid #dfdfdf;
                 background-color: #FFFFFF;
@@ -120,6 +121,19 @@ article{
                     line-height: 50px;
                     color: #151414;
                     font-size: 18px;
+                }
+            }
+            >.worksintr{
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                >h2{
+                    height: auto;
+                }
+                >p{
+                   line-height: 30px;
+                   padding: 0 30px;
                 }
             }
             >.worksimg{
@@ -134,6 +148,34 @@ article{
                     line-height: 50px;
                     color: #151414;
                     font-size: 18px;
+                }
+            }
+        }
+        >.twocode{
+            margin-top: 25px;
+            >img{
+                display: block;
+                height: 115px;
+                width: 115px;
+                float: left;
+            }
+            >h3{
+                font-size: 18px;
+                color: #424242;
+                float: left;
+                width: calc(100% - 115px);
+                text-indent: 10px;
+                margin-bottom: 10px;
+            }
+            >p{
+                font-size: 14px;
+                color: #424242;
+                float: left;
+                width: calc(100% - 115px);
+                text-indent: 10px;
+                line-height: 30px;
+                >a{
+                    color: #424242;
                 }
             }
         }

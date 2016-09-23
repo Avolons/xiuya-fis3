@@ -15,6 +15,17 @@ body {
         position: relative;
         >.noAll{
             padding-left: 0;
+            &:after{
+                display: block;
+                content: "";
+                float: left;
+                height: 20px;
+                width: 20px;
+                text-align: center;
+                line-height: 20px;
+                margin-top: 5px;
+                transform :translateX(-30px); 
+            }
             &:hover {
                 height: 28px;
                 border: 1px solid #860403;
@@ -37,7 +48,7 @@ body {
                 width: 20px;
                 text-align: center;
                 line-height: 20px;
-                margin-top: 5px;
+                margin-top: 3px;
                 transform :translateX(-30px);
             }
         }
@@ -119,7 +130,6 @@ body {
         z-index: -3;
         padding: 5px 0 5px 100px;
         border: 1px solid #dadada;
-        height: 30px;
         >span {
             float: left;
             display: block;
