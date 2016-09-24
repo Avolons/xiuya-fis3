@@ -195,16 +195,4 @@ fis.media('prd')
         })
     });
 	
-	<video id="my-video" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" autoplay="autoplay" poster="/themes/chinaaet/page/videoPlayer/img/3334747hd.jpg" ata-setup="{}" >
-						<!--<source src=" http://7xpfpu.com2.z0.glb.qiniucdn.com/32c21bb95cb74a929149eb8165d85cfb.m3u8" type="application/x-mpegURL"></source>-->
-						
-						<source src="http://cdn.theoplayer.com/video/big_buck_bunny/big_buck_bunny_metadata.m3u8" type="application/x-mpegURL"></source>
-					    <!--<source src="http://www.html5tricks.com/demo/html5-canvas-video/BigBuckBunny_640x360.mp4" type='video/mp4'></source>-->
-					   
-					    <!--<source src="../../static/video/3334747hd.m4v" type='video/m4v'></source>-->
-					    <!--<source src="../../static/video/3334747hd.webm" type="video/webm"></source>--> 	
-					    <!--<p class="vjs-no-js">
-					      To view this video please enable JavaScript, and consider upgrading to a web browser that
-					      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-					    </p>-->
-		            </video>
+	
