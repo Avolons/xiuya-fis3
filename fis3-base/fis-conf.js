@@ -1,7 +1,7 @@
 // 设置项目属性
 fis.set('project.name', 'xiuya');
 fis.set('project.static', '/static');
-fis.set('project.files', ['*.html', 'map.json', '/test/*']);
+fis.set('project.files', ['*.html', 'map.json', '/test/*','/lib/**/*']);
 
 // 引入模块化开发插件，设置规范为 commonJs 规范。
 
@@ -18,11 +18,15 @@ fis.match('/modules/**', {
 });
 
 
-// ------ 配置lib
-fis.match('/lib/**.js', {
-    release: '${project.static}/$&'
-});
 
+// ------ 配置lib
+//fis.match('/lib/**/*', {
+//  release: '${project.static}/$0'
+//});
+
+fis.match('/lib/**/*', {
+    release: '$0'
+});
 
 // ------ 配置components
 fis.match('/components/**', {

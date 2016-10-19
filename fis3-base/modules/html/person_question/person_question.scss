@@ -6,10 +6,10 @@
         width: 270px;
     }
     .width-3 {
-        width: 90px;
+        width: 122.5px;
     }
     .width-4 {
-        width: 155px;
+        width: 122.5px;
     }
     .width-5 {
         width: 85px;
@@ -118,10 +118,18 @@
                     font-weight: 700;
                 }
                 >.width-3{
+                	box-sizing:border-box ;
                     text-align: center;
+                     padding: 0 10px;
+                     padding-top: 15px;
+                     line-height: 20px;
                 }
                 >.width-4{
+                	box-sizing:border-box ;
                     text-align: center;
+                    padding: 0 10px;
+                    padding-top: 15px;
+                    line-height: 20px;
                 }
                 >.width-5{
                     text-align: center;

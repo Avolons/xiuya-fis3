@@ -11,6 +11,7 @@ nav{
     background-image: url(../../img/master/master-hbc.png);
     width: 100%;
     height: 200px;
+    position: absolute;
     >figure{
         width: 1200px;
         margin: 0 auto;
@@ -111,7 +112,7 @@ article{
     min-height: 700px;
     width: 1200px;
     margin: 0 auto;
-    padding-top: 65px;
+    padding-top: 265px;
     >section{
         display: none;
         margin-left: 240px;

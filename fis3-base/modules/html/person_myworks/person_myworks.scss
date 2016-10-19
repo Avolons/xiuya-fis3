@@ -10,7 +10,7 @@
         padding-right: 35px;
         background-color: #FFFFFF;
         position: relative;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         >button {
             height: 33px;
             line-height: 33px;
@@ -81,6 +81,8 @@
                         display: block;
                     }
                     >h5 {
+                    	width: calc(100% - 100px);
+                    	text-align: left;
                         font-size: 14px;
                         color: #3f3f3f;
                         float: left;
@@ -91,6 +93,8 @@
                         margin-top: 10px;
                     }
                     >p {
+                    	width: calc(100% - 100px);
+                    	text-align: left;
                         font-size: 14px;
                         color: #3f3f3f;
                         float: left;

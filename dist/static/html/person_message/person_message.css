@@ -1,0 +1,115 @@
+.person-message {
+  width: 100%;
+}
+
+.person-message > h1 {
+  height: 50px;
+  line-height: 50px;
+  color: #313131;
+  font-size: 17px;
+  background-color: #FFFFFF;
+  width: 100%;
+  padding-left: 37px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.person-message > nav {
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  padding-left: 37px;
+}
+
+.person-message > nav > ul > li {
+  float: left;
+  color: #313131;
+  font-size: 16px;
+  cursor: pointer;
+  width: 93px;
+  height: 35px;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 35px;
+  margin-right: 50px;
+}
+
+.person-message > nav > ul > li:hover {
+  color: #FFFFFF;
+  background-color: #8b0303;
+}
+
+.person-message > nav > ul > .select {
+  color: #FFFFFF;
+  background-color: #8b0303;
+}
+
+.person-message > article {
+  width: 100%;
+  margin: 10px auto 0;
+  min-height: 493px;
+  background-color: #FFFFFF;
+}
+
+.person-message > article > ul {
+  background-color: #FFFFFF;
+  margin-bottom: 180px;
+  min-height: 300px;
+}
+
+.person-message > article > ul > .read {
+  font-weight: 400;
+}
+
+.person-message > article > ul > li {
+  position: relative;
+  font-weight: 700;
+  cursor: pointer;
+  height: 60px;
+  border-bottom: 1px dashed #d9d3bf;
+  padding: 20px 40px 15px 37px;
+  box-sizing: border-box;
+}
+
+.person-message > article > ul > li:hover > span {
+  display: block;
+}
+
+.person-message > article > ul > li > span {
+  display: none;
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  font-weight: 400;
+  color: #939393;
+  font-size: 18px;
+}
+
+.person-message > article > ul > li > span:hover {
+  color: #8b0303;
+}
+
+.person-message > article > ul > li:hover {
+  background-color: #DADADA;
+}
+
+.person-message > article > ul > li:hover > a > p {
+  color: #8b0303;
+}
+
+.person-message > article > ul > li > a > p {
+  display: block;
+  color: #1b1b1b;
+  font-size: 12px;
+}
+
+.person-message > article > ul > li > a > time {
+  display: block;
+  color: #878787;
+  font-size: 12px;
+  text-align: right;
+}

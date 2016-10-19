@@ -4,9 +4,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>琇雅-视屏播放</title>
-		<link rel="stylesheet" type="text/css" href="lib/js/video.js/dist/video-js.min.css" />
-		<link rel="stylesheet" type="text/css" href="lib/js/vjs-resolution-switcher/lib/videojs-resolution-switcher.css" />
 		<link rel="stylesheet" type="text/css" href="modules/css/player.scss" />
+		<link rel="stylesheet" type="text/css" href="lib/js/laypage/skin/laypage.css"/>
 	</head>
 
 	<body>
@@ -18,16 +17,31 @@
 				<li class="header_left size-14">正在播放：{{headerTitle}}</li>
 				<li class="header_left alltime">总时长：{{headerAllTime}}分钟</li>
 				<li class="header_left">已学时长：{{headerHaveTime}}分钟</li>
-				<li class="header_right functions">Hi，hjj黄姣姣 <button type="button" class="cusor_hand">【退出】</button><span></span></li>
+				<li class="header_right functions">Hi，hjj黄姣姣 
+					<button type="button" class="cusor_hand"><a href="">【退出】</a></button>
+					<span></span>
+					<ul class="function-lists">
+		         		<div class="fun-inf">
+		         			<img src="../../../img/common/header-arcter.png"/>
+		         			<span>hijj黄娇娇</span>
+		         			<span>已学习&nbsp;&nbsp;16小时</span>
+		         		</div>
+		         		<li><a href="">激活学习卡</a></li> 
+		         		<li><a href="">我的课程</a></li>
+		         		<li><a href="">我的交易</a></li>
+		         		<li><a href="">个人资料</a></li>
+		         		<li><a href="">退出</a></li>
+		        </ul>  
+				</li>
 				<li class="header_right cusor_hand"><i class="iconfont">&#xe601</i>消息({{headerMessage}})</li>
 			</ul>
 		</header>
 		<article>
-			<!-- 左部视屏播放区域 -->
+			<!-- 左部视屏播放区域 ,pdf播放区域-->
 			<section class="article_left">
-				<div class="videoPlayer">
-					<video src="" controls="" preload="auto" poster="./img/videoplayer/video-content-poster.jpg" id="video" class="video-js vjs-default-skin vjs-big-play-centered">
-					</video>
+				<!--视屏播放器-->
+				<div class="videoPlayer" id="videoplayer" style="position: relative;">
+								
 				</div>
 				<nav class="nav_bottom size-12">
 					<i class="iconfont">&#xe602</i>
@@ -35,6 +49,10 @@
 					<span class="studypeople">•学习人数209人</span>
 					<span class="playtime">203次播放</span>
 				</nav>
+				<!--pdf播放器，使用绝对定位，浮动在视屏播放器之上，需要时出现，不需要时隐藏-->
+				<div class="pdfplayer" id="pdfplayer">
+					
+				</div>
 			</section>
 			<!-- 右部列表区域 -->
 			<section class="article_right" v-bind:class="{ 'checked':rightShow}">
@@ -52,8 +70,10 @@
 							<!-- 课程标题 -->
 							<h1 class="overflow_pre size-16">{{courseList.title}}</h1>
 							<ul>
+								
 								<li v-for="item in courseList.childernone">
-									<h2 class="overflow_pre size-14">第一课时&nbsp;&nbsp;{{item.title}}</h2>
+									<h2 v-if="courseList.type" class="overflow_pre size-14">{{courseindex[$index]}}&nbsp;&nbsp;{{item.title}}</h2>
+									<h2 v-else class="overflow_pre size-14">{{item.title}}</h2>
 									<ul>
 										<li class="overflow_pre size-12 cusor_hand" v-for="ite in item.childern" v-bind:class="{ 'select':ite.select}" v-on:click="videocheck(ite)"><i class="iconfont ">&#xe600</i>&nbsp;{{$index+1}}&nbsp;{{ite.title}}&nbsp;&nbsp;({{ite.alltime}})</li>
 										<!-- <li class="overflow_pre size-12 cusor_hand"><i class="iconfont ">&#xe600</i>8090后员工管理方法(50:25)</li>
@@ -61,7 +81,7 @@
 									</ul>
 								</li>
 							</ul>
-						</li>
+						</li> 
 						<!-- 我的笔记 -->
 						<li class="myNote" v-bind:class="{ 'isshow':tabelcheck.leftcheck.note.value}">
 							<!-- 输入框区域 -->
@@ -80,7 +100,7 @@
 									<!-- 全部笔记 -->
 									<li class="allnote" v-bind:class="{ 'select':tabelcheck.notecheck.allnote.value}">
 										<ul>
-											<li class="clear" v-for="item in noteData.allnote">
+											<li class="clear" v-for="item in noteData.allnote.list">
 												<img src={{item.img}} alt="img" />
 												<h5 class="size-14 overflow_pre">{{item.title}}</h5>
 												<p class="size-12">
@@ -89,11 +109,16 @@
 												<span class="time size-12">{{item.time}} </span>
 											</li>
 										</ul>
+										<template v-if="noteData.allnote.number>30">
+										<div id="notepage">
+											
+										</div>
+										</template> 
 									</li>
 									<!-- 我的笔记 -->
 									<li class="mynote" v-bind:class="{ 'select':tabelcheck.notecheck.mynote.value}">
 										<ul>
-											<li class="clear" v-for="item in noteData.mynote">
+											<li class="clear" v-for="item in noteData.mynote.list">
 												<img src={{item.img}} alt="img" />
 												<h5 class="size-14 overflow_pre">{{item.title}}</h5>
 												<p class="size-12">
@@ -102,6 +127,9 @@
 												<span class="time size-12">{{item.time}} </span>
 											</li>
 										</ul>
+										<template v-if="noteData.mynote.number>30">
+										<h3 v-on:click="">查看全部...</h3>
+										</template>
 									</li>
 								</ul>
 							</div>
@@ -109,10 +137,15 @@
 						<!-- 我的问答 -->
 						<li class="myAnswer" v-bind:class="{ 'isshow':tabelcheck.leftcheck.answer.value}">
 							<!-- 问题输入框区域 -->
-							<div class="input-area clear">
+							<!--<div class="input-area clear">
 								<textarea placeholder="请输入你的提问内容..." class="size-12" v-model="answerInput"></textarea>
 								<span>最多可以输入100字</span>
 								<button type="button" class="size-14 cusor_hand" v-on:click="publishanswer(answerInput)">发布</button>
+							</div>-->
+							<div>
+								<button type="button" v-on:click="proask()">
+								我要提问
+							   </button>
 							</div>
 							<!-- 问答列表 -->
 							<div class="list-area">
@@ -124,7 +157,7 @@
 									<!-- 全部问答 -->
 									<li class="allaq" v-bind:class="{ 'select':tabelcheck.answercheck.allanswer.value}">
 										<ul>
-											<li class="clear" v-for="item in answerData.allanswer">
+											<li class="clear" v-for="item in answerData.allanswer.list">
 												<img src={{item.img}} alt="img" />
 												<h5 class="size-14 overflow_pre">{{item.title}}</h5>
 												<p class="size-12">
@@ -135,11 +168,16 @@
 												<i class="iconfont size-12">&#xe603</i>
 											</li>
 										</ul>
+										<template v-if="answerData.allanswer.number>30">
+										<div id="questionpage">
+											
+										</div>
+										</template>
 									</li>
 									<!-- 我的问答 -->
 									<li class="myaq" v-bind:class="{ 'select':tabelcheck.answercheck.myanswer.value}">
 										<ul>
-											<li class="clear" v-for="item in answerData.myanswer">
+											<li class="clear" v-for="item in answerData.myanswer.list">
 												<img src={{item.img}} alt="img" />
 												<h5 class="size-14 overflow_pre">{{item.title}}</h5>
 												<p class="size-12">
@@ -150,6 +188,9 @@
 												<i class="iconfont size-12">&#xe603</i>
 											</li>
 										</ul>
+										<template v-if="answerData.myanswer.number>30">
+										<h3 v-on:click="">查看全部...</h3>
+										</template>
 									</li>
 								</ul>
 							</div>
@@ -158,11 +199,12 @@
 				</div>
 			</section>
 		</article>
-		<script src="lib/js/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/js/jquery/dist/jquery-2.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/js/laypage/laypage.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/js/layer/layer/layer.js" type="text/javascript" charset="utf-8"></script>
 		<script src="lib/js/vue/dist/vue.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="lib/js/video.js/dist/video.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="lib/js/video.js/dist/videojs-contrib-hls.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="lib/js/vjs-resolution-switcher/lib/videojs-resolution-switcher.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/js/ckplayer/ckplayer/ckplayer.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/js/PDFObject/pdfobject.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="modules/app/player.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 

@@ -1,0 +1,147 @@
+.person_card {
+  width: 100%;
+}
+
+.person_card > h1 {
+  height: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  color: #313131;
+  font-size: 17px;
+  padding-right: 35px;
+  background-color: #FFFFFF;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.person_card > h1 > button {
+  height: 33px;
+  line-height: 33px;
+  text-align: center;
+  color: #FFFFFF;
+  float: right;
+  background-color: #7a0907;
+  font-size: 14px;
+  border: none;
+  padding: 0 15px;
+  border-radius: 3px;
+  margin-top: 8px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
+}
+
+.person_card > h1 > button:hover {
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.7);
+}
+
+.person_card .width-1 {
+  width: 270px;
+}
+
+.person_card .width-2 {
+  width: 200px;
+}
+
+.person_card .width-3 {
+  width: 140px;
+}
+
+.person_card .width-4 {
+  width: 230px;
+}
+
+.person_card > .type-check {
+  margin-top: 10px;
+  height: 50px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  padding-left: 40px;
+}
+
+.person_card > .type-check > li {
+  float: left;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #3f3f3f;
+}
+
+.person_card > .type-check > .width-1 {
+  text-align: left;
+}
+
+.person_card > .worklist > li {
+  height: 105px;
+  box-sizing: border-box;
+  padding: 17px 0 17px 40px;
+  margin-top: 5px;
+  background-color: #FFFFFF;
+}
+
+.person_card > .worklist > li > ul > li {
+  line-height: 70px;
+  font-size: 14px;
+  color: #3f3f3f;
+  float: left;
+  text-align: center;
+}
+
+.person_card > .worklist > li > ul > li > img {
+  width: 100px;
+  height: 66px;
+  float: left;
+  display: block;
+}
+
+.person_card > .worklist > li > ul > li > h5 {
+  width: calc(100% - 100px);
+  text-align: left;
+  font-size: 14px;
+  color: #3f3f3f;
+  float: left;
+  height: 25px;
+  line-height: 25px;
+  text-indent: 10px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.person_card > .worklist > li > ul > li > p {
+  width: calc(100% - 100px);
+  text-align: left;
+  font-size: 14px;
+  color: #3f3f3f;
+  float: left;
+  height: 25px;
+  line-height: 25px;
+  text-indent: 10px;
+}
+
+.person_card > .worklist > li > ul > li > button {
+  width: 46px;
+  height: 24px;
+  border: 1px solid #7a0907;
+  font-size: 14px;
+  color: #3f3f3f;
+  line-height: 24px;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
+  background-color: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.person_card > .worklist > li > ul > li > button:hover {
+  color: #FFFFFF;
+  background-color: #7a0907;
+}
+
+.person_card > #pagecontrol {
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+}

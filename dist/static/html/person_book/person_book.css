@@ -1,0 +1,108 @@
+.person_book {
+  width: 100%;
+}
+
+.person_book .width-1 {
+  width: 37px;
+}
+
+.person_book .width-2 {
+  width: 175px;
+}
+
+.person_book .width-3 {
+  width: 166px;
+}
+
+.person_book .width-4 {
+  width: 162px;
+}
+
+.person_book .width-5 {
+  width: 142px;
+}
+
+.person_book .width-6 {
+  width: 170px;
+}
+
+.person_book > h1 {
+  height: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  color: #313131;
+  font-size: 17px;
+  padding-right: 35px;
+  background-color: #FFFFFF;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.person_book > .type-check {
+  box-sizing: border-box;
+  padding-left: 40px;
+  height: 50px;
+  background-color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.person_book > .type-check > li {
+  float: left;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 13px;
+  color: #424242;
+}
+
+.person_book > .cloud-list {
+  width: 100%;
+}
+
+.person_book > .cloud-list > li {
+  background-color: #FFFFFF;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.person_book > .cloud-list > li > h5 {
+  text-align: left;
+  border-bottom: 1px solid #f2f1f1;
+  box-sizing: border-box;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 40px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #363636;
+}
+
+.person_book > .cloud-list > li > ul {
+  padding-left: 40px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+}
+
+.person_book > .cloud-list > li > ul > li {
+  display: block;
+  float: left;
+  font-size: 12px;
+  color: #5b5b5b;
+  max-height: 80px;
+  line-height: 30px;
+  box-sizing: border-box;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+.person_book > .cloud-list > li > ul > li > button {
+  border: none;
+  padding: 0 15px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.person_book > .cloud-list > li > ul .color {
+  color: #8c0202;
+}

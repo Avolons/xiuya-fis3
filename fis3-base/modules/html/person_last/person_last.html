@@ -33,7 +33,17 @@
 				<p><i class="iconfont">&#xe612;</i>按住左侧移动标志即可进行位置的拖放改变</p>
 			</li>
 		</ul>
+		<div class="passvalue">
+			<input type="radio" name="pass" id="pass" value="" /><label for="pass">通过</label>
+			<input type="radio" name="pass" id="nopass" value="" /><label for="nopass">不通过</label>
+			<textarea name="" ></textarea>
+		</div>
+		<p>(当前有模块框内容为空，请重新编辑后再次尝试保存)</p>
+		<div class="outer">
+			<button type="button">返回</button>
 		<button type="button">保存</button>
+		</div>
+		
 	</div>
 </div>
 <script src="../../../lib/js/jquery/dist/jquery-2.1.0.min.js" type="text/javascript" charset="utf-8"></script>
@@ -72,7 +82,7 @@
         }
         return true;
     }
-	$('.delet').on("click",function() {
+	$('#editor').on("click",".delet",function() {
 		domlist.removeChild(this.parentNode);
 	})
 	$("#addimg").click(function  () {

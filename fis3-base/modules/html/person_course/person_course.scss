@@ -10,7 +10,7 @@
         padding-right: 35px;
         background-color: #FFFFFF;
         position: relative;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     >.cloud-list{
         width: 100%;
@@ -44,6 +44,19 @@
                 }
                 >figure {
                     margin: 0;
+                    position: relative;
+                    >aside{
+                    	position: absolute;
+                    	height: 25px;
+                    	width: 50px;
+                    	background-color: #8C0202;
+                    	font-size: 12px;
+                    	color: #FFFFFF;
+                    	top: 0;
+                    	left: 20px;
+                    	text-align: center;
+                    	line-height: 25px;
+                    }
                     >img {
                         width: 250px;
                         height: 150px;

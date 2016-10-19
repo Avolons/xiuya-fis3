@@ -1,0 +1,369 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form,
+fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0;
+  font-family: '微软雅黑';
+}
+
+body, button, input, select, textarea {
+  font: 12px/1.5tahoma, arial, \5b8b\4f53;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+address, cite, dfn, em, var {
+  font-style: normal;
+}
+
+code, kbd, pre, samp {
+  font-family: couriernew, courier, monospace;
+}
+
+small {
+  font-size: 12px;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+legend {
+  color: #000;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+button, input, select, textarea {
+  font-size: 100%;
+  font-family: '微软雅黑';
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background: #999999;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("//at.alicdn.com/t/font_1475980840_0901175.eot");
+  /* IE9*/
+  src: url("//at.alicdn.com/t/font_1475980840_0901175.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_1475980840_0901175.woff") format("woff"), url("//at.alicdn.com/t/font_1475980840_0901175.ttf") format("truetype"), url("//at.alicdn.com/t/font_1475980840_0901175.svg#iconfont") format("svg");
+  /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont";
+  font-size: 14px;
+  font-style: normal;
+}
+
+.size-12 {
+  font-size: 12px;
+}
+
+.size-14 {
+  font-size: 14px;
+}
+
+.size-16 {
+  font-size: 16px;
+}
+
+.size-18 {
+  font-size: 18px;
+}
+
+.cusor_hand {
+  cursor: pointer;
+}
+
+.overflow_pre {
+  overflow: hidden;
+  white-space: pre;
+  text-overflow: ellipsis;
+}
+
+.clear:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+body {
+  background-image: url("/img/common/content-bc.png");
+}
+
+article {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  padding: 0 40px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  padding-bottom: 120px;
+}
+
+article > h2 {
+  border-bottom: 1px solid #b09c56;
+  line-height: 45px;
+  color: #000000;
+  font-size: 14px;
+  height: 45px;
+}
+
+article > h2:after {
+  display: block;
+  content: "";
+  height: 15px;
+  width: 15px;
+  border-radius: 2px;
+  background-color: #8c0202;
+  float: left;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+
+article > figure {
+  position: relative;
+  margin: 0;
+  width: 370px;
+  height: 225px;
+  margin-top: 10px;
+}
+
+article > figure > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+article > figure > span {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 25px;
+  width: 45px;
+  background-image: url("/img/purchase/purchase_nice.png");
+}
+
+article > figure > p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 25px;
+  line-height: 25px;
+  width: 100%;
+  text-indent: 5px;
+  font-size: 12px;
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+article > figure > p > span {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 60px;
+  height: 100%;
+  background-color: #a18b3d;
+}
+
+article > ul {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  width: 630px;
+  border: 1px solid #d4d4d4;
+}
+
+article > ul .long {
+  width: 300px;
+}
+
+article > ul .short {
+  width: 80px;
+}
+
+article > ul > div {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 0;
+  border-bottom: 1px solid #d4d4d4;
+  background-color: #f8f8f8;
+}
+
+article > ul > div > span {
+  width: 125px;
+  font-size: 14px;
+  color: #424242;
+  text-align: center;
+  display: inline-block;
+}
+
+article > ul > li {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  font-size: 0;
+}
+
+article > ul > li > p {
+  float: left;
+  width: 125px;
+  font-size: 12px;
+  color: #737373;
+  text-align: center;
+  height: 40px;
+}
+
+article > ul > li > p > span {
+  margin: 12.5px auto 0;
+  display: block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: relative;
+  border: 2px solid #8e8e8e;
+  cursor: pointer;
+}
+
+article > ul > li > p > .select {
+  border-color: #8c0202;
+}
+
+article > ul > li > p > .select:after {
+  display: block;
+  content: "";
+  width: 5px;
+  height: 5px;
+  top: 3px;
+  left: 3px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #8c0202;
+}
+
+article > h3 {
+  font-size: 14px;
+  color: #353535;
+  margin-bottom: 20px;
+}
+
+article > h3 > span {
+  color: #8c0202;
+}
+
+article > div > button {
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-right: 10px;
+  border: none;
+  background-color: #999999;
+}
+
+article > div > .select {
+  background-color: #8c0202;
+}
+
+article > section {
+  display: none;
+}
+
+article > section > h2 {
+  width: 260px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #282828;
+  margin-bottom: 30px;
+}
+
+article > section > aside {
+  width: calc(100% - 260px);
+}
+
+article > section > aside ul > li {
+  margin-bottom: 20px;
+}
+
+article > section > aside ul > li > h3 {
+  text-align: right;
+  width: 90px;
+  color: #1a1a1a;
+  font-size: 14px;
+  float: left;
+  line-height: 30px;
+}
+
+article > section > aside ul > li > h3 > span {
+  color: #8b0203;
+}
+
+article > section > aside ul > li > input {
+  height: 30px;
+  display: block;
+  float: left;
+  width: 260px;
+  font-size: 14px;
+  text-indent: 5px;
+}
+
+article > section > aside ul > li > .long {
+  width: 400px;
+}
+
+article > section > aside ul > li > textarea {
+  resize: none;
+  width: 400px;
+  height: 90px;
+}

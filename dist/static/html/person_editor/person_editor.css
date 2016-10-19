@@ -1,0 +1,171 @@
+.person-editor {
+  width: 100%;
+}
+
+.person-editor > h1 {
+  height: 50px;
+  line-height: 50px;
+  color: #313131;
+  font-size: 17px;
+  background-color: #FFFFFF;
+  width: 100%;
+  padding-left: 37px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.person-editor > .content {
+  height: 750px;
+  background-color: #ffffff;
+  padding: 30px 150px;
+  box-sizing: border-box;
+}
+
+.person-editor > .content > ul > li {
+  margin-bottom: 10px;
+}
+
+.person-editor > .content > ul > li:after {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+.person-editor > .content > ul > li > span {
+  width: 85px;
+  color: #313131;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+}
+
+.person-editor > .content > ul > li > h2 {
+  width: 91px;
+  margin-left: -6px;
+  color: #313131;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  float: left;
+}
+
+.person-editor > .content > ul > li > h2 > span {
+  color: #8c0202;
+  line-height: 30px;
+}
+
+.person-editor > .content > ul > li > p {
+  float: left;
+  color: #313131;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.person-editor > .content > ul > li > input {
+  float: left;
+  color: #313131;
+  font-size: 14px;
+  height: 30px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  display: inline-block;
+  outline-style: none;
+}
+
+.person-editor > .content > ul > li > div {
+  float: left;
+  padding-top: 5px;
+}
+
+.person-editor > .content > ul > li > div > a {
+  margin-bottom: 10px;
+  display: block;
+  border-radius: 5px;
+  position: relative;
+  height: 26px;
+  width: 80px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: #8c0202;
+  cursor: pointer;
+}
+
+.person-editor > .content > ul > li > div > a > input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.person-editor > .content > ul > li > div > div > div > span {
+  color: #8C0202;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.person-editor > .content > ul > li > div > div > span {
+  font-size: 12px;
+  color: #323231;
+}
+
+.person-editor > .content > ul > li > textarea {
+  width: 450px;
+  height: 100px;
+  outline-style: none;
+  resize: none;
+  border-color: #c7c7c7;
+}
+
+.person-editor > .content > ul > li > select {
+  height: 30px;
+  width: 65px;
+  box-sizing: border-box;
+  outline-style: none;
+  border-color: #c7c7c7;
+}
+
+.person-editor > .content > ul > li > ul {
+  float: left;
+  width: 475px;
+  margin-top: 5px;
+}
+
+.person-editor > .content > ul > li > ul > li {
+  width: 20%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.person-editor > .content > ul > li > ul > li > label {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #515151;
+}
+
+.person-editor > .content > .outer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.person-editor > .content > .outer > button {
+  width: 70px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: #8c0202;
+  margin: 0 auto;
+  height: 30px;
+  padding: 0 10px;
+  line-height: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}

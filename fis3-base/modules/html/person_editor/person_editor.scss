@@ -136,9 +136,14 @@
                 }
             }
         }
-        >button{
+        >.outer{
+        	 margin-top: 30px;
+        	 text-align: center;
+        	  >button{
+        	  	width: 70px;
+        	  	text-align: center;
             border: none;
-            display: block;
+//          display: block;
             border-radius: 5px;
             color: #FFFFFF;
             background-color: #8c0202;
@@ -148,8 +153,10 @@
             line-height: 30px;
             font-size: 14px;
             cursor: pointer;
-            margin-top: 30px;
+           
         }
+        }
+       
     }
     
 }

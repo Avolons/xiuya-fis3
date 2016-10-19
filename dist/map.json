@@ -1,0 +1,1390 @@
+{
+    "res": {
+        "test/dynamic.js": {
+            "uri": "/test/dynamic.js",
+            "type": "js"
+        },
+        "lib/es5-sham.js": {
+            "uri": "/lib/es5-sham.js",
+            "type": "js"
+        },
+        "lib/es5-shim.js": {
+            "uri": "/lib/es5-shim.js",
+            "type": "js"
+        },
+        "lib/html5-shim.js": {
+            "uri": "/lib/html5-shim.js",
+            "type": "js"
+        },
+        "lib/js/ckplayer/ckplayer/ckplayer.js": {
+            "uri": "/lib/js/ckplayer/ckplayer/ckplayer.js",
+            "type": "js"
+        },
+        "lib/js/ckplayer/js/offlights.js": {
+            "uri": "/lib/js/ckplayer/js/offlights.js",
+            "type": "js"
+        },
+        "lib/js/ddsort/ddsort.js": {
+            "uri": "/lib/js/ddsort/ddsort.js",
+            "type": "js"
+        },
+        "lib/js/distpicker/css/htmleaf-demo.css": {
+            "uri": "/lib/js/distpicker/css/htmleaf-demo.css",
+            "type": "css"
+        },
+        "lib/js/distpicker/css/main.css": {
+            "uri": "/lib/js/distpicker/css/main.css",
+            "type": "css"
+        },
+        "lib/js/distpicker/css/normalize.css": {
+            "uri": "/lib/js/distpicker/css/normalize.css",
+            "type": "css"
+        },
+        "lib/js/distpicker/dist/distpicker.data.js": {
+            "uri": "/lib/js/distpicker/dist/distpicker.data.js",
+            "type": "js"
+        },
+        "lib/js/distpicker/dist/distpicker.data.min.js": {
+            "uri": "/lib/js/distpicker/dist/distpicker.data.min.js",
+            "type": "js"
+        },
+        "lib/js/distpicker/dist/distpicker.js": {
+            "uri": "/lib/js/distpicker/dist/distpicker.js",
+            "type": "js"
+        },
+        "lib/js/distpicker/dist/distpicker.min.js": {
+            "uri": "/lib/js/distpicker/dist/distpicker.min.js",
+            "type": "js"
+        },
+        "lib/js/distpicker/js/distpicker.data.js": {
+            "uri": "/lib/js/distpicker/js/distpicker.data.js",
+            "type": "js"
+        },
+        "lib/js/distpicker/js/distpicker.js": {
+            "uri": "/lib/js/distpicker/js/distpicker.js",
+            "type": "js"
+        },
+        "lib/js/distpicker/js/jquery-1.11.0.min.js": {
+            "uri": "/lib/js/distpicker/js/jquery-1.11.0.min.js",
+            "type": "js"
+        },
+        "lib/js/distpicker/js/main.js": {
+            "uri": "/lib/js/distpicker/js/main.js",
+            "type": "js"
+        },
+        "lib/js/distpicker/src/distpicker.data.js": {
+            "uri": "/lib/js/distpicker/src/distpicker.data.js",
+            "type": "js"
+        },
+        "lib/js/distpicker/src/distpicker.js": {
+            "uri": "/lib/js/distpicker/src/distpicker.js",
+            "type": "js"
+        },
+        "lib/js/jqcool.net-Glide.js/dist/css/gulid.css": {
+            "uri": "/lib/js/jqcool.net-Glide.js/dist/css/gulid.css",
+            "type": "css"
+        },
+        "lib/js/jqcool.net-Glide.js/dist/jquery.glide.js": {
+            "uri": "/lib/js/jqcool.net-Glide.js/dist/jquery.glide.js",
+            "type": "js"
+        },
+        "lib/js/jqcool.net-Glide.js/dist/jquery.glide.min.js": {
+            "uri": "/lib/js/jqcool.net-Glide.js/dist/jquery.glide.min.js",
+            "type": "js"
+        },
+        "lib/js/jquery.caroursel.js/css/carousel.css": {
+            "uri": "/lib/js/jquery.caroursel.js/css/carousel.css",
+            "type": "css"
+        },
+        "lib/js/jquery.caroursel.js/css/default.css": {
+            "uri": "/lib/js/jquery.caroursel.js/css/default.css",
+            "type": "css"
+        },
+        "lib/js/jquery.caroursel.js/css/normalize.css": {
+            "uri": "/lib/js/jquery.caroursel.js/css/normalize.css",
+            "type": "css"
+        },
+        "lib/js/jquery.caroursel.js/js/jquery.carousel.js": {
+            "uri": "/lib/js/jquery.caroursel.js/js/jquery.carousel.js",
+            "type": "js"
+        },
+        "lib/js/jquery/dist/jquery-2.1.0.js": {
+            "uri": "/lib/js/jquery/dist/jquery-2.1.0.js",
+            "type": "js"
+        },
+        "lib/js/jquery/dist/jquery-2.1.0.min.js": {
+            "uri": "/lib/js/jquery/dist/jquery-2.1.0.min.js",
+            "type": "js"
+        },
+        "lib/js/jquery/dist/jquery.js": {
+            "uri": "/lib/js/jquery/dist/jquery.js",
+            "type": "js"
+        },
+        "lib/js/jquery/dist/jquery.min.js": {
+            "uri": "/lib/js/jquery/dist/jquery.min.js",
+            "type": "js"
+        },
+        "lib/js/layer/layer/layer.js": {
+            "uri": "/lib/js/layer/layer/layer.js",
+            "type": "js"
+        },
+        "lib/js/layer/layer/skin/layer.css": {
+            "uri": "/lib/js/layer/layer/skin/layer.css",
+            "type": "css"
+        },
+        "lib/js/laypage/laypage.js": {
+            "uri": "/lib/js/laypage/laypage.js",
+            "type": "js"
+        },
+        "lib/js/laypage/skin/laypage.css": {
+            "uri": "/lib/js/laypage/skin/laypage.css",
+            "type": "css"
+        },
+        "lib/js/mySilder/css/style.css": {
+            "uri": "/lib/js/mySilder/css/style.css",
+            "type": "css"
+        },
+        "lib/js/mySilder/js/mySystem.js": {
+            "uri": "/lib/js/mySilder/js/mySystem.js",
+            "type": "js"
+        },
+        "lib/js/pdfjs/build/pdf.js": {
+            "uri": "/lib/js/pdfjs/build/pdf.js",
+            "type": "js"
+        },
+        "lib/js/pdfjs/build/pdf.worker.js": {
+            "uri": "/lib/js/pdfjs/build/pdf.worker.js",
+            "type": "js"
+        },
+        "lib/js/pdfjs/web/compatibility.js": {
+            "uri": "/lib/js/pdfjs/web/compatibility.js",
+            "type": "js"
+        },
+        "lib/js/pdfjs/web/debugger.js": {
+            "uri": "/lib/js/pdfjs/web/debugger.js",
+            "type": "js"
+        },
+        "lib/js/pdfjs/web/l10n.js": {
+            "uri": "/lib/js/pdfjs/web/l10n.js",
+            "type": "js"
+        },
+        "lib/js/pdfjs/web/viewer.css": {
+            "uri": "/lib/js/pdfjs/web/viewer.css",
+            "type": "css"
+        },
+        "lib/js/pdfjs/web/viewer.js": {
+            "uri": "/lib/js/pdfjs/web/viewer.js",
+            "type": "js"
+        },
+        "lib/js/PDFObject/pdfobject.js": {
+            "uri": "/lib/js/PDFObject/pdfobject.js",
+            "type": "js"
+        },
+        "lib/js/PDFObject/pdfobject.min.js": {
+            "uri": "/lib/js/PDFObject/pdfobject.min.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/alt/video-js-cdn.css": {
+            "uri": "/lib/js/video.js/dist/alt/video-js-cdn.css",
+            "type": "css"
+        },
+        "lib/js/video.js/dist/alt/video-js-cdn.min.css": {
+            "uri": "/lib/js/video.js/dist/alt/video-js-cdn.min.css",
+            "type": "css"
+        },
+        "lib/js/video.js/dist/alt/video.novtt.js": {
+            "uri": "/lib/js/video.js/dist/alt/video.novtt.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/alt/video.novtt.min.js": {
+            "uri": "/lib/js/video.js/dist/alt/video.novtt.min.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/ie8/videojs-ie8.js": {
+            "uri": "/lib/js/video.js/dist/ie8/videojs-ie8.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/ie8/videojs-ie8.min.js": {
+            "uri": "/lib/js/video.js/dist/ie8/videojs-ie8.min.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/ar.js": {
+            "uri": "/lib/js/video.js/dist/lang/ar.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/ba.js": {
+            "uri": "/lib/js/video.js/dist/lang/ba.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/bg.js": {
+            "uri": "/lib/js/video.js/dist/lang/bg.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/ca.js": {
+            "uri": "/lib/js/video.js/dist/lang/ca.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/cs.js": {
+            "uri": "/lib/js/video.js/dist/lang/cs.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/da.js": {
+            "uri": "/lib/js/video.js/dist/lang/da.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/de.js": {
+            "uri": "/lib/js/video.js/dist/lang/de.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/el.js": {
+            "uri": "/lib/js/video.js/dist/lang/el.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/en.js": {
+            "uri": "/lib/js/video.js/dist/lang/en.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/es.js": {
+            "uri": "/lib/js/video.js/dist/lang/es.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/fa.js": {
+            "uri": "/lib/js/video.js/dist/lang/fa.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/fi.js": {
+            "uri": "/lib/js/video.js/dist/lang/fi.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/fr.js": {
+            "uri": "/lib/js/video.js/dist/lang/fr.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/hr.js": {
+            "uri": "/lib/js/video.js/dist/lang/hr.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/hu.js": {
+            "uri": "/lib/js/video.js/dist/lang/hu.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/it.js": {
+            "uri": "/lib/js/video.js/dist/lang/it.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/ja.js": {
+            "uri": "/lib/js/video.js/dist/lang/ja.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/ko.js": {
+            "uri": "/lib/js/video.js/dist/lang/ko.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/nb.js": {
+            "uri": "/lib/js/video.js/dist/lang/nb.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/nl.js": {
+            "uri": "/lib/js/video.js/dist/lang/nl.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/nn.js": {
+            "uri": "/lib/js/video.js/dist/lang/nn.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/pl.js": {
+            "uri": "/lib/js/video.js/dist/lang/pl.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/pt-BR.js": {
+            "uri": "/lib/js/video.js/dist/lang/pt-BR.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/ru.js": {
+            "uri": "/lib/js/video.js/dist/lang/ru.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/sr.js": {
+            "uri": "/lib/js/video.js/dist/lang/sr.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/sv.js": {
+            "uri": "/lib/js/video.js/dist/lang/sv.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/tr.js": {
+            "uri": "/lib/js/video.js/dist/lang/tr.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/uk.js": {
+            "uri": "/lib/js/video.js/dist/lang/uk.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/vi.js": {
+            "uri": "/lib/js/video.js/dist/lang/vi.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/zh-CN.js": {
+            "uri": "/lib/js/video.js/dist/lang/zh-CN.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/lang/zh-TW.js": {
+            "uri": "/lib/js/video.js/dist/lang/zh-TW.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/video-js.css": {
+            "uri": "/lib/js/video.js/dist/video-js.css",
+            "type": "css"
+        },
+        "lib/js/video.js/dist/video-js.min.css": {
+            "uri": "/lib/js/video.js/dist/video-js.min.css",
+            "type": "css"
+        },
+        "lib/js/video.js/dist/video.js": {
+            "uri": "/lib/js/video.js/dist/video.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/video.min.js": {
+            "uri": "/lib/js/video.js/dist/video.min.js",
+            "type": "js"
+        },
+        "lib/js/video.js/dist/videojs-contrib-hls.min.js": {
+            "uri": "/lib/js/video.js/dist/videojs-contrib-hls.min.js",
+            "type": "js"
+        },
+        "lib/js/video.js/Gruntfile.js": {
+            "uri": "/lib/js/video.js/Gruntfile.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/css/_print.scss": {
+            "uri": "/lib/js/video.js/src/css/_print.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/_private-variables.scss": {
+            "uri": "/lib/js/video.js/src/css/_private-variables.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/_utilities.scss": {
+            "uri": "/lib/js/video.js/src/css/_utilities.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/_variables.scss": {
+            "uri": "/lib/js/video.js/src/css/_variables.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_adaptive.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_adaptive.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_audio.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_audio.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_big-play.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_big-play.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_button.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_button.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_captions-settings.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_captions-settings.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_captions.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_captions.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_chapters.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_chapters.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_close-button.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_close-button.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_control-bar.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_control-bar.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_control-spacer.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_control-spacer.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_control.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_control.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_descriptions.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_descriptions.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_error.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_error.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_fullscreen.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_fullscreen.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_layout.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_layout.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_live.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_live.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_loading.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_loading.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_modal-dialog.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_modal-dialog.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_play-pause.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_play-pause.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_playback-rate.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_playback-rate.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_poster.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_poster.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_progress.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_progress.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_slider.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_slider.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_subtitles.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_subtitles.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_text-track.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_text-track.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_time.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_time.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/_volume.scss": {
+            "uri": "/lib/js/video.js/src/css/components/_volume.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/menu/_menu-inline.scss": {
+            "uri": "/lib/js/video.js/src/css/components/menu/_menu-inline.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/menu/_menu-popup.scss": {
+            "uri": "/lib/js/video.js/src/css/components/menu/_menu-popup.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/components/menu/_menu.scss": {
+            "uri": "/lib/js/video.js/src/css/components/menu/_menu.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/ie8.css": {
+            "uri": "/lib/js/video.js/src/css/ie8.css",
+            "type": "css"
+        },
+        "lib/js/video.js/src/css/utilities/_linear-gradient.scss": {
+            "uri": "/lib/js/video.js/src/css/utilities/_linear-gradient.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/video-js.scss": {
+            "uri": "/lib/js/video.js/src/css/video-js.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/vjs-cdn.scss": {
+            "uri": "/lib/js/video.js/src/css/vjs-cdn.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/css/vjs.scss": {
+            "uri": "/lib/js/video.js/src/css/vjs.scss",
+            "type": "scss"
+        },
+        "lib/js/video.js/src/js/big-play-button.js": {
+            "uri": "/lib/js/video.js/src/js/big-play-button.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/button.js": {
+            "uri": "/lib/js/video.js/src/js/button.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/clickable-component.js": {
+            "uri": "/lib/js/video.js/src/js/clickable-component.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/close-button.js": {
+            "uri": "/lib/js/video.js/src/js/close-button.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/component.js": {
+            "uri": "/lib/js/video.js/src/js/component.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/audio-track-controls/audio-track-button.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/audio-track-controls/audio-track-button.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/audio-track-controls/audio-track-menu-item.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/audio-track-controls/audio-track-menu-item.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/control-bar.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/control-bar.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/fullscreen-toggle.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/fullscreen-toggle.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/live-display.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/live-display.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/mute-toggle.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/mute-toggle.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/play-toggle.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/play-toggle.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/playback-rate-menu/playback-rate-menu-button.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/playback-rate-menu/playback-rate-menu-button.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/playback-rate-menu/playback-rate-menu-item.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/playback-rate-menu/playback-rate-menu-item.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/progress-control/load-progress-bar.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/progress-control/load-progress-bar.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/progress-control/mouse-time-display.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/progress-control/mouse-time-display.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/progress-control/play-progress-bar.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/progress-control/play-progress-bar.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/progress-control/progress-control.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/progress-control/progress-control.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/progress-control/seek-bar.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/progress-control/seek-bar.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/progress-control/tooltip-progress-bar.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/progress-control/tooltip-progress-bar.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/spacer-controls/custom-control-spacer.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/spacer-controls/custom-control-spacer.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/spacer-controls/spacer.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/spacer-controls/spacer.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/text-track-controls/caption-settings-menu-item.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/text-track-controls/caption-settings-menu-item.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/text-track-controls/captions-button.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/text-track-controls/captions-button.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/text-track-controls/chapters-button.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/text-track-controls/chapters-button.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/text-track-controls/chapters-track-menu-item.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/text-track-controls/chapters-track-menu-item.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/text-track-controls/descriptions-button.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/text-track-controls/descriptions-button.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/text-track-controls/off-text-track-menu-item.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/text-track-controls/off-text-track-menu-item.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/text-track-controls/subtitles-button.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/text-track-controls/subtitles-button.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/text-track-controls/text-track-button.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/text-track-controls/text-track-button.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/text-track-controls/text-track-menu-item.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/text-track-controls/text-track-menu-item.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/time-controls/current-time-display.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/time-controls/current-time-display.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/time-controls/duration-display.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/time-controls/duration-display.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/time-controls/remaining-time-display.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/time-controls/remaining-time-display.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/time-controls/time-divider.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/time-controls/time-divider.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/track-button.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/track-button.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/volume-control/volume-bar.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/volume-control/volume-bar.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/volume-control/volume-control.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/volume-control/volume-control.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/volume-control/volume-level.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/volume-control/volume-level.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/control-bar/volume-menu-button.js": {
+            "uri": "/lib/js/video.js/src/js/control-bar/volume-menu-button.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/error-display.js": {
+            "uri": "/lib/js/video.js/src/js/error-display.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/event-target.js": {
+            "uri": "/lib/js/video.js/src/js/event-target.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/extend.js": {
+            "uri": "/lib/js/video.js/src/js/extend.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/fullscreen-api.js": {
+            "uri": "/lib/js/video.js/src/js/fullscreen-api.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/loading-spinner.js": {
+            "uri": "/lib/js/video.js/src/js/loading-spinner.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/media-error.js": {
+            "uri": "/lib/js/video.js/src/js/media-error.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/menu/menu-button.js": {
+            "uri": "/lib/js/video.js/src/js/menu/menu-button.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/menu/menu-item.js": {
+            "uri": "/lib/js/video.js/src/js/menu/menu-item.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/menu/menu.js": {
+            "uri": "/lib/js/video.js/src/js/menu/menu.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/modal-dialog.js": {
+            "uri": "/lib/js/video.js/src/js/modal-dialog.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/player.js": {
+            "uri": "/lib/js/video.js/src/js/player.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/plugins.js": {
+            "uri": "/lib/js/video.js/src/js/plugins.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/popup/popup-button.js": {
+            "uri": "/lib/js/video.js/src/js/popup/popup-button.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/popup/popup.js": {
+            "uri": "/lib/js/video.js/src/js/popup/popup.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/poster-image.js": {
+            "uri": "/lib/js/video.js/src/js/poster-image.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/setup.js": {
+            "uri": "/lib/js/video.js/src/js/setup.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/slider/slider.js": {
+            "uri": "/lib/js/video.js/src/js/slider/slider.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tech/flash-rtmp.js": {
+            "uri": "/lib/js/video.js/src/js/tech/flash-rtmp.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tech/flash.js": {
+            "uri": "/lib/js/video.js/src/js/tech/flash.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tech/html5.js": {
+            "uri": "/lib/js/video.js/src/js/tech/html5.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tech/loader.js": {
+            "uri": "/lib/js/video.js/src/js/tech/loader.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tech/tech.js": {
+            "uri": "/lib/js/video.js/src/js/tech/tech.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tracks/audio-track-list.js": {
+            "uri": "/lib/js/video.js/src/js/tracks/audio-track-list.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tracks/audio-track.js": {
+            "uri": "/lib/js/video.js/src/js/tracks/audio-track.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tracks/html-track-element-list.js": {
+            "uri": "/lib/js/video.js/src/js/tracks/html-track-element-list.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tracks/html-track-element.js": {
+            "uri": "/lib/js/video.js/src/js/tracks/html-track-element.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tracks/text-track-cue-list.js": {
+            "uri": "/lib/js/video.js/src/js/tracks/text-track-cue-list.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tracks/text-track-display.js": {
+            "uri": "/lib/js/video.js/src/js/tracks/text-track-display.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tracks/text-track-list-converter.js": {
+            "uri": "/lib/js/video.js/src/js/tracks/text-track-list-converter.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tracks/text-track-list.js": {
+            "uri": "/lib/js/video.js/src/js/tracks/text-track-list.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tracks/text-track-settings.js": {
+            "uri": "/lib/js/video.js/src/js/tracks/text-track-settings.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tracks/text-track.js": {
+            "uri": "/lib/js/video.js/src/js/tracks/text-track.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tracks/track-enums.js": {
+            "uri": "/lib/js/video.js/src/js/tracks/track-enums.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tracks/track-list.js": {
+            "uri": "/lib/js/video.js/src/js/tracks/track-list.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tracks/track.js": {
+            "uri": "/lib/js/video.js/src/js/tracks/track.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tracks/video-track-list.js": {
+            "uri": "/lib/js/video.js/src/js/tracks/video-track-list.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/tracks/video-track.js": {
+            "uri": "/lib/js/video.js/src/js/tracks/video-track.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/utils/browser.js": {
+            "uri": "/lib/js/video.js/src/js/utils/browser.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/utils/buffer.js": {
+            "uri": "/lib/js/video.js/src/js/utils/buffer.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/utils/dom.js": {
+            "uri": "/lib/js/video.js/src/js/utils/dom.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/utils/events.js": {
+            "uri": "/lib/js/video.js/src/js/utils/events.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/utils/fn.js": {
+            "uri": "/lib/js/video.js/src/js/utils/fn.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/utils/format-time.js": {
+            "uri": "/lib/js/video.js/src/js/utils/format-time.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/utils/guid.js": {
+            "uri": "/lib/js/video.js/src/js/utils/guid.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/utils/log.js": {
+            "uri": "/lib/js/video.js/src/js/utils/log.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/utils/merge-options.js": {
+            "uri": "/lib/js/video.js/src/js/utils/merge-options.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/utils/stylesheet.js": {
+            "uri": "/lib/js/video.js/src/js/utils/stylesheet.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/utils/time-ranges.js": {
+            "uri": "/lib/js/video.js/src/js/utils/time-ranges.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/utils/to-title-case.js": {
+            "uri": "/lib/js/video.js/src/js/utils/to-title-case.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/utils/url.js": {
+            "uri": "/lib/js/video.js/src/js/utils/url.js",
+            "type": "js"
+        },
+        "lib/js/video.js/src/js/video.js": {
+            "uri": "/lib/js/video.js/src/js/video.js",
+            "type": "js"
+        },
+        "lib/js/vjs-resolution-switcher/Gruntfile.js": {
+            "uri": "/lib/js/vjs-resolution-switcher/Gruntfile.js",
+            "type": "js"
+        },
+        "lib/js/vjs-resolution-switcher/lib/videojs-resolution-switcher.css": {
+            "uri": "/lib/js/vjs-resolution-switcher/lib/videojs-resolution-switcher.css",
+            "type": "css"
+        },
+        "lib/js/vjs-resolution-switcher/lib/videojs-resolution-switcher.js": {
+            "uri": "/lib/js/vjs-resolution-switcher/lib/videojs-resolution-switcher.js",
+            "type": "js"
+        },
+        "lib/js/vue/dist/vue.common.js": {
+            "uri": "/lib/js/vue/dist/vue.common.js",
+            "type": "js"
+        },
+        "lib/js/vue/dist/vue.js": {
+            "uri": "/lib/js/vue/dist/vue.js",
+            "type": "js"
+        },
+        "lib/js/vue/dist/vue.min.js": {
+            "uri": "/lib/js/vue/dist/vue.min.js",
+            "type": "js",
+            "extras": {}
+        },
+        "lib/js/vue/src/batcher.js": {
+            "uri": "/lib/js/vue/src/batcher.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/cache.js": {
+            "uri": "/lib/js/vue/src/cache.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/compiler/compile-props.js": {
+            "uri": "/lib/js/vue/src/compiler/compile-props.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/compiler/compile.js": {
+            "uri": "/lib/js/vue/src/compiler/compile.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/compiler/index.js": {
+            "uri": "/lib/js/vue/src/compiler/index.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/compiler/resolve-slots.js": {
+            "uri": "/lib/js/vue/src/compiler/resolve-slots.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/compiler/transclude.js": {
+            "uri": "/lib/js/vue/src/compiler/transclude.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/config.js": {
+            "uri": "/lib/js/vue/src/config.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directive.js": {
+            "uri": "/lib/js/vue/src/directive.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/element/index.js": {
+            "uri": "/lib/js/vue/src/directives/element/index.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/element/partial.js": {
+            "uri": "/lib/js/vue/src/directives/element/partial.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/element/slot.js": {
+            "uri": "/lib/js/vue/src/directives/element/slot.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/internal/class.js": {
+            "uri": "/lib/js/vue/src/directives/internal/class.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/internal/component.js": {
+            "uri": "/lib/js/vue/src/directives/internal/component.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/internal/index.js": {
+            "uri": "/lib/js/vue/src/directives/internal/index.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/internal/prop.js": {
+            "uri": "/lib/js/vue/src/directives/internal/prop.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/internal/style.js": {
+            "uri": "/lib/js/vue/src/directives/internal/style.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/internal/transition.js": {
+            "uri": "/lib/js/vue/src/directives/internal/transition.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/priorities.js": {
+            "uri": "/lib/js/vue/src/directives/priorities.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/public/bind.js": {
+            "uri": "/lib/js/vue/src/directives/public/bind.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/public/cloak.js": {
+            "uri": "/lib/js/vue/src/directives/public/cloak.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/public/el.js": {
+            "uri": "/lib/js/vue/src/directives/public/el.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/public/for.js": {
+            "uri": "/lib/js/vue/src/directives/public/for.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/public/html.js": {
+            "uri": "/lib/js/vue/src/directives/public/html.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/public/if.js": {
+            "uri": "/lib/js/vue/src/directives/public/if.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/public/index.js": {
+            "uri": "/lib/js/vue/src/directives/public/index.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/public/model/checkbox.js": {
+            "uri": "/lib/js/vue/src/directives/public/model/checkbox.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/public/model/index.js": {
+            "uri": "/lib/js/vue/src/directives/public/model/index.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/public/model/radio.js": {
+            "uri": "/lib/js/vue/src/directives/public/model/radio.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/public/model/select.js": {
+            "uri": "/lib/js/vue/src/directives/public/model/select.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/public/model/text.js": {
+            "uri": "/lib/js/vue/src/directives/public/model/text.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/public/on.js": {
+            "uri": "/lib/js/vue/src/directives/public/on.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/public/ref.js": {
+            "uri": "/lib/js/vue/src/directives/public/ref.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/public/show.js": {
+            "uri": "/lib/js/vue/src/directives/public/show.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/directives/public/text.js": {
+            "uri": "/lib/js/vue/src/directives/public/text.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/filters/array-filters.js": {
+            "uri": "/lib/js/vue/src/filters/array-filters.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/filters/index.js": {
+            "uri": "/lib/js/vue/src/filters/index.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/fragment/factory.js": {
+            "uri": "/lib/js/vue/src/fragment/factory.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/fragment/fragment.js": {
+            "uri": "/lib/js/vue/src/fragment/fragment.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/global-api.js": {
+            "uri": "/lib/js/vue/src/global-api.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/index.js": {
+            "uri": "/lib/js/vue/src/index.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/instance/api/data.js": {
+            "uri": "/lib/js/vue/src/instance/api/data.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/instance/api/dom.js": {
+            "uri": "/lib/js/vue/src/instance/api/dom.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/instance/api/events.js": {
+            "uri": "/lib/js/vue/src/instance/api/events.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/instance/api/lifecycle.js": {
+            "uri": "/lib/js/vue/src/instance/api/lifecycle.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/instance/internal/events.js": {
+            "uri": "/lib/js/vue/src/instance/internal/events.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/instance/internal/init.js": {
+            "uri": "/lib/js/vue/src/instance/internal/init.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/instance/internal/lifecycle.js": {
+            "uri": "/lib/js/vue/src/instance/internal/lifecycle.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/instance/internal/misc.js": {
+            "uri": "/lib/js/vue/src/instance/internal/misc.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/instance/internal/state.js": {
+            "uri": "/lib/js/vue/src/instance/internal/state.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/instance/vue.js": {
+            "uri": "/lib/js/vue/src/instance/vue.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/observer/array.js": {
+            "uri": "/lib/js/vue/src/observer/array.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/observer/dep.js": {
+            "uri": "/lib/js/vue/src/observer/dep.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/observer/index.js": {
+            "uri": "/lib/js/vue/src/observer/index.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/parsers/directive.js": {
+            "uri": "/lib/js/vue/src/parsers/directive.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/parsers/expression.js": {
+            "uri": "/lib/js/vue/src/parsers/expression.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/parsers/path.js": {
+            "uri": "/lib/js/vue/src/parsers/path.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/parsers/template.js": {
+            "uri": "/lib/js/vue/src/parsers/template.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/parsers/text.js": {
+            "uri": "/lib/js/vue/src/parsers/text.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/transition/index.js": {
+            "uri": "/lib/js/vue/src/transition/index.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/transition/queue.js": {
+            "uri": "/lib/js/vue/src/transition/queue.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/transition/transition.js": {
+            "uri": "/lib/js/vue/src/transition/transition.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/util/component.js": {
+            "uri": "/lib/js/vue/src/util/component.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/util/debug.js": {
+            "uri": "/lib/js/vue/src/util/debug.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/util/dom.js": {
+            "uri": "/lib/js/vue/src/util/dom.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/util/env.js": {
+            "uri": "/lib/js/vue/src/util/env.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/util/index.js": {
+            "uri": "/lib/js/vue/src/util/index.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/util/lang.js": {
+            "uri": "/lib/js/vue/src/util/lang.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/util/options.js": {
+            "uri": "/lib/js/vue/src/util/options.js",
+            "type": "js"
+        },
+        "lib/js/vue/src/watcher.js": {
+            "uri": "/lib/js/vue/src/watcher.js",
+            "type": "js"
+        },
+        "lib/mod.js": {
+            "uri": "/lib/mod.js",
+            "type": "js"
+        },
+        "modules/html/header/header.scss": {
+            "uri": "/static/html/header/header.css",
+            "type": "css"
+        },
+        "modules/html/footer/footer.scss": {
+            "uri": "/static/html/footer/footer.css",
+            "type": "css"
+        },
+        "modules/css/activation.scss": {
+            "uri": "/static/css/activation.css",
+            "type": "css"
+        },
+        "modules/css/activationguid.scss": {
+            "uri": "/static/css/activationguid.css",
+            "type": "css"
+        },
+        "modules/css/author.scss": {
+            "uri": "/static/css/author.css",
+            "type": "css"
+        },
+        "modules/css/buycourse.scss": {
+            "uri": "/static/css/buycourse.css",
+            "type": "css"
+        },
+        "modules/css/course.scss": {
+            "uri": "/static/css/course.css",
+            "type": "css"
+        },
+        "modules/app/course.js": {
+            "uri": "/static/app/course.js",
+            "type": "js"
+        },
+        "modules/css/courseinformation.scss": {
+            "uri": "/static/css/courseinformation.css",
+            "type": "css"
+        },
+        "modules/app/information.js": {
+            "uri": "/static/app/information.js",
+            "type": "js"
+        },
+        "modules/css/digital.scss": {
+            "uri": "/static/css/digital.css",
+            "type": "css"
+        },
+        "modules/css/index.scss": {
+            "uri": "/static/css/index.css",
+            "type": "css"
+        },
+        "modules/css/log.scss": {
+            "uri": "/static/css/log.css",
+            "type": "css"
+        },
+        "modules/css/master.scss": {
+            "uri": "/static/css/master.css",
+            "type": "css"
+        },
+        "modules/app/master.js": {
+            "uri": "/static/app/master.js",
+            "type": "js"
+        },
+        "modules/css/masterinformation.scss": {
+            "uri": "/static/css/masterinformation.css",
+            "type": "css"
+        },
+        "modules/app/masterinformation.js": {
+            "uri": "/static/app/masterinformation.js",
+            "type": "js"
+        },
+        "modules/css/message.scss": {
+            "uri": "/static/css/message.css",
+            "type": "css"
+        },
+        "modules/css/mine.scss": {
+            "uri": "/static/css/mine.css",
+            "type": "css"
+        },
+        "modules/html/person_cloud/person_cloud.scss": {
+            "uri": "/static/html/person_cloud/person_cloud.css",
+            "type": "css"
+        },
+        "modules/app/mine.js": {
+            "uri": "/static/app/mine.js",
+            "type": "js"
+        },
+        "modules/html/person_book/person_book.scss": {
+            "uri": "/static/html/person_book/person_book.css",
+            "type": "css"
+        },
+        "modules/html/person_bookinf/person_bookinf.scss": {
+            "uri": "/static/html/person_bookinf/person_bookinf.css",
+            "type": "css"
+        },
+        "modules/html/person_card/person_card.scss": {
+            "uri": "/static/html/person_card/person_card.css",
+            "type": "css"
+        },
+        "modules/html/person_cardinf/person_cardinf.scss": {
+            "uri": "/static/html/person_cardinf/person_cardinf.css",
+            "type": "css"
+        },
+        "modules/html/person_cer/person_cer.scss": {
+            "uri": "/static/html/person_cer/person_cer.css",
+            "type": "css"
+        },
+        "modules/html/person_course/person_course.scss": {
+            "uri": "/static/html/person_course/person_course.css",
+            "type": "css"
+        },
+        "modules/html/person_editor/person_editor.scss": {
+            "uri": "/static/html/person_editor/person_editor.css",
+            "type": "css"
+        },
+        "modules/html/person_last/person_last.scss": {
+            "uri": "/static/html/person_last/person_last.css",
+            "type": "css"
+        },
+        "modules/html/person_message/person_message.scss": {
+            "uri": "/static/html/person_message/person_message.css",
+            "type": "css"
+        },
+        "modules/html/person_messageinf/person_messageinf.scss": {
+            "uri": "/static/html/person_messageinf/person_messageinf.css",
+            "type": "css"
+        },
+        "modules/html/person_msg/person_msg.scss": {
+            "uri": "/static/html/person_msg/person_msg.css",
+            "type": "css"
+        },
+        "modules/html/person_myworks/person_myworks.scss": {
+            "uri": "/static/html/person_myworks/person_myworks.css",
+            "type": "css"
+        },
+        "modules/html/person_password/person_password.scss": {
+            "uri": "/static/html/person_password/person_password.css",
+            "type": "css"
+        },
+        "modules/html/person_queinf/person_queinf.scss": {
+            "uri": "/static/html/person_queinf/person_queinf.css",
+            "type": "css"
+        },
+        "modules/html/person_question/person_question.scss": {
+            "uri": "/static/html/person_question/person_question.css",
+            "type": "css"
+        },
+        "modules/css/news.scss": {
+            "uri": "/static/css/news.css",
+            "type": "css"
+        },
+        "modules/app/news.js": {
+            "uri": "/static/app/news.js",
+            "type": "js"
+        },
+        "modules/css/newsinformation.scss": {
+            "uri": "/static/css/newsinformation.css",
+            "type": "css"
+        },
+        "modules/app/newsinformation.js": {
+            "uri": "/static/app/newsinformation.js",
+            "type": "js"
+        },
+        "modules/css/order.scss": {
+            "uri": "/static/css/order.css",
+            "type": "css"
+        },
+        "modules/css/purchase.scss": {
+            "uri": "/static/css/purchase.css",
+            "type": "css"
+        },
+        "modules/css/query.scss": {
+            "uri": "/static/css/query.css",
+            "type": "css"
+        },
+        "modules/app/query.js": {
+            "uri": "/static/app/query.js",
+            "type": "js"
+        },
+        "modules/css/questioninf.scss": {
+            "uri": "/static/css/questioninf.css",
+            "type": "css"
+        },
+        "modules/css/reg.scss": {
+            "uri": "/static/css/reg.css",
+            "type": "css"
+        },
+        "modules/css/trace.scss": {
+            "uri": "/static/css/trace.css",
+            "type": "css"
+        },
+        "modules/css/player.scss": {
+            "uri": "/static/css/player.css",
+            "type": "css"
+        },
+        "modules/app/player.js": {
+            "uri": "/static/app/player.js",
+            "type": "js"
+        },
+        "modules/css/worksshow.scss": {
+            "uri": "/static/css/worksshow.css",
+            "type": "css"
+        }
+    },
+    "pkg": {}
+}

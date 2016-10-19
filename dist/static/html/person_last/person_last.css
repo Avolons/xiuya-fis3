@@ -1,0 +1,178 @@
+.person-last {
+  width: 100%;
+}
+
+.person-last > h1 {
+  height: 50px;
+  line-height: 50px;
+  color: #313131;
+  font-size: 17px;
+  background-color: #FFFFFF;
+  width: 100%;
+  padding-left: 37px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.person-last > .content {
+  padding: 20px 35px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  min-height: 743px;
+}
+
+.person-last > .content > .top > button {
+  border: none;
+  background-color: #8c0202;
+  color: #FFFFFF;
+  font-size: 14px;
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  float: left;
+  margin-right: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.person-last > .content > .top > span {
+  font-size: 14px;
+  color: #8c0202;
+  margin-top: 14px;
+  display: block;
+  float: left;
+}
+
+.person-last > .content > ul {
+  margin-top: 40px;
+}
+
+.person-last > .content > ul > li {
+  box-sizing: border-box;
+  width: 780px;
+  border: 1px solid #8c0202;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  min-height: 50px;
+}
+
+.person-last > .content > ul > li > a {
+  position: absolute;
+  right: -40px;
+  font-size: 14px;
+  color: #202020;
+  bottom: 0;
+}
+
+.person-last > .content > ul > li > p {
+  position: absolute;
+  cursor: pointer;
+  left: 0;
+  top: -20px;
+  font-size: 14px;
+}
+
+.person-last > .content > ul > li > p > i {
+  font-size: 14px;
+}
+
+.person-last > .content > ul > li > p > i:hover {
+  color: #8C0202;
+}
+
+.person-last > .content > ul > li > textarea {
+  border: none;
+  resize: none;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 5px;
+  outline-style: none;
+  font-size: 14px;
+  color: #4d4d4d;
+}
+
+.person-last > .content > ul > .imgeditor > input {
+  position: absolute;
+  opacity: 0;
+  z-index: 2;
+  right: 3px;
+  bottom: 3px;
+  cursor: pointer;
+  width: 98px;
+  height: 30px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.person-last > .content > ul > .imgeditor > button {
+  position: absolute;
+  z-index: 1;
+  right: 3px;
+  bottom: 3px;
+  border: none;
+  background-color: #8C0202;
+  color: #FFFFFF;
+  border-radius: 5px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.person-last > .content > ul > .imgeditor > img {
+  float: left;
+  max-width: 500px;
+}
+
+.person-last > .content > ul > .texteditor {
+  height: 80px;
+}
+
+.person-last > .content > .outer {
+  text-align: center;
+}
+
+.person-last > .content > .outer > button {
+  font-size: 14px;
+  height: 35px;
+  width: 70px;
+  border: none;
+  line-height: 35px;
+  background-color: #8c0202;
+  margin: 0 auto;
+  border: none;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.person-last > .content > p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #8c0202;
+}
+
+.person-last > .content > .passvalue {
+  margin-bottom: 20px;
+}
+
+.person-last > .content > .passvalue > input {
+  margin-right: 5px;
+}
+
+.person-last > .content > .passvalue > label {
+  margin-right: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.person-last > .content > .passvalue > textarea {
+  display: block;
+  resize: none;
+  margin-top: 10px;
+  width: 778px;
+  height: 50px;
+}

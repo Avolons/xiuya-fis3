@@ -56,9 +56,14 @@ header {
                 .contactus {}
                 // 消息
                 .message {
-                    span {
+                	>a{
+                		display: block;
+                		float: left;
+                		color: #e0e0e0;
+                		span {
                         color: #e0e0e0;
-                    }
+                      }
+                	}
                 }
                 //登陆或者注册
                 .lgandre {
@@ -105,15 +110,12 @@ header {
                         transition: all 0.3s ease-in;
                         transform-origin: 50% 7.5px;
                     }
-                    >button {
-                        background-color: transparent;
-                        border: none;
-                        >a{
-                             color: #e0e0e0;
-                              &:hover {
-                            color: #ffffff;
-                          }
-                        }
+                    >a{
+                         color: #e0e0e0;
+                         cursor: pointer;
+                          &:hover {
+                        color: #ffffff;
+                      }
                     }
                     >ul {
                         left: -10px;
@@ -451,6 +453,17 @@ article {
     background-image: url("../../img/common/content-bc.png");
     >.Slider {
         height: 530px;
+        >div{
+        	>ul{
+        		>li{
+        			>img{
+        				display: block;
+        				height: 100%;
+        				width: 100%;
+        			}
+        		}
+        	}
+        }
     }
     >.hot-course {
         height: 750px;
@@ -458,6 +471,7 @@ article {
         >.list {
             width: 1200px;
             margin: 0 auto;
+            overflow: hidden;
             >ul {
                 width: 1250px;
                 >li {
@@ -734,7 +748,7 @@ article {
             padding: 0 45px;
             li {
                 width: 265px;
-                height: 105px;
+                height: 105px; 
             }
             .silder-button {
                 top: 25px;

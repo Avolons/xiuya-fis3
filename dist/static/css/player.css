@@ -1,0 +1,954 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form,
+fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0;
+  font-family: '微软雅黑';
+}
+
+body, button, input, select, textarea {
+  font: 12px/1.5tahoma, arial, \5b8b\4f53;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+address, cite, dfn, em, var {
+  font-style: normal;
+}
+
+code, kbd, pre, samp {
+  font-family: couriernew, courier, monospace;
+}
+
+small {
+  font-size: 12px;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+legend {
+  color: #000;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+button, input, select, textarea {
+  font-size: 100%;
+  font-family: '微软雅黑';
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background: #999999;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("//at.alicdn.com/t/font_1475980840_0901175.eot");
+  /* IE9*/
+  src: url("//at.alicdn.com/t/font_1475980840_0901175.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_1475980840_0901175.woff") format("woff"), url("//at.alicdn.com/t/font_1475980840_0901175.ttf") format("truetype"), url("//at.alicdn.com/t/font_1475980840_0901175.svg#iconfont") format("svg");
+  /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont";
+  font-size: 14px;
+  font-style: normal;
+}
+
+.size-12 {
+  font-size: 12px;
+}
+
+.size-14 {
+  font-size: 14px;
+}
+
+.size-16 {
+  font-size: 16px;
+}
+
+.size-18 {
+  font-size: 18px;
+}
+
+.cusor_hand {
+  cursor: pointer;
+}
+
+.overflow_pre {
+  overflow: hidden;
+  white-space: pre;
+  text-overflow: ellipsis;
+}
+
+.clear:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 750px;
+}
+
+.video-js .vjs-control-bar {
+  z-index: 1000;
+}
+
+header {
+  height: 45px;
+  padding: 0 30px;
+  background-image: url("../../assets/images/videoplayer/video-header-bc.png");
+}
+
+header ul {
+  height: 45px;
+  line-height: 45px;
+  font-family: '微软雅黑';
+  font-size: 12px;
+  position: relative;
+  z-index: 9999;
+}
+
+header ul > button {
+  font-family: '微软雅黑';
+  height: 33px;
+  line-height: 33px;
+  margin-top: 6px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  border: 1px solid #e7e6e6;
+  background-color: white;
+  color: #980100;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
+}
+
+header ul > button:hover {
+  background-color: #e43a3d;
+  color: #ffffff;
+}
+
+header ul > li {
+  color: #1f1f1f;
+}
+
+header ul > li .iconfont {
+  color: #e43a3d;
+  font-size: 12px;
+  margin-right: 3px;
+}
+
+header ul > .alltime {
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre;
+}
+
+header ul > .functions {
+  position: relative;
+  z-index: 999;
+  margin-right: 20px;
+}
+
+header ul > .functions:after {
+  position: absolute;
+  right: 0;
+  margin: 0;
+  top: 11.5px;
+}
+
+header ul > .functions:hover > span {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+header ul > .functions:hover ul {
+  display: block;
+}
+
+header ul > .functions a {
+  color: #1f1f1f;
+}
+
+header ul > .functions a:hover {
+  text-decoration: none;
+}
+
+header ul > .functions > span {
+  height: 0;
+  width: 0;
+  border: 5px solid transparent;
+  border-bottom-color: #333333;
+  display: block;
+  position: absolute;
+  right: -15px;
+  top: 15px;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+  -webkit-transform-origin: 50% 7.5px;
+      -ms-transform-origin: 50% 7.5px;
+          transform-origin: 50% 7.5px;
+}
+
+header ul > .functions > button {
+  background-color: transparent;
+  border: none;
+}
+
+header ul > .functions > button:hover {
+  color: #e43a3d;
+}
+
+header ul > .functions > ul {
+  right: 10px;
+  display: none;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+  position: fixed;
+  width: 220px;
+  z-index: 9999;
+  box-sizing: border-box;
+  box-shadow: -4px 5px 7px 0 rgba(0, 0, 0, 0.3);
+  top: 32px;
+}
+
+header ul > .functions > ul > .fun-inf {
+  background-image: url("../../../img/common/header-bt-bc.png");
+  height: 66px;
+  border-bottom: 1px solid #dadada;
+  padding-top: 8px;
+  box-sizing: border-box;
+}
+
+header ul > .functions > ul > .fun-inf > img {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 18px;
+}
+
+header ul > .functions > ul > .fun-inf > span {
+  color: #ffffff;
+  float: left;
+  display: block;
+  width: calc(100% - 73px);
+  height: 28px;
+  line-height: 28px;
+  text-indent: 10px;
+}
+
+header ul > .functions > ul > li {
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
+  background-color: #ffffff;
+  display: block;
+  padding-left: 70px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #d7d7d7;
+  border-top: none;
+  text-align: left;
+}
+
+header ul > .functions > ul > li:hover {
+  background-color: #dadada;
+}
+
+header .header_left {
+  float: left;
+  margin-right: 40px;
+}
+
+header .header_right {
+  float: right;
+  margin-left: 40px;
+}
+
+article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-direction: row;
+  height: calc(100% - 45px);
+  width: 100%;
+}
+
+article .article_left {
+  width: 100%;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -webkit-flex-shrink: 1;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+article .article_left > .nav_bottom {
+  background-color: #202020;
+  padding: 8px 25px;
+  box-sizing: border-box;
+  height: 35px;
+  color: #cacaca;
+}
+
+article .article_left > .nav_bottom .download {
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
+}
+
+article .article_left > .nav_bottom .download:hover {
+  color: #ffffff;
+}
+
+article .article_left > .nav_bottom .playtime {
+  float: right;
+  padding: 0 15px;
+}
+
+article .article_left > .nav_bottom .playtime:after {
+  content: '';
+  display: block;
+  height: 16px;
+  width: 1px;
+  background-color: #363636;
+  float: right;
+  margin-right: -15px;
+}
+
+article .article_left > .nav_bottom .studypeople {
+  float: right;
+  padding: 0 15px;
+}
+
+article .article_right {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+  width: 0;
+  height: 100%;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+}
+
+article > .checked {
+  width: 340px;
+}
+
+.videoPlayer {
+  height: calc(100% - 35px);
+  width: 100%;
+}
+
+.videoPlayer #video {
+  width: 100%;
+  height: 100%;
+}
+
+#pdfplayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+.selectList {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  font-family: '微软雅黑';
+}
+
+.selectList .nav_left {
+  position: absolute;
+  z-index: 999;
+  width: 53px;
+  height: 100%;
+  top: 0;
+  left: -54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-display: -webkit-box;
+  -webkit-display: flex;
+  -webkit-flex-direction: column;
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.selectList .nav_left > li {
+  color: #ffffff;
+  background-color: #292f33;
+  width: 54px;
+  height: 64px;
+  padding: 12px;
+  box-sizing: border-box;
+  line-height: 20px;
+  font-size: 14px;
+  margin-bottom: 8px;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
+}
+
+.selectList .nav_left > li:hover {
+  background-color: #e43a3d;
+}
+
+.selectList .nav_left > .select {
+  background-color: #e43a3d;
+}
+
+.selectList .nav_right {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #161a1d;
+  overflow: hidden;
+}
+
+.selectList .nav_right > li {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
+}
+
+.selectList .nav_right > .isshow {
+  opacity: 1;
+  z-index: 999;
+}
+
+.selectList .nav_right .courseList {
+  padding-top: 25px;
+  color: #b5b5b5;
+}
+
+.selectList .nav_right .courseList > h1 {
+  font-size: 16px;
+  padding: 0 20px;
+  border-top: 1px solid #333739;
+  height: 60px;
+  line-height: 60px;
+}
+
+.selectList .nav_right .courseList > ul {
+  padding: 0 20px;
+  height: calc(100% - 86px);
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.selectList .nav_right .courseList > ul > li > h2 {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.selectList .nav_right .courseList > ul > li > ul {
+  padding: 0 15px;
+}
+
+.selectList .nav_right .courseList > ul > li > ul > li {
+  height: 15px;
+  line-height: 15px;
+  margin: 25px 0;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
+}
+
+.selectList .nav_right .courseList > ul > li > ul > li:hover {
+  color: #187fee;
+}
+
+.selectList .nav_right .courseList > ul > li > ul > li:hover .iconfont {
+  color: #187fee;
+}
+
+.selectList .nav_right .courseList > ul > li > ul > li .iconfont {
+  font-size: 14px;
+}
+
+.selectList .nav_right .courseList > ul > li > ul > .select {
+  color: #187fee;
+}
+
+.selectList .nav_right .courseList > ul > li > ul > .select .iconfont {
+  color: #187fee;
+}
+
+.selectList .nav_right .myNote {
+  color: #b5b5b5;
+  padding-top: 25px;
+}
+
+.selectList .nav_right .myNote > .input-area {
+  padding: 40px 25px;
+  box-sizing: border-box;
+  border-top: 1px solid #798388;
+  border-bottom: 1px solid #333739;
+}
+
+.selectList .nav_right .myNote > .input-area > textarea {
+  font-family: '微软雅黑';
+  height: 70px;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 12px;
+  resize: none;
+}
+
+.selectList .nav_right .myNote > .input-area > input {
+  height: 15px;
+  width: 15px;
+  border-radius: 0;
+  margin-right: 5px;
+  float: left;
+}
+
+.selectList .nav_right .myNote > .input-area > i {
+  display: block;
+  height: 15px;
+  line-height: 15px;
+  font-style: normal;
+  float: left;
+}
+
+.selectList .nav_right .myNote > .input-area > button {
+  font-family: '微软雅黑';
+  height: 20px;
+  width: 55px;
+  text-align: center;
+  line-height: 20px;
+  background-color: #e43a3d;
+  color: #ffffff;
+  border-radius: 0;
+  border: 0;
+  float: right;
+}
+
+.selectList .nav_right .myNote > .list-area {
+  height: calc(100% - 184px);
+}
+
+.selectList .nav_right .myNote > .list-area > .table-list {
+  height: 50px;
+  margin: 0 25px;
+  border-bottom: 1px solid #65737e;
+  font-size: 0;
+}
+
+.selectList .nav_right .myNote > .list-area > .table-list > li {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 80px;
+  display: inline-block;
+  -webkit-transition: color 0.2s ease-in;
+          transition: color 0.2s ease-in;
+}
+
+.selectList .nav_right .myNote > .list-area > .table-list > li:hover {
+  color: #ffffff;
+}
+
+.selectList .nav_right .myNote > .list-area > .table-list > .select {
+  border-bottom: 1px solid #e43a3d;
+  position: relative;
+  color: #ffffff;
+}
+
+.selectList .nav_right .myNote > .list-area > .table-list > .select:after {
+  width: 0;
+  height: 0;
+  display: block;
+  content: '';
+  border: 4px solid #161a1d;
+  border-bottom-color: #e43a3d;
+  position: absolute;
+  bottom: 0;
+  left: 38px;
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list {
+  height: calc(100% - 51px);
+  position: relative;
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > li {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > li > ul > li {
+  padding: 22px 25px 16px;
+  border-bottom: 1px dashed #909090;
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > li > ul > li > img {
+  height: 35px;
+  width: 35px;
+  float: left;
+  border-radius: 50%;
+  display: block;
+  margin-right: 10px;
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > li > ul > li > h5 {
+  float: left;
+  height: 35px;
+  line-height: 35px;
+  width: calc(100% - 45px);
+  color: #8498a8;
+  font-weight: 400;
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > li > ul > li > p {
+  line-height: 25px;
+  margin: 5px 0;
+  float: left;
+  display: block;
+  width: 100%;
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > li > ul > li > span {
+  float: left;
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > li > h3 {
+  font-weight: 400;
+  width: 70px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  margin: 20px auto;
+  font-size: 12px;
+  color: #FFFFFF;
+  background-color: #e43a3d;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > li > h3:hover {
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.3);
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > li > #notepage {
+  text-align: center;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > li > #notepage .laypage_main * {
+  font-size: 10px;
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > li > #notepage .laypageskin_molv a,
+.selectList .nav_right .myNote > .list-area > .note-list > li > #notepage .laypageskin_molv span {
+  padding: 0 6px;
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > li > #notepage .laypage_main a,
+.selectList .nav_right .myNote > .list-area > .note-list > li > #notepage .laypage_main input,
+.selectList .nav_right .myNote > .list-area > .note-list > li > #notepage .laypage_main span {
+  height: 20px;
+  line-height: 20px;
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > li > #notepage .laypageskin_molv a,
+.selectList .nav_right .myNote > .list-area > .note-list > li > #notepage .laypageskin_molv span {
+  border-radius: 1px;
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > li > #notepage .laypageskin_molv a {
+  background-color: #34393C;
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > li > #notepage .laypage_main a {
+  text-decoration: none;
+  color: #E8E8E8;
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > .select {
+  opacity: 1;
+  z-index: 999;
+}
+
+.selectList .nav_right .myAnswer {
+  color: #b5b5b5;
+  padding-top: 25px;
+}
+
+.selectList .nav_right .myAnswer > div {
+  border-top: 1px solid #333739;
+}
+
+.selectList .nav_right .myAnswer > div > button {
+  font-size: 14px;
+  height: 35px;
+  line-height: 35px;
+  width: 95px;
+  color: #FFFFFF;
+  text-align: center;
+  border: none;
+  margin: 10px 0 10px 25px;
+  background-color: #e43a3b;
+  cursor: pointer;
+}
+
+.selectList .nav_right .myAnswer > .list-area {
+  height: calc(100% - 56px);
+}
+
+.selectList .nav_right .myAnswer > .list-area > .table-list {
+  height: 50px;
+  margin: 0 25px;
+  border-bottom: 1px solid #65737e;
+  font-size: 0;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .table-list > li {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 80px;
+  display: inline-block;
+  -webkit-transition: color 0.2s ease-in;
+          transition: color 0.2s ease-in;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .table-list > li:hover {
+  color: #ffffff;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .table-list > .select {
+  border-bottom: 1px solid #e43a3d;
+  position: relative;
+  color: #ffffff;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .table-list > .select:after {
+  width: 0;
+  height: 0;
+  display: block;
+  content: '';
+  border: 4px solid #161a1d;
+  border-bottom-color: #e43a3d;
+  position: absolute;
+  bottom: 0;
+  left: 38px;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list {
+  height: calc(100% - 51px);
+  position: relative;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li {
+  padding: 22px 25px 16px;
+  border-bottom: 1px dashed #909090;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > img {
+  height: 35px;
+  width: 35px;
+  float: left;
+  border-radius: 50%;
+  display: block;
+  margin-right: 10px;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > h5 {
+  float: left;
+  height: 35px;
+  line-height: 35px;
+  width: calc(100% - 45px);
+  color: #8498a8;
+  font-weight: 400;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > p {
+  line-height: 25px;
+  margin: 5px 0;
+  float: left;
+  display: block;
+  width: 100%;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > span {
+  float: left;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > button {
+  float: right;
+  background-color: transparent;
+  border: none;
+  color: #b5b5b5;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > button:hover {
+  color: #ffffff;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > i {
+  float: right;
+  margin-right: 5px;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > h3 {
+  font-weight: 400;
+  width: 70px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  margin: 20px auto;
+  font-size: 12px;
+  color: #FFFFFF;
+  background-color: #e43a3d;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > h3:hover {
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.3);
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > #questionpage {
+  text-align: center;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > #questionpage .laypageskin_molv a {
+  background-color: #34393C;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > #questionpage .laypage_main a {
+  text-decoration: none;
+  color: #E8E8E8;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > #questionpage .laypage_main * {
+  font-size: 10px;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > #questionpage .laypageskin_molv a,
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > #questionpage .laypageskin_molv span {
+  padding: 0 6px;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > #questionpage .laypage_main a,
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > #questionpage .laypage_main input,
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > #questionpage .laypage_main span {
+  height: 20px;
+  line-height: 20px;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > #questionpage .laypageskin_molv a,
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > #questionpage .laypageskin_molv span {
+  border-radius: 1px;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > .select {
+  opacity: 1;
+  z-index: 999;
+}

@@ -9,7 +9,7 @@
         width: 100%;
         font-size: 17px;
         color: #313131;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         box-sizing: border-box;
     }
     >.content{
@@ -18,11 +18,12 @@
         padding: 25px 40px;
         background-color: #FFFFFF;
          .myAskListTitle {
-            padding-bottom: 40px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #DDDDDD;
             >h1 {
                 color: #000000;
                 font-size: 16px;
-                margin-bottom: 15px;
+                margin-bottom: 20px;
             }
             >p {
                 border-bottom: 1px solid #dddddd;
