@@ -1,43 +1,43 @@
  var  a=0,
       times=null;
-		  
+
  function loadHandler(){
 			console.log("loadHandler");
 			myPlayer=CKobject.getObjectById('ckplayer_video_sg');
 			myPlayer.addListener('play','playstartHandler');
 			myPlayer.addListener('paused','pausedHandler');
-  };
+  }
   function videojump () {
    		    myPlayer.videoSeek(90);
-   		};
+   		}
 	    function playstartHandler(){
 			a++;
 			if (a==1) {
 				//启用定时器
 				times = setInterval(function() {
 					console.log(2);
-					
+
 					//获取当前的播放进度并且使用四舍五入法磨平函数执行的时间差,这里填写发送时间
 					if (myPlayer.getStatus().time) {
-						
+
 					} else {
 						clearInterval(times);
-					};
+					}
 			}, 1000);
 			    videojump ();
 			    //函数置空
-				videojump=function  () {
+				videojump = function  () {
 				};
 			}
-		};
+		}
 		function pausedHandler(e){
 			if (e) {
 			a=0;
 			//清除定时器
 			clearInterval(times);
 			}
-		};
-	
+		}
+
 var app=new Vue({
 	//数据渲染区
 	el: 'body',
@@ -63,6 +63,11 @@ var app=new Vue({
 				imgsrc: './img/videoplayer/video-content-charcter.png',
 				name: '寂寞星球的玫瑰',
 			},
+      //初始化页码
+      mynotepage:1,
+      allnotepage:1,
+      myquestionpage:1,
+      allquestionpage:1,
 			/****
 			课程列表数据
 			****/
@@ -406,7 +411,7 @@ var app=new Vue({
 			//							}]
 			//						}, ]
 			//					},
-			//				
+			//
 			*/
 			/****
 								我的笔记部分
@@ -473,7 +478,7 @@ var app=new Vue({
 					text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
 					time: '2016-01-02 10:39'
 				}]
-				} 
+				}
 			},
 			/****
 			我的问答部分
@@ -536,7 +541,7 @@ var app=new Vue({
 					text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
 					time: '2016-01-02 10:39'
 				}]
-				} 
+				}
 			},
 			/***
 			页面元素切换数据
@@ -573,7 +578,7 @@ var app=new Vue({
 					}
 				}
 			},
-		}
+		};
 	},
 	//方法区域
 	methods: {
@@ -615,7 +620,7 @@ var app=new Vue({
 					this.noteData.mynote.list.unshift(newdata);
 				} else {
 					this.noteData.allnote.list.unshift(newdata);
-				};
+				}
 				//清空输入框内容
 				this.noteInput.text = '';
 			}
@@ -650,7 +655,7 @@ var app=new Vue({
 		},
 		//此处添加最新的逻辑处理函数/ajax重置数据
 		resetquest:function(){
-			
+
 		},
 		//时间格式化函数
 		getDate: function() {
@@ -667,26 +672,26 @@ var app=new Vue({
 		  *****/
 		rightCheck: function(item) {
 			//假设处于显示状态，就清除他的显示，否则先去除其他的显示，再将其显示
-			if(item.value == true) {
+			if(item.value === true) {
 				item.value = false;
 				//自定义事件，通知子组件改变状态
-				this.rightShow == true ? this.rightShow = false : this.rightShow = true;
+				this.rightShow === true ? this.rightShow = false : this.rightShow = true;
 			} else {
 				//所有的数据先设置为不显示
 				var result = 0;
 				//如果所有的按钮都处于未被点击状态，那么
 				for(var i in this.tabelcheck.leftcheck) {
-					if(this.tabelcheck.leftcheck[i].value == false) {
+					if(this.tabelcheck.leftcheck[i].value === false) {
 						result++;
 					}
-				};
+				}
 				if(result == 3) {
-					this.rightShow == true ? this.rightShow = false : this.rightShow = true;
+					this.rightShow === true ? this.rightShow = false : this.rightShow = true;
 					item.value = true;
 				} else {
-					for(var i in this.tabelcheck.leftcheck) {
-						this.tabelcheck.leftcheck[i].value = false;
-					};
+					for(var j in this.tabelcheck.leftcheck) {
+						this.tabelcheck.leftcheck[j].value = false;
+					}
 					item.value = true;
 				}
 			}
@@ -707,7 +712,7 @@ var app=new Vue({
 				/*此处放置视屏数据，格式为数组，下面有被注释的示例*/
 				player.updateSrc(data);
 				player.on('resolutionchange', function() {
-					console.info('Source changed to %s', player.src())
+					console.info('Source changed to %s', player.src());
 				});
 				//*此处放置计时器函数*
 				var times = null;
@@ -747,7 +752,7 @@ var app=new Vue({
 				for(var j = 0; j < num[i].childern.length; j++) {
 					num[i].childern[j].select = false;
 				}
-			};
+			}
 			//将当前列表的显示样式设置为被点击状态
 			item.select = true;
 			if(item.videodata) {
@@ -766,11 +771,11 @@ var app=new Vue({
 				$('#pdfplayer').show();
 			}
 		},
-		
+
 	},
 	ready: function() {
 		var flashvars={
-			f:'/themes/chinaaet/static/lib/ckplayer/ckplayer/m3u8.swf',
+			f:'/static/lib/ckplayer/ckplayer/m3u8.swf',
 			a:this.videoData[0],
 			s:4,
 			//自动播放
@@ -780,12 +785,12 @@ var app=new Vue({
 			loaded:'loadHandler'
 		};
 		var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
-		
+
 		var video=['http://videoqiniu.zjzx.cn/6dde0dcd-4f24-4e8b-8260-b36148758af0.m3u8'];
 		//初始化播放器
-		CKobject.embed('/themes/chinaaet/static/lib/ckplayer/ckplayer/ckplayer.swf','videoplayer','ckplayer_video_sg','100%','100%',false,flashvars,video,params);	
-	
-	
+		CKobject.embed('/static/lib/ckplayer/ckplayer/ckplayer.swf','videoplayer','ckplayer_video_sg','100%','100%',false,flashvars,video,params);
+
+
 		//笔记和问答分页插件初始化
 		laypage({
 	      cont: 'notepage', //容器。值支持id名、原生dom对象，jquery对象。【如该容器为】：<div id="page1"></div>
@@ -812,5 +817,5 @@ var app=new Vue({
 	      }
 	    });
 	}
-	
+
 });

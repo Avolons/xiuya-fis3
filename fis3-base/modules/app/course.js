@@ -103,6 +103,46 @@ $(document).ready(function() {
 					title: '总结汇报',
 					id: 1548
 				}],
+				//题材
+				nav_ticai:[
+					{
+						title:"全部",
+						id:1547,
+					},
+					{
+						title:"水墨",
+						id:1547,
+					},
+					{
+						title:"水墨",
+						id:1547,
+					},
+					{
+						title:"水墨",
+						id:1547,
+					},
+					{
+						title:"水墨",
+						id:1547,
+					},
+					{
+						title:"水墨",
+						id:1547,
+					},
+					{
+						title:"水墨",
+						id:1547,
+					},
+					{
+						title:"水墨",
+						id:1547,
+					},
+					{
+						title:"水墨",
+						id:1547,
+					},
+					
+				],
 				//类型选择数据
 				type_select: [{
 					title: '全部课程',
@@ -129,31 +169,26 @@ $(document).ready(function() {
 					title: '创造巅峰学习状态',
 					studypeople: 2000,
 					courseNumber: 12,
-					alltime: '6小时50分'
 				}, {
 					imgsrc: "/img/coursecenter/course-lizi.png",
 					title: '创造巅峰学习状态',
 					studypeople: 2000,
 					courseNumber: 12,
-					alltime: '6小时50分'
 				}, {
 					imgsrc: "/img/coursecenter/course-lizi.png",
 					title: '创造巅峰学习状态',
 					studypeople: 2000,
 					courseNumber: 12,
-					alltime: '6小时50分'
 				}, {
 					imgsrc: "/img/coursecenter/course-lizi.png",
 					title: '创造巅峰学习状态',
 					studypeople: 2000,
 					courseNumber: 12,
-					alltime: '6小时50分'
 				}, {
 					imgsrc: "/img/coursecenter/course-lizi.png",
 					title: '创造巅峰学习状态',
 					studypeople: 2000,
 					courseNumber: 12,
-					alltime: '6小时50分'
 				}, ]
 			}
 		},

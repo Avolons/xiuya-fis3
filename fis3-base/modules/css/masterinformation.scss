@@ -35,24 +35,24 @@ nav{
             width: 650px;
             >h1{
              font-size: 35px;
-             color: #ffe791;   
+             color: #4d1a10;
              margin-bottom: 10px;
-             font-weight: 400;
+             font-weight: 700;
             }
             >h3{
               font-size: 14px;
               color: #FFFFFF;
               background-color: #8c0202;
-              height: 30px; 
+              height: 30px;
               width: 95px;
               text-align: center;
-              line-height: 30px; 
+              line-height: 30px;
               margin-bottom: 10px;
             }
             >p{
-               color: #ffe791;
+               color: #4d1a10;
                font-size: 14px;
-                
+               font-weight: 700;
             }
         }
         >.tec_change{
@@ -64,7 +64,7 @@ nav{
             top: 265px;
             left: 0;
             >h5{
-               height: 50%; 
+               height: 50%;
                border: 1px solid #8c0202;
                box-sizing: border-box;
                text-align: center;
@@ -145,6 +145,7 @@ article{
                 height: 100%;
                 float: left;
                 >li {
+                    background-color: #ffffff;
                     border: 1px solid #e4e4e4;
                     float: left;
                     width: 270px;
@@ -171,15 +172,26 @@ article{
                             color: #4b4a4a;
                             font-weight: 400;
                             text-indent: 5px;
+                            margin-bottom: 10px
                         }
                         >ul {
                             margin-top: 3px;
                             text-indent: 5px;
+                            &:after{
+                              display: block;
+                              content: "";
+                              clear: both;
+                            }
                             >li {
+                                width: 50%;
                                 float: left;
                                 color: #504e4e;
-                                font-size: 14px;
-                                margin-right: 20px;
+                                font-size: 13px;
+                            }
+                            >li:nth-of-type(1){
+                              font-weight:700;
+                               font-size:16px;
+                               color: #bc1515;
                             }
                         }
                     }

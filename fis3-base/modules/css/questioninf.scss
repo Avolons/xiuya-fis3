@@ -82,6 +82,9 @@ body{
                             font-size: 12px;
                             margin-top: 10px;
                         }
+                        img{
+                          max-width: 100%;
+                        }
                     }
                 }
                 >.question {
@@ -115,7 +118,7 @@ body{
     }
     //提问详情右侧列表部分
     .rightList {
-    	
+
         width: 270px;
         float: right;
         >h1 {

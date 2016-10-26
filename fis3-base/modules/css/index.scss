@@ -15,6 +15,19 @@ header {
             color: #212121;
             >ul {
                 height: 100%;
+                >li:nth-of-type(1){
+                	padding: 0;
+                	margin-top: 9px;
+                	&:after{
+                		display: none;
+                	}
+                	>a{
+                		display: block;
+                		>img{
+                			display: block;
+                		}
+                	}
+                }
                 >li {
                     box-sizing: border-box;
                     position: relative;
@@ -164,7 +177,7 @@ header {
                             text-align: left;
                             >a{
                                 color: #212121;
-                                
+
                             }
                             &:hover {
                                 >a{
@@ -336,6 +349,7 @@ header {
                         >.index5 {
                             background-image: url("../../img/index/5.png");
                         }
+                        //导航栏右侧区域
                         >aside {
                             display: none;
                             position: absolute;
@@ -347,6 +361,41 @@ header {
                             border-left: none;
                             box-sizing: border-box;
                             padding: 40px;
+                            >div{
+                              width: 100%;
+                              margin-left: -15px;
+                              box-sizing: border-box;
+                              >a{
+                                display: block;
+                                >figure{
+                                    transition: all 0.2s ease-in;
+                                    cursor: pointer;
+                                  &:hover{
+                                      transform: scale(0.85);
+                                    >p{
+                                      color: #970101;
+                                    }
+                                  }
+                                  float: left;
+                                  margin: 0;
+                                  width: 180px;
+                                  margin-left: 25px;
+                                  margin-bottom: 25px;
+                                  >img{
+                                    display: block;
+                                    margin: 0 auto;
+                                    margin-bottom: 20px;
+                                  }
+                                  >p{
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: pre;
+                                    font-size: 14px;
+                                    color: #000000;
+                                  }
+                                }
+                              }
+                              }
                             >ul {
                                 margin-bottom: 20px;
                                 >h6 {
@@ -437,7 +486,7 @@ header {
                         margin-top: 7.5px;
                     }
                 }
-                >li:nth-of-type(7) {
+                >li:nth-of-type(6) {
                     &:after {
                         display: none;
                     }
@@ -534,6 +583,13 @@ article {
                                 color: #000000;
                                 font-size: 14px;
                                 margin-top: 10px;
+                                float: left;
+                            }
+                            >span{
+                            	color: #ca5d5d;
+                                font-size: 14px;
+                                margin-top: 10px;
+                                float: right;
                             }
                         }
                     }
@@ -558,6 +614,7 @@ article {
                 height: 100%;
                 float: left;
                 >li {
+                	background-color: #FFFFFF;
                     border: 1px solid #e4e4e4;
                     float: left;
                     width: 287px;
@@ -581,17 +638,22 @@ article {
                             margin-top: 3px;
                             font-size: 14px;
                             color: #4b4a4a;
-                            font-weight: 400;
+                            // font-weight: 400;
                             text-indent: 5px;
                         }
                         >ul {
                             margin-top: 3px;
                             text-indent: 5px;
-                            >li {
+                            >li:nth-of-type(1) {
                                 float: left;
+                                color: #bc1515;
+                                font-size: 16px;
+                            }
+                            >li:nth-of-type(2){
+                            	float: right;
                                 color: #504e4e;
                                 font-size: 14px;
-                                margin-right: 20px;
+                                padding-right: 25px;
                             }
                         }
                     }
@@ -605,6 +667,7 @@ article {
         >ul {
             width: 1220px;
             >li {
+            	background-color: #FFFFFF;
                 border: 8px solid #FFFFFF;
                 float: left;
                 width: 287px;
@@ -628,7 +691,7 @@ article {
                         margin-top: 3px;
                         font-size: 14px;
                         color: #4b4a4a;
-                        font-weight: 400;
+                        // font-weight: 400;
                         text-indent: 5px;
                     }
                     >ul {
@@ -748,7 +811,7 @@ article {
             padding: 0 45px;
             li {
                 width: 265px;
-                height: 105px; 
+                height: 105px;
             }
             .silder-button {
                 top: 25px;

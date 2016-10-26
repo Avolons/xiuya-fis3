@@ -23,7 +23,7 @@ article{
             width: 230px;
             box-sizing: border-box;
             background-color: #8c0202;
-            padding: 2px; 
+            padding: 2px;
             >img{
                 width: 100%;
                 display: block;
@@ -68,6 +68,9 @@ article{
                 margin-right: 10px;
                 margin-top: 3px;
             }
+        }
+        >pre{
+          white-space: normal;
         }
     }
 }

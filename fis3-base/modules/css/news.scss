@@ -70,9 +70,10 @@ article {
                     color: #888888;
                     font-size: 12px;
                     line-height: 30px;
-                    >span{
+                    >a{
                         float: right;
                         cursor: pointer;
+                        color: #888888;
                         &:hover{
                             color: #661806;
                         }

@@ -34,12 +34,17 @@
 				<!--子集目录当title值为“全部”时，绑定class select，显示被点击的样式，使用nav_childrens函数将当前li的下标index值传入函数，用以在数据对象中查找-->
 				<li v-for="item in nav_childrens" v-bind:class="{'select':item.title=='全部'}" v-on:click="nav_childrens($index)">{{item.title}}</li>
 			</ul>
+			<ul class="type-two clear" style="margin-top:10px;">
+				<span>题材</span>
+				<!--子集目录当title值为“全部”时，绑定class select，显示被点击的样式，使用nav_childrens函数将当前li的下标index值传入函数，用以在数据对象中查找-->
+				<li v-for="item in nav_ticai" v-bind:class="{'select':item.title=='全部'}" v-on:click="">{{item.title}}</li>
+			</ul>
 			</template>
 			<ul class="type-three clear">
 				<!--绑定课程属性函数type_change，切换全部，即将开始等-->
 				<li v-for="item in type_select" v-bind:class="{'select':item.select}" v-on:click="type_change(item)">{{item.title}}</li>
 				<div>{{type_sorting.show}}
-					<span></span>	
+					<span></span>
 					<!--绑定type_scording函数，用于切换按时间或者按热度选择-->
 					<ul>
 						<li v-on:click="scrding(type_sorting.new)">按最新</li>
@@ -48,7 +53,7 @@
 				</div>
 		</ul>
 		</nav>
-		
+
 		<article class="course-content">
 			<section>
 				<ul class="clear">
@@ -58,9 +63,8 @@
 							<img src={{item.imgsrc}} alt="course" />
 							<h5>{{item.title}}</h5>
 							<ul>
-								<li>{{item.studypeople}}人学习</li>
-								<li>{{item.courseNumber}}课时</li>
-								<li>{{item.alltime}}</li>
+								<li>￥{{item.studypeople}}</li>
+								<li>章节：{{item.courseNumber}}章节</li>
 							</ul>
 						</figure>
 					</li>
@@ -69,7 +73,7 @@
 			<!--分页插件-->
 			<section id="pagecontrol"></section>
 		</article>
-		
+
 		<link rel="import" href="modules/html/footer/footer.html?__inline">
 		<script src="lib/js/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="lib/js/vue/dist/vue.min.js" type="text/javascript" charset="utf-8"></script>

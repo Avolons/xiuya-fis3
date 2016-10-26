@@ -60,21 +60,26 @@ body{
 article{
     width: 1200px;
     margin: 0 auto;
-   
+
     >.content-top{
         background-color: #FFFFFF;
         width: 100%;
         box-sizing: border-box;
         padding: 30px 20px;
         background-image: url(../../img/information/information_top.png);
-        background-position: right;
+        background-position: right bottom;
         background-repeat: no-repeat;
        >figure{
            width: 500px;
            height: 300px;
            margin: 0;
            float: left;
-       } 
+           >img{
+             width: 100%;
+             height: 100%;
+             display: block;
+           }
+       }
        >aside{
            width: calc(100% - 500px);
            float: left;
@@ -219,6 +224,9 @@ article{
                         background-repeat: no-repeat;
                         margin-bottom: 10px;
                     }
+                    >pre{
+                      padding: 0 20px;
+                    }
                 }
                 >.course-in{
                     height: 150px;
@@ -246,7 +254,7 @@ article{
                     }
                 }
             }
-            //课程目录 
+            //课程目录
             >.courselist{
                 border-top: 1px solid #f0f0f0;
                 background-color: #FFFFFF;
@@ -296,7 +304,7 @@ article{
                                  }
                              }
                          }
-                     } 
+                     }
                 }
             }
             //我的提问
@@ -315,7 +323,7 @@ article{
             		>span{
             			position: relative;
             			display: inline-block;
-            			padding-left:17px; 
+            			padding-left:17px;
             			cursor: pointer;
             			margin-right:60px;
             			&:before{
@@ -330,7 +338,7 @@ article{
             				left: 0;
             				top: 2px;
             			}
-            			
+
             		}
             		>.select{
             			&:before{
@@ -355,6 +363,10 @@ article{
             	}
             	>ul{
             		display:none;
+                >div{
+                  text-align: center;
+                  margin-top: 40px;
+                }
             		>li{
             			display: block;
             			border-top: 1px solid #f0f0f0;
@@ -455,12 +467,14 @@ article{
                 background-repeat: no-repeat;
                 margin-bottom: 10px;
            }
-       } 
+       }
        >.teacher-itr{
            >figure{
                padding-top: 10px;
                border-top: 1px solid #eaeaea;
                margin: 0;
+               >a{
+                 display: block;
                >img{
                    height: 110px;
                    border-radius: 50%;
@@ -482,11 +496,12 @@ article{
                    max-height: 150px;
                }
            }
+         }
        }
        >.conect-course{
            >ul{
                padding-top: 10px;
-              border-top: 1px solid #eaeaea; 
+              border-top: 1px solid #eaeaea;
               >img{
                   width: 100%;
                   display: block;

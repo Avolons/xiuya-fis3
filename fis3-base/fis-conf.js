@@ -45,7 +45,7 @@ fis.match('/components/**.js', {
 // ------ 配置modules
 fis.match('/modules/(**)', {
     release: '${project.static}/$1'
-})
+});
 
 // 配置css
 fis.match(/^\/modules\/(.*\.scss)$/i, {
@@ -53,10 +53,10 @@ fis.match(/^\/modules\/(.*\.scss)$/i, {
     isMod: true,
     release: '${project.static}/$1',
     parser: fis.plugin('node-sass', {
-        include_paths: ['modules/css'] 
+        include_paths: ['modules/css']
     }),
     postprocessor: fis.plugin('autoprefixer', {
-        browsers: ['> 1% in CN', 'last 2 versions', 'IE >= 8'] 
+        browsers: ['> 1% in CN', 'last 2 versions', 'IE >= 8']
     })
 });
 fis.match(/^\/modules\/(.*\.css)$/i, {
@@ -66,7 +66,7 @@ fis.match(/^\/modules\/(.*\.css)$/i, {
         browsers: ['> 1% in CN', "last 2 versions", "IE >= 8"] // pc
         // browsers: ["Android >= 4", "ChromeAndroid > 1%", "iOS >= 6"] // wap
     })
-})
+});
 fis.match(/^\/modules\/(.*\.(?:png|jpg|gif))$/i, {
     release: '${project.static}/$1'
 });
@@ -198,5 +198,3 @@ fis.media('prd')
             'keepBreaks': true //保持一个规则一个换行
         })
     });
-	
-	

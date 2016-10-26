@@ -62,7 +62,7 @@ article{
                 overflow: hidden;
             }
         }
-        
+
     }
     >div{
          width: 100%;
@@ -80,7 +80,12 @@ article{
         }
         >span{
             display: block;
-            min-height:300px ;   
+            min-height:300px ;
+            padding:10px;
+          
+            >pre{
+              white-space: normal;
+            }
         }
     }
 }
