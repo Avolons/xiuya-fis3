@@ -134,7 +134,7 @@ table {
 }
 
 body {
-  background-image: url("/img/common/content-bc.png");
+  background-image: url("/Src/xiuya/img/common/content-bc.png");
 }
 
 html, body {
@@ -215,4 +215,8 @@ article > .right > h1:after {
   background-color: #8b0303;
   margin-right: 10px;
   margin-top: 3px;
+}
+
+article > .right > pre {
+  white-space: normal;
 }

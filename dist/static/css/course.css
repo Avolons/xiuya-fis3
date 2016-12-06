@@ -134,7 +134,7 @@ table {
 }
 
 body {
-  background-image: url("/img/common/content-bc.png");
+  background-image: url("/Src/xiuya/img/common/content-bc.png");
 }
 
 .nav-list {
@@ -429,8 +429,8 @@ body {
   display: block;
   float: left;
   margin-right: calc(199px / 3);
-  -webkit-transition: all 0.3s ease-in;
-          transition: all 0.3s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
   cursor: pointer;
   margin-bottom: 40px;
 }
@@ -440,6 +440,7 @@ body {
       -ms-transform: translateY(-5px);
           transform: translateY(-5px);
   box-shadow: -3px 4px 4px 0 rgba(0, 0, 0, 0.3);
+  background-color: #FFFFFF;
 }
 
 .course-content > section > ul > li > figure {
@@ -449,6 +450,7 @@ body {
 .course-content > section > ul > li > figure > img {
   width: 250px;
   height: 150px;
+  display: block;
   box-sizing: border-box;
   border: 1px solid #c3c3c3;
 }
@@ -468,11 +470,24 @@ body {
   padding-left: 5px;
 }
 
-.course-content > section > ul > li > figure > ul > li {
+.course-content > section > ul > li > figure > ul > li:nth-of-type(1) {
   float: left;
-  width: 33%;
-  color: #6f6f6f;
+  width: 50%;
+  color: #bc1515;
+  font-size: 16px;
+  height: 20px;
+}
+
+.course-content > section > ul > li > figure > ul > li:nth-of-type(2) {
+  float: left;
+  width: 50%;
+  color: #504e4e;
   font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  text-align: right;
+  padding-right: 10px;
+  box-sizing: border-box;
 }
 
 .course-content > #pagecontrol {

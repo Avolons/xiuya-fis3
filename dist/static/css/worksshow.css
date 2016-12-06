@@ -134,7 +134,7 @@ table {
 }
 
 body {
-  background-image: url("/img/common/content-bc.png");
+  background-image: url("/Src/xiuya/img/common/content-bc.png");
 }
 
 article {
@@ -144,8 +144,8 @@ article {
 }
 
 article > .content-top {
-  background-image: url(/img/information/information_top.png);
-  background-position: right;
+  background-image: url(/Src/xiuya/img/information/information_top.png);
+  background-position: right bottom;
   background-repeat: no-repeat;
   box-sizing: border-box;
   padding: 40px 25px;
@@ -184,7 +184,7 @@ article > .content-top > aside > p {
 }
 
 article > .content-top > aside > .intr {
-  max-height: 90px;
+  max-height: 180px;
   overflow: hidden;
 }
 
@@ -216,7 +216,7 @@ article > .content-left > nav {
 article > .content-left > nav > h2 {
   height: 40px;
   line-height: 40px;
-  background-image: url(/img/works/show-bc.png);
+  background-image: url(/Src/xiuya/img/works/show-bc.png);
   font-size: 16px;
   color: #FFFFFF;
   text-indent: 40px;
@@ -252,7 +252,7 @@ article > .content-left > nav > ul > li > h3 {
   text-align: center;
   margin-right: 10px;
   border-radius: 3px;
-  background-image: url(/img/works/show-bc.png);
+  background-image: url(/Src/xiuya/img/works/show-bc.png);
 }
 
 article > .content-left > nav > ul > li > h3:after {
@@ -297,7 +297,7 @@ article > .content-left > ul {
 article > .content-left > ul > h2 {
   height: 40px;
   line-height: 40px;
-  background-image: url(/img/works/show-bc.png);
+  background-image: url(/Src/xiuya/img/works/show-bc.png);
   font-size: 16px;
   color: #FFFFFF;
   text-indent: 40px;
@@ -338,7 +338,7 @@ article > .content-left > ul > li > div > p:after {
   display: block;
   position: absolute;
   width: 774px;
-  background-image: url(/img/works/show-top.png);
+  background-image: url(/Src/xiuya/img/works/show-top.png);
   top: 0;
   background-size: cover;
   left: -3px;
@@ -350,7 +350,7 @@ article > .content-left > ul > li > div > p:before {
   display: block;
   position: absolute;
   width: 774px;
-  background-image: url(/img/works/show-bottom.png);
+  background-image: url(/Src/xiuya/img/works/show-bottom.png);
   background-size: cover;
   bottom: 0;
   left: -3px;
@@ -369,7 +369,7 @@ article > .content-right {
 article > .content-right > h2 {
   height: 40px;
   line-height: 40px;
-  background-image: url(/img/works/show-bc.png);
+  background-image: url(/Src/xiuya/img/works/show-bc.png);
   font-size: 16px;
   color: #FFFFFF;
   text-indent: 40px;

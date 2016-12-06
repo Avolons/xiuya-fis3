@@ -134,7 +134,7 @@ table {
 }
 
 body {
-  background-image: url("/img/common/content-bc.png");
+  background-image: url("/Src/xiuya/img/common/content-bc.png");
 }
 
 .content {
@@ -226,6 +226,10 @@ body {
   margin-top: 10px;
 }
 
+.content .leftList #myAskList > li > div > div img {
+  max-width: 100%;
+}
+
 .content .leftList #myAskList > li > .question > div {
   width: calc(100% - 55px);
 }
@@ -240,7 +244,7 @@ body {
   height: 35px;
   padding: 0 15px;
   color: #FFFFFF;
-  background-image: url(/img/common/header-bc.png);
+  background-image: url(/Src/xiuya/img/common/header-bc.png);
   line-height: 35px;
   text-align: center;
   font-size: 14px;
@@ -261,7 +265,7 @@ body {
   height: 35px;
   line-height: 35px;
   color: #FFFFFF;
-  background-image: url(/img/common/header-bc.png);
+  background-image: url(/Src/xiuya/img/common/header-bc.png);
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -286,6 +290,6 @@ body {
 }
 
 .content .rightList ul li:hover {
-  background-image: url(/img/common/header-bc.png);
+  background-image: url(/Src/xiuya/img/common/header-bc.png);
   color: #FFFFFF;
 }

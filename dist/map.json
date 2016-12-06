@@ -1225,6 +1225,14 @@
             "uri": "/static/app/information.js",
             "type": "js"
         },
+        "modules/css/data.scss": {
+            "uri": "/static/css/data.css",
+            "type": "css"
+        },
+        "modules/app/data.js": {
+            "uri": "/static/app/data.js",
+            "type": "js"
+        },
         "modules/css/digital.scss": {
             "uri": "/static/css/digital.css",
             "type": "css"
@@ -1257,12 +1265,12 @@
             "uri": "/static/css/message.css",
             "type": "css"
         },
-        "modules/css/mine.scss": {
-            "uri": "/static/css/mine.css",
-            "type": "css"
-        },
         "modules/html/person_cloud/person_cloud.scss": {
             "uri": "/static/html/person_cloud/person_cloud.css",
+            "type": "css"
+        },
+        "modules/css/mine.scss": {
+            "uri": "/static/css/mine.css",
             "type": "css"
         },
         "modules/app/mine.js": {
@@ -1367,6 +1375,14 @@
         },
         "modules/css/reg.scss": {
             "uri": "/static/css/reg.css",
+            "type": "css"
+        },
+        "modules/css/teachercenter.scss": {
+            "uri": "/static/css/teachercenter.css",
+            "type": "css"
+        },
+        "modules/css/teacheritr.scss": {
+            "uri": "/static/css/teacheritr.css",
             "type": "css"
         },
         "modules/css/trace.scss": {

@@ -134,11 +134,11 @@ table {
 }
 
 body {
-  background-image: url("/img/common/content-bc.png");
+  background-image: url("/Src/xiuya/img/common/content-bc.png");
 }
 
 .outer {
-  background-image: url(/img/avat/avat_bc.png);
+  background-image: url(/Src/xiuya/img/avat/avat_bc.png);
   background-repeat: no-repeat;
   padding-top: 130px;
 }

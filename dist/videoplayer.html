@@ -17,7 +17,7 @@
 				<li class="header_left size-14">正在播放：{{headerTitle}}</li>
 				<li class="header_left alltime">总时长：{{headerAllTime}}分钟</li>
 				<li class="header_left">已学时长：{{headerHaveTime}}分钟</li>
-				<li class="header_right functions">Hi，hjj黄姣姣 
+				<li class="header_right functions">Hi，hjj黄姣姣
 					<button type="button" class="cusor_hand"><a href="">【退出】</a></button>
 					<span></span>
 					<ul class="function-lists">
@@ -26,12 +26,12 @@
 		         			<span>hijj黄娇娇</span>
 		         			<span>已学习&nbsp;&nbsp;16小时</span>
 		         		</div>
-		         		<li><a href="">激活学习卡</a></li> 
+		         		<li><a href="">激活学习卡</a></li>
 		         		<li><a href="">我的课程</a></li>
 		         		<li><a href="">我的交易</a></li>
 		         		<li><a href="">个人资料</a></li>
 		         		<li><a href="">退出</a></li>
-		        </ul>  
+		        </ul>
 				</li>
 				<li class="header_right cusor_hand"><i class="iconfont">&#xe601</i>消息({{headerMessage}})</li>
 			</ul>
@@ -41,7 +41,7 @@
 			<section class="article_left">
 				<!--视屏播放器-->
 				<div class="videoPlayer" id="videoplayer" style="position: relative;">
-								
+
 				</div>
 				<nav class="nav_bottom size-12">
 					<i class="iconfont">&#xe602</i>
@@ -51,7 +51,7 @@
 				</nav>
 				<!--pdf播放器，使用绝对定位，浮动在视屏播放器之上，需要时出现，不需要时隐藏-->
 				<div class="pdfplayer" id="pdfplayer">
-					
+
 				</div>
 			</section>
 			<!-- 右部列表区域 -->
@@ -70,7 +70,7 @@
 							<!-- 课程标题 -->
 							<h1 class="overflow_pre size-16">{{courseList.title}}</h1>
 							<ul>
-								
+
 								<li v-for="item in courseList.childernone">
 									<h2 v-if="courseList.type" class="overflow_pre size-14">{{courseindex[$index]}}&nbsp;&nbsp;{{item.title}}</h2>
 									<h2 v-else class="overflow_pre size-14">{{item.title}}</h2>
@@ -81,7 +81,7 @@
 									</ul>
 								</li>
 							</ul>
-						</li> 
+						</li>
 						<!-- 我的笔记 -->
 						<li class="myNote" v-bind:class="{ 'isshow':tabelcheck.leftcheck.note.value}">
 							<!-- 输入框区域 -->
@@ -109,11 +109,9 @@
 												<span class="time size-12">{{item.time}} </span>
 											</li>
 										</ul>
-										<template v-if="noteData.allnote.number>30">
-										<div id="notepage">
-											
+										<div id="notepage" v-bind:class="{ 'show':noteData.allnote.number>30}">
+
 										</div>
-										</template> 
 									</li>
 									<!-- 我的笔记 -->
 									<li class="mynote" v-bind:class="{ 'select':tabelcheck.notecheck.mynote.value}">
@@ -127,9 +125,7 @@
 												<span class="time size-12">{{item.time}} </span>
 											</li>
 										</ul>
-										<template v-if="noteData.mynote.number>30">
-										<h3 v-on:click="">查看全部...</h3>
-										</template>
+										<h3 v-on:click="" v-bind:class="{ 'show':noteData.allnote.number>30}">查看全部...</h3>
 									</li>
 								</ul>
 							</div>
@@ -168,11 +164,9 @@
 												<i class="iconfont size-12">&#xe603</i>
 											</li>
 										</ul>
-										<template v-if="answerData.allanswer.number>30">
-										<div id="questionpage">
-											
+										<div id="questionpage" v-bind:class="{ 'show':answerData.allanswer.number>30}">
+
 										</div>
-										</template>
 									</li>
 									<!-- 我的问答 -->
 									<li class="myaq" v-bind:class="{ 'select':tabelcheck.answercheck.myanswer.value}">
@@ -188,9 +182,7 @@
 												<i class="iconfont size-12">&#xe603</i>
 											</li>
 										</ul>
-										<template v-if="answerData.myanswer.number>30">
-										<h3 v-on:click="">查看全部...</h3>
-										</template>
+										<h3 v-on:click="" v-bind:class="{ 'show':answerData.myanswer.number>30}">查看全部...</h3>
 									</li>
 								</ul>
 							</div>

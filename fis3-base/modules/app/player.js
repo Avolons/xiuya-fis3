@@ -789,8 +789,6 @@ var app=new Vue({
 		var video=['http://videoqiniu.zjzx.cn/6dde0dcd-4f24-4e8b-8260-b36148758af0.m3u8'];
 		//初始化播放器
 		CKobject.embed('/static/lib/ckplayer/ckplayer/ckplayer.swf','videoplayer','ckplayer_video_sg','100%','100%',false,flashvars,video,params);
-
-
 		//笔记和问答分页插件初始化
 		laypage({
 	      cont: 'notepage', //容器。值支持id名、原生dom对象，jquery对象。【如该容器为】：<div id="page1"></div>

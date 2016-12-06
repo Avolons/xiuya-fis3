@@ -25,15 +25,15 @@ new Vue({
 				type:"手动"
 			},
 			]
-		}
+		};
 	},
 	ready:function  () {
 		 $(window).scroll(function  () {
 		 	if ($(window).scrollTop()>95) {
-		 		$('.nav-mes').addClass('fix-style');
+		 		$('.fix-img').addClass('fixedheader');
 		 	}else{
-		 		$('.nav-mes').removeClass('fix-style');
+		 		$('.fix-img').removeClass('fixedheader');
 		 	}
-		 })
+		});
 	}
-})
+});

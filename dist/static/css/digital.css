@@ -134,7 +134,7 @@ table {
 }
 
 body {
-  background-image: url("/img/common/content-bc.png");
+  background-image: url("/Src/xiuya/img/common/content-bc.png");
 }
 
 article {
@@ -228,4 +228,9 @@ article > div > h2 {
 article > div > span {
   display: block;
   min-height: 300px;
+  padding: 10px;
+}
+
+article > div > span > pre {
+  white-space: normal;
 }

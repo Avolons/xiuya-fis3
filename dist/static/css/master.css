@@ -134,7 +134,7 @@ table {
 }
 
 body {
-  background-image: url("/img/common/content-bc.png");
+  background-image: url("/Src/xiuya/img/common/content-bc.png");
 }
 
 .master-content {
@@ -142,16 +142,9 @@ body {
   margin: 0 auto;
 }
 
-.master-content > h4 {
-  height: 70px;
-  color: #161616;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 70px;
-}
-
 .master-content .master-list {
   width: 100%;
+  margin-top: 20px;
 }
 
 .master-content .master-list > li {
@@ -162,7 +155,7 @@ body {
 .master-content .master-list > li > h2 {
   color: #ffffff;
   display: inline-block;
-  background-image: url("/img/master/master-bc.png");
+  background-image: url("/Src/xiuya/img/master/master-bc.png");
   background-size: cover;
   padding: 0 10px;
   height: 40px;

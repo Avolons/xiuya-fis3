@@ -134,7 +134,7 @@ table {
 }
 
 body {
-  background-image: url(/img/common/content-bc.png);
+  background-image: url(/Src/xiuya/img/common/content-bc.png);
 }
 
 article {
@@ -147,7 +147,7 @@ article {
 }
 
 article > p {
-  background-image: url(/img/purchase/purchase-top.png);
+  background-image: url(/Src/xiuya/img/purchase/purchase-top.png);
   margin: 0 auto;
   height: 13px;
   width: 1040px;

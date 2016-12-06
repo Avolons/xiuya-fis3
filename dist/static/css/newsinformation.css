@@ -134,7 +134,7 @@ table {
 }
 
 body {
-  background-image: url("/img/common/content-bc.png");
+  background-image: url("/Src/xiuya/img/common/content-bc.png");
 }
 
 figure {
@@ -155,12 +155,12 @@ article {
 article > .left {
   width: 250px;
   float: left;
-  background-image: url("/img/news/news-left.png");
+  background-image: url("/Src/xiuya/img/news/news-left.png");
 }
 
 article > .left > h1 {
   height: 67px;
-  background-image: url("/img/news/news-title.png");
+  background-image: url("/Src/xiuya/img/news/news-title.png");
 }
 
 article > .left > ul > li {

@@ -145,7 +145,7 @@ header > a > img {
 }
 
 article {
-  background-image: url(/img/log/log-bc-bottom.png);
+  background-image: url(/Src/xiuya/img/log/log-bc-bottom.png);
   min-width: 1200px;
   height: 480px;
   position: relative;

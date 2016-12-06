@@ -134,82 +134,47 @@ table {
 }
 
 body {
-  background-image: url("/img/common/content-bc.png");
+  background-image: url("/Src/xiuya/img/common/content-bc.png");
 }
 
-.fix-style {
+body > div > .fixedheader {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 50px;
 }
 
-nav {
-  background-image: url(/img/master/master-hbc.png);
+body > div > figure {
   width: 100%;
-  height: 200px;
   position: absolute;
+  box-sizing: border-box;
+  top: 140px;
+  margin: 0;
+  height: 200px;
 }
 
-nav > figure {
+body > div > figure > .inneritr {
   width: 1200px;
   margin: 0 auto;
   height: 200px;
-  position: relative;
-  box-sizing: border-box;
-  padding-top: 75px;
-  padding-left: 230px;
 }
 
-nav > figure > img {
-  position: absolute;
+body > div > figure > .inneritr > img {
   display: block;
   height: 200px;
   width: 200px;
   border-radius: 50%;
   box-sizing: border-box;
   border: 2px solid #d5d5d5;
-  top: 45px;
-  left: 0;
+  margin-bottom: 15px;
 }
 
-nav > figure > .tec_mes {
-  width: 650px;
-}
-
-nav > figure > .tec_mes > h1 {
-  font-size: 35px;
-  color: #ffe791;
-  margin-bottom: 10px;
-  font-weight: 400;
-}
-
-nav > figure > .tec_mes > h3 {
-  font-size: 14px;
-  color: #FFFFFF;
-  background-color: #8c0202;
-  height: 30px;
-  width: 95px;
-  text-align: center;
-  line-height: 30px;
-  margin-bottom: 10px;
-}
-
-nav > figure > .tec_mes > p {
-  color: #ffe791;
-  font-size: 14px;
-}
-
-nav > figure > .tec_change {
+body > div > figure > .inneritr > .tec_change {
   width: 195px;
   height: 106px;
   box-sizing: border-box;
   border: 1px solid #8c0202;
-  position: absolute;
-  top: 265px;
-  left: 0;
 }
 
-nav > figure > .tec_change > h5 {
+body > div > figure > .inneritr > .tec_change > h5 {
   height: 50%;
   border: 1px solid #8c0202;
   box-sizing: border-box;
@@ -221,22 +186,22 @@ nav > figure > .tec_change > h5 {
           transition: all 0.3s ease-in;
 }
 
-nav > figure > .tec_change > h5:hover {
+body > div > figure > .inneritr > .tec_change > h5:hover {
   background-color: #dadada;
 }
 
-nav > figure > .tec_change > h5:before {
+body > div > figure > .inneritr > .tec_change > h5:before {
   content: '';
   display: block;
   width: 23px;
   height: 20px;
   float: left;
-  background-image: url(/img/master/master-pattern-b.png);
+  background-image: url("/Src/xiuya/img/master/master-pattern-b.png");
   background-repeat: no-repeat;
   margin: 17px 0 0 30px;
 }
 
-nav > figure > .tec_change > h5:after {
+body > div > figure > .inneritr > .tec_change > h5:after {
   content: '';
   display: block;
   width: 0;
@@ -247,39 +212,86 @@ nav > figure > .tec_change > h5:after {
   margin: 20px 45px 0 0;
 }
 
-nav > figure > .tec_change > .select {
+body > div > figure > .inneritr > .tec_change > .select {
   color: #890404;
 }
 
-nav > figure > .tec_change > .select:after {
+body > div > figure > .inneritr > .tec_change > .select:after {
   border-left-color: #890404;
 }
 
-nav > figure > .tec_change > .select:before {
-  background-image: url(/img/master/master-pattern.png);
+body > div > figure > .inneritr > .tec_change > .select:before {
+  background-image: url("/Src/xiuya/img/master/master-pattern.png");
 }
 
-article {
+body > div > .fix-style {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+body > div > nav {
+  background-image: url("/Src/xiuya/img/master/master-hbc.png");
+  width: 100%;
+  height: 200px;
+  padding-top: 70px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: -2;
+}
+
+body > div > nav > .tec_mes {
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 240px;
+}
+
+body > div > nav > .tec_mes > h1 {
+  font-size: 35px;
+  color: #4d1a10;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+body > div > nav > .tec_mes > h3 {
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: #8c0202;
+  height: 30px;
+  width: 95px;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+body > div > nav > .tec_mes > p {
+  color: #4d1a10;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+body > div > article {
   min-height: 700px;
   width: 1200px;
   margin: 0 auto;
-  padding-top: 265px;
 }
 
-article > section {
+body > div > article > section {
   display: none;
   margin-left: 240px;
   width: 960px;
+  padding-top: 50px;
 }
 
-article > section > h2 {
+body > div > article > section > h2 {
   height: 30px;
   box-sizing: border-box;
   border-bottom: 1px solid #b09c56;
   margin-bottom: 30px;
 }
 
-article > section > h2 > a {
+body > div > article > section > h2 > a {
   line-height: 30px;
   height: 30px;
   display: block;
@@ -292,17 +304,18 @@ article > section > h2 > a {
   text-decoration: none;
 }
 
-article > .select {
+body > div > article > .select {
   display: block;
 }
 
-article > .tec_cur > ul {
+body > div > article > .tec_cur > ul {
   width: 1038px;
   height: 100%;
   float: left;
 }
 
-article > .tec_cur > ul > li {
+body > div > article > .tec_cur > ul > li {
+  background-color: #ffffff;
   border: 1px solid #e4e4e4;
   float: left;
   width: 270px;
@@ -315,37 +328,50 @@ article > .tec_cur > ul > li {
   cursor: pointer;
 }
 
-article > .tec_cur > ul > li:hover {
+body > div > article > .tec_cur > ul > li:hover {
   box-shadow: -2px 4px 7px 0 rgba(0, 0, 0, 0.3);
   background-color: #FFFFFF;
 }
 
-article > .tec_cur > ul > li > figure {
+body > div > article > .tec_cur > ul > li > figure {
   margin: 0;
 }
 
-article > .tec_cur > ul > li > figure > img {
+body > div > article > .tec_cur > ul > li > figure > img {
   display: block;
   height: 170px;
   width: 100%;
 }
 
-article > .tec_cur > ul > li > figure > h5 {
+body > div > article > .tec_cur > ul > li > figure > h5 {
   margin-top: 3px;
   font-size: 14px;
   color: #4b4a4a;
   font-weight: 400;
   text-indent: 5px;
+  margin-bottom: 10px;
 }
 
-article > .tec_cur > ul > li > figure > ul {
+body > div > article > .tec_cur > ul > li > figure > ul {
   margin-top: 3px;
   text-indent: 5px;
 }
 
-article > .tec_cur > ul > li > figure > ul > li {
+body > div > article > .tec_cur > ul > li > figure > ul:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+body > div > article > .tec_cur > ul > li > figure > ul > li {
+  width: 50%;
   float: left;
   color: #504e4e;
-  font-size: 14px;
-  margin-right: 20px;
+  font-size: 13px;
+}
+
+body > div > article > .tec_cur > ul > li > figure > ul > li:nth-of-type(1) {
+  font-weight: 700;
+  font-size: 16px;
+  color: #bc1515;
 }

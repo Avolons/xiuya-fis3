@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<link rel="stylesheet" type="text/css" href="modules/css/data.scss" />
+	</head>
+	<body>
+		<link rel="import" href="modules/html/header/header.html?__inline">
+		<article class="clear">
+      <form class="" >
+        <div class="inner">
+          <i class="iconfont">&#xe604;</i>
+          <input type="text" name="name" value="" placeholder="搜索你想要的内容">
+          <button type="button">搜索</button>
+        </div>
+      </form>
+      <section>
+          <p>共搜索到<span>12</span>条关于"<span>和田玉</span>"的信息</p>
+      <nav>
+        <ul>
+          <h2>类别：</h2>
+					<li v-for="item in typeList" v-bind:class="{'show':item.isShow}" v-on:click="typeCheck(item)">
+						{{item.title}}({{item.number}})
+					</li>
+        </ul>
+      </nav>
+			<!-- 内容列表区域 -->
+      <ul class="dataList">
+        <li class="title">
+        	<ul class="clear">
+						<li class="width-1">名称</li>
+						<li class="width-2">大小</li>
+						<li class="width-3">格式</li>
+						<li class="width-4">价格</li>
+        		<li class="width-5">状态</li>
+        	</ul>
+        </li>
+				<!-- 数据渲染区域 -->
+				<li v-for="item in dataList">
+					<ul class="clear">
+					<li class="width-1 overflow_pre">{{item.title}}</li>
+					<li class="width-2"> {{item.size}}</li>
+					<li class="width-3"> {{item.format}}</li>
+					<li class="width-4">{{item.price}}</li>
+					<li class="width-5">
+					<template v-if="item.type=='BUY'">
+						<button type="button" v-on:click="buyData(item.id)">购买</button>
+					</template>
+					<template v-else>
+						<button type="button" v-on:click="downLoad(item.id)">下载</button>
+					</template>
+					</li>
+				</ul>
+				</li>
+				<!-- 数据渲染区域 -->
+      </ul>
+			<div id="pageControl">
+
+			</div>
+		</section>
+		</article>
+		<link rel="import" href="modules/html/footer/footer.html?__inline">
+		<script src="lib/js/jquery/dist/jquery-2.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/js/laypage/laypage.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/js/layer/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/js/vue/dist/vue.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="modules/app/data.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

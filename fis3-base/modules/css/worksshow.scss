@@ -9,7 +9,7 @@ article{
 //	头部
 	>.content-top{
 		background-image: url(../../img/information/information_top.png);
-		 background-position: right;
+		 background-position: right bottom;
         background-repeat: no-repeat;
 		box-sizing: border-box;
 		padding: 40px 25px;
@@ -27,7 +27,7 @@ article{
 		}
 		>aside{
 			float: right;
-			width: 500px;	
+			width: 500px;
 			>h1{
 				font-size: 22px;
 				color: #212121;
@@ -35,12 +35,12 @@ article{
 			}
 			>p{
 				font-size: 14px;
-				color: #3a3a3a;	
+				color: #3a3a3a;
 				line-height: 30px;
 				margin-bottom: 10px;
 			}
 			>.intr{
-				max-height: 90px;
+				max-height: 180px;
 				overflow: hidden;
 			}
 			>ul{

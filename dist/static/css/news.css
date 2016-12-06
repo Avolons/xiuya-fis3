@@ -134,7 +134,7 @@ table {
 }
 
 body {
-  background-image: url("/img/common/content-bc.png");
+  background-image: url("/Src/xiuya/img/common/content-bc.png");
 }
 
 figure {
@@ -155,12 +155,12 @@ article {
 article > .left {
   width: 250px;
   float: left;
-  background-image: url("/img/news/news-left.png");
+  background-image: url("/Src/xiuya/img/news/news-left.png");
 }
 
 article > .left > h1 {
   height: 67px;
-  background-image: url("/img/news/news-title.png");
+  background-image: url("/Src/xiuya/img/news/news-title.png");
 }
 
 article > .left > ul > li {
@@ -224,12 +224,13 @@ article > .right > ul > li > p {
   line-height: 30px;
 }
 
-article > .right > ul > li > p > span {
+article > .right > ul > li > p > a {
   float: right;
   cursor: pointer;
+  color: #888888;
 }
 
-article > .right > ul > li > p > span:hover {
+article > .right > ul > li > p > a:hover {
   color: #661806;
 }
 

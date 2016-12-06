@@ -1,7 +1,13 @@
 // 设置项目属性
+//使用fis-parser-jade插件编译jade文件
+// fis.config.set('modules.parser.jade', 'jade');
+// //jade文件经过编译后输出为html文件
+// fis.config.set('roadmap.ext.jade', 'html');
+
 fis.set('project.name', 'xiuya');
 fis.set('project.static', '/static');
-fis.set('project.files', ['*.html', 'map.json', '/test/*','/lib/**/*']);
+fis.set('project.img', '/Src/xiuya');
+fis.set('project.files', ['*.html', 'map.json', '/test/*','/lib/**/*','*.jade']);
 
 // 引入模块化开发插件，设置规范为 commonJs 规范。
 
@@ -23,23 +29,34 @@ fis.match('/modules/**', {
 //fis.match('/lib/**/*', {
 //  release: '${project.static}/$0'
 //});
+fis.match('*.jade',{
+  // fis-parser-jade 插件进行解析
+  parser: fis.plugin('jade'),
+  // .jade 文件后缀构建后被改成 .html文件
+  rExt: '.html',
+});
+
 
 fis.match('/lib/**/*', {
     release: '$0'
 });
 
+fis.match('/img/**/*', {
+    release: '${project.img}/$&'
+});
+
 // ------ 配置components
-fis.match('/components/**', {
-    release: '${project.static}/$&'
-});
-fis.match('/components/**.css', {
-    isMod: true,
-    release: '${project.static}/$&'
-});
-fis.match('/components/**.js', {
-    isMod: true,
-    release: '${project.static}/$&'
-});
+// fis.match('/components/**', {
+//     release: '${project.static}/$&'
+// });
+// fis.match('/components/**.css', {
+//     isMod: true,
+//     release: '${project.static}/$&'
+// });
+// fis.match('/components/**.js', {
+//     isMod: true,
+//     release: '${project.static}/$&'
+// });
 
 
 // ------ 配置modules

@@ -146,7 +146,7 @@ body {
 header {
   height: 45px;
   padding: 0 30px;
-  background-image: url("../../assets/images/videoplayer/video-header-bc.png");
+  background-image: url("../../imgvideoplayervideo-header-bc.png");
 }
 
 header ul {
@@ -696,6 +696,7 @@ article > .checked {
 }
 
 .selectList .nav_right .myNote > .list-area > .note-list > li > h3 {
+  opacity: 0;
   font-weight: 400;
   width: 70px;
   text-align: center;
@@ -713,6 +714,14 @@ article > .checked {
 
 .selectList .nav_right .myNote > .list-area > .note-list > li > h3:hover {
   box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.3);
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > li > .show {
+  opacity: 1;
+}
+
+.selectList .nav_right .myNote > .list-area > .note-list > li > div {
+  opacity: 0;
 }
 
 .selectList .nav_right .myNote > .list-area > .note-list > li > #notepage {
@@ -893,6 +902,7 @@ article > .checked {
 }
 
 .selectList .nav_right .myAnswer > .list-area > .aq-list > li > h3 {
+  opacity: 0;
   font-weight: 400;
   width: 70px;
   text-align: center;
@@ -910,6 +920,14 @@ article > .checked {
 
 .selectList .nav_right .myAnswer > .list-area > .aq-list > li > h3:hover {
   box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.3);
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > .show {
+  opacity: 1;
+}
+
+.selectList .nav_right .myAnswer > .list-area > .aq-list > li > div {
+  opacity: 0;
 }
 
 .selectList .nav_right .myAnswer > .list-area > .aq-list > li > #questionpage {

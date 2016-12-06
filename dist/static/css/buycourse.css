@@ -134,7 +134,7 @@ table {
 }
 
 body {
-  background-image: url("/img/common/content-bc.png");
+  background-image: url("/Src/xiuya/img/common/content-bc.png");
 }
 
 article {
@@ -189,7 +189,7 @@ article > figure > span {
   top: 0;
   height: 25px;
   width: 45px;
-  background-image: url("/img/purchase/purchase_nice.png");
+  background-image: url("/Src/xiuya/img/purchase/purchase_nice.png");
 }
 
 article > figure > p {

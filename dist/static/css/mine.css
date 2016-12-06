@@ -134,7 +134,7 @@ table {
 }
 
 body {
-  background-image: url("/img/common/content-bc.png");
+  background-image: url("/Src/xiuya/img/common/content-bc.png");
 }
 
 .person-content {
@@ -154,8 +154,7 @@ body {
 
 .person-content > .person-left > figure {
   padding-top: 35px;
-  margin: 0;
-  margin-bottom: 10px;
+  margin: 0 0 10px;
 }
 
 .person-content > .person-left > figure > img {
@@ -192,28 +191,11 @@ body {
   background-color: #efefef;
   color: #292929;
   line-height: 20px;
-  margin: 0 auto;
-  margin-top: 20px;
+  margin: 20px auto 0;
 }
 
 .person-content > .person-left > ul {
   margin-top: 20px;
-}
-
-.person-content > .person-left > ul > h2 {
-  color: #636363;
-  padding-left: 60px;
-  height: 50px;
-  line-height: 50px;
-  font-weight: 400;
-  border-bottom: 1px solid #efeeee;
-  box-sizing: border-box;
-  background-color: #F8F3EC;
-}
-
-.person-content > .person-left > ul > h2 > i {
-  font-weight: 400;
-  margin-right: 3px;
 }
 
 .person-content > .person-left > ul > .show {
@@ -247,7 +229,6 @@ body {
 }
 
 .person-content > .person-left > ul > li {
-  padding-left: 60px;
   cursor: pointer;
   height: 45px;
   line-height: 45px;
@@ -258,19 +239,24 @@ body {
 }
 
 .person-content > .person-left > ul > li > a {
+  box-sizing: border-box;
+  padding-left: 60px;
+  display: block;
+  width: 100%;
+  height: 100%;
   color: #525252;
   text-decoration: none;
   -webkit-transition: all 0.2s ease-in;
           transition: all 0.2s ease-in;
 }
 
-.person-content > .person-left > ul > li > i {
+.person-content > .person-left > ul > li > a > i {
   font-size: 16px;
   margin-right: 5px;
 }
 
 .person-content > .person-left > ul > li:hover {
-  background-image: url("/img/common/header-bc.png");
+  background-image: url("/Src/xiuya/img/common/header-bc.png");
   color: #FFFFFF;
 }
 
@@ -280,7 +266,7 @@ body {
 
 .person-content > .person-left > ul > .select {
   color: #ffffff;
-  background-image: url("/img/common/header-bc.png");
+  background-image: url("/Src/xiuya/img/common/header-bc.png");
 }
 
 .person-content > .person-left > ul > .select > a {
@@ -289,6 +275,10 @@ body {
 
 .person-content > .person-left > ul > .myask {
   border-top: 1px solid #efeeee;
+}
+
+.person-content > .person-left > ul > .mypurch {
+  padding-left: 58px;
 }
 
 .person-content > .person-left > ul > .mypurch > span {
@@ -307,7 +297,8 @@ body {
 }
 
 .person-content > .person-left > ul > .mypurch > i {
-  font-size: 17px;
+  font-size: 19px;
+  margin-right: 5px;
 }
 
 .person-content > .person-left > ul > .persondata {

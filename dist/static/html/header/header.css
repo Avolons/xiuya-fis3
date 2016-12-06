@@ -269,7 +269,7 @@ body a:hover {
 }
 
 .header-top > ul .functions > ul > .fun-inf {
-  background-image: url(/img/common/header-bt-bc.png);
+  background-image: url(/Src/xiuya/img/common/header-bt-bc.png);
   height: 66px;
   border-bottom: 1px solid #dadada;
   padding-top: 8px;
@@ -312,7 +312,7 @@ body a:hover {
 }
 
 .header-bottom {
-  background-image: url("/img/common/header-bc.png");
+  background-image: url("/Src/xiuya/img/common/header-bc.png");
 }
 
 .header-bottom > .header-bottom-content {
